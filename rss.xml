@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>learn pro</title>
+        <link>https://mhhsei.github.io/</link>
+        <description>蝦寫的，歡迎來瞧瞧</description>
+        <generator>Hugo 0.109.0 https://gohugo.io/</generator>
+        
+            <language>zh-TW</language>
+        
+        
+            <managingEditor>mhhsei@mail.batol.net (mingo say)</managingEditor>
+        
+        
+            <webMaster>mhhsei@mail.batol.net (mingo say)</webMaster>
+        
+        
+            <copyright>若轉載請附個連結吧</copyright>
+        
+        <lastBuildDate>Fri, 30 Dec 2022 21:11:22 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://mhhsei.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>Test</title>
+                <link>https://mhhsei.github.io/nvda/test/</link>
+                <guid isPermaLink="true">https://mhhsei.github.io/nvda/test/</guid>
+                <pubDate>Fri, 30 Dec 2022 20:37:34 &#43;0800</pubDate>
+                
+                    <author>mhhsei@mail.batol.net (mingo say)</author>
+                
+                <copyright>若轉載請附個連結吧</copyright>
+                
+                    <description></description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mhhsei.github.io/categories/nvda/">nvda</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
