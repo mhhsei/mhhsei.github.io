@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
     <title type="text">learn pro</title>
     <subtitle type="html">蝦寫的，歡迎來瞧瞧</subtitle>
-    <updated>2022-12-30T21:11:22&#43;08:00</updated>
+    <updated>2022-12-31T04:39:12&#43;08:00</updated>
     <id>https://mhhsei.github.io/</id>
     <link rel="alternate" type="text/html" href="https://mhhsei.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mhhsei.github.io/atom.xml" />
@@ -17,11 +17,11 @@
     <rights>若轉載請附個連結吧</rights>
     <generator uri="https://gohugo.io/" version="0.109.0">Hugo</generator>
         <entry>
-            <title type="text">Test</title>
-            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda/test/" />
-            <id>https://mhhsei.github.io/nvda/test/</id>
-            <updated>2022-12-30T20:37:34&#43;08:00</updated>
-            <published>2022-12-30T20:37:34&#43;08:00</published>
+            <title type="text">A8M</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/a8m/" />
+            <id>https://mhhsei.github.io/nvda-addons/a8m/</id>
+            <updated>2022-12-31T04:28:42&#43;08:00</updated>
+            <published>2022-12-31T04:28:42&#43;08:00</published>
             <author>
                     <name>mingo say</name>
                     <uri>https://io-oi.me/</uri>
@@ -41,7 +41,7 @@
                             
                             
                             
-                                <category scheme="https://mhhsei.github.io/categories/nvda/" term="nvda" label="nvda" />
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
                             
                         
                     

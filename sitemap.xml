@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mhhsei.github.io/nvda-addons/a8m/</loc>
+    <lastmod>2022-12-31T04:28:42+08:00</lastmod>
+  </url><url>
     <loc>https://mhhsei.github.io/categories/</loc>
-    <lastmod>2022-12-30T20:43:35+08:00</lastmod>
+    <lastmod>2022-12-31T04:28:42+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/</loc>
-    <lastmod>2022-12-30T20:43:35+08:00</lastmod>
+    <lastmod>2022-12-31T04:28:42+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/categories/nvda-addons/</loc>
+    <lastmod>2022-12-31T04:28:42+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/nvda-addons/</loc>
+    <lastmod>2022-12-31T04:28:42+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/categories/nvda/</loc>
+    <lastmod>2022-12-31T04:12:19+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/nvda/</loc>
+    <lastmod>2022-12-31T04:12:19+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/nvda/%E5%BF%AB%E9%80%9F%E5%8F%96%E5%BE%97-nvda-%E8%88%87%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/</loc>
+    <lastmod>2022-12-31T04:12:19+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/windows/win-11-%E5%88%87%E6%8F%9B%E6%88%90%E5%82%B3%E7%B5%B1%E8%BC%B8%E5%85%A5%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2022-12-30T20:43:35+08:00</lastmod>
@@ -25,15 +43,6 @@
   </url><url>
     <loc>https://mhhsei.github.io/software/</loc>
     <lastmod>2022-12-30T20:43:10+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/categories/nvda/</loc>
-    <lastmod>2022-12-30T20:37:34+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/nvda/</loc>
-    <lastmod>2022-12-30T20:37:34+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/nvda/test/</loc>
-    <lastmod>2022-12-30T20:37:34+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/tags/</loc>
   </url>

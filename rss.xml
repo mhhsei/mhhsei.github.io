@@ -23,16 +23,16 @@
         
             <copyright>若轉載請附個連結吧</copyright>
         
-        <lastBuildDate>Fri, 30 Dec 2022 21:11:22 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 31 Dec 2022 04:39:12 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mhhsei.github.io/rss.xml" />
         
         
             <item>
-                <title>Test</title>
-                <link>https://mhhsei.github.io/nvda/test/</link>
-                <guid isPermaLink="true">https://mhhsei.github.io/nvda/test/</guid>
-                <pubDate>Fri, 30 Dec 2022 20:37:34 &#43;0800</pubDate>
+                <title>A8M</title>
+                <link>https://mhhsei.github.io/nvda-addons/a8m/</link>
+                <guid isPermaLink="true">https://mhhsei.github.io/nvda-addons/a8m/</guid>
+                <pubDate>Sat, 31 Dec 2022 04:28:42 &#43;0800</pubDate>
                 
                     <author>mhhsei@mail.batol.net (mingo say)</author>
                 
@@ -50,7 +50,7 @@
                                 
                                 
                                 
-                                    <category domain="https://mhhsei.github.io/categories/nvda/">nvda</category>
+                                    <category domain="https://mhhsei.github.io/categories/nvda-addons/">nvda-addons</category>
                                 
                             
                         
