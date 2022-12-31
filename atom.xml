@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
     <title type="text">learn pro</title>
     <subtitle type="html">蝦寫的，歡迎來瞧瞧</subtitle>
-    <updated>2022-12-31T07:54:25&#43;08:00</updated>
+    <updated>2022-12-31T08:54:46&#43;08:00</updated>
     <id>https://mhhsei.github.io/</id>
     <link rel="alternate" type="text/html" href="https://mhhsei.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mhhsei.github.io/atom.xml" />
@@ -17,33 +17,943 @@
     <rights>若轉載請附個連結吧</rights>
     <generator uri="https://gohugo.io/" version="0.109.0">Hugo</generator>
         <entry>
-            <title type="text">About</title>
-            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/about/about/" />
-            <id>https://mhhsei.github.io/about/about/</id>
-            <updated>2022-12-31T07:51:36&#43;08:00</updated>
-            <published>2022-12-31T07:50:46&#43;08:00</published>
+            <title type="text">NVDA 2021.2 適用的 Addon</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/nvda-2021.2-%E9%81%A9%E7%94%A8%E7%9A%84-addon/" />
+            <id>https://mhhsei.github.io/nvda-addons/nvda-2021.2-%E9%81%A9%E7%94%A8%E7%9A%84-addon/</id>
+            <updated>2022-12-31T08:06:50&#43;08:00</updated>
+            <published>2022-12-31T08:06:50&#43;08:00</published>
             <author>
                     <name>mingo say</name>
                     <uri>https://io-oi.me/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">這蒐集了 nvda討論群組的文章、nvda討論區的內容、還有黃老師的視覺障礙輔助科技筆……</summary>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
             
-                <content type="html">&lt;p&gt;這蒐集了 nvda討論群組的文章、nvda討論區的內容、還有黃老師的視覺障礙輔助科技筆記本一些內容，最後就是自己寫的...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://groups.io/g/nvda-tw/topics&#34;&gt;nvda-tw@groups.io | Topics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nvda.org.tw/&#34;&gt;nvda 台灣&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://class.kh.edu.tw/19061/fpage/view/1&#34;&gt;視覺障礙輔助科技筆記本&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://visualaids.github.io/nvdoc/#gsc.tab=0&#34;&gt;NVDOC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;line 問題討論&lt;/li&gt;
-&lt;/ul&gt;
-</content>
+                <content type="html"></content>
             
             
             
             
             
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Google 翻翻看</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/google-%E7%BF%BB%E7%BF%BB%E7%9C%8B/" />
+            <id>https://mhhsei.github.io/nvda-addons/google-%E7%BF%BB%E7%BF%BB%E7%9C%8B/</id>
+            <updated>2022-12-31T08:06:38&#43;08:00</updated>
+            <published>2022-12-31T08:06:38&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">點字鍵盤輸入</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/%E9%BB%9E%E5%AD%97%E9%8D%B5%E7%9B%A4%E8%BC%B8%E5%85%A5/" />
+            <id>https://mhhsei.github.io/nvda-addons/%E9%BB%9E%E5%AD%97%E9%8D%B5%E7%9B%A4%E8%BC%B8%E5%85%A5/</id>
+            <updated>2022-12-31T08:06:15&#43;08:00</updated>
+            <published>2022-12-31T08:06:15&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">農曆報時</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/%E8%BE%B2%E6%9B%86%E5%A0%B1%E6%99%82/" />
+            <id>https://mhhsei.github.io/nvda-addons/%E8%BE%B2%E6%9B%86%E5%A0%B1%E6%99%82/</id>
+            <updated>2022-12-31T08:05:57&#43;08:00</updated>
+            <published>2022-12-31T08:05:56&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">物件命名工具</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/%E7%89%A9%E4%BB%B6%E5%91%BD%E5%90%8D%E5%B7%A5%E5%85%B7/" />
+            <id>https://mhhsei.github.io/nvda-addons/%E7%89%A9%E4%BB%B6%E5%91%BD%E5%90%8D%E5%B7%A5%E5%85%B7/</id>
+            <updated>2022-12-31T08:05:47&#43;08:00</updated>
+            <published>2022-12-31T08:05:47&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">进程窗口切换</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/%E8%BF%9B%E7%A8%8B%E7%AA%97%E5%8F%A3%E5%88%87%E6%8D%A2/" />
+            <id>https://mhhsei.github.io/nvda-addons/%E8%BF%9B%E7%A8%8B%E7%AA%97%E5%8F%A3%E5%88%87%E6%8D%A2/</id>
+            <updated>2022-12-31T08:05:38&#43;08:00</updated>
+            <published>2022-12-31T08:05:38&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">英文數字過濾</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/%E8%8B%B1%E6%96%87%E6%95%B8%E5%AD%97%E9%81%8E%E6%BF%BE/" />
+            <id>https://mhhsei.github.io/nvda-addons/%E8%8B%B1%E6%96%87%E6%95%B8%E5%AD%97%E9%81%8E%E6%BF%BE/</id>
+            <updated>2022-12-31T08:05:30&#43;08:00</updated>
+            <published>2022-12-31T08:05:30&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">字幕閱讀器</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/%E5%AD%97%E5%B9%95%E9%96%B1%E8%AE%80%E5%99%A8/" />
+            <id>https://mhhsei.github.io/nvda-addons/%E5%AD%97%E5%B9%95%E9%96%B1%E8%AE%80%E5%99%A8/</id>
+            <updated>2022-12-31T08:05:19&#43;08:00</updated>
+            <published>2022-12-31T08:05:19&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">小鍵盤2增強功能</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/%E5%B0%8F%E9%8D%B5%E7%9B%A42%E5%A2%9E%E5%BC%B7%E5%8A%9F%E8%83%BD/" />
+            <id>https://mhhsei.github.io/nvda-addons/%E5%B0%8F%E9%8D%B5%E7%9B%A42%E5%A2%9E%E5%BC%B7%E5%8A%9F%E8%83%BD/</id>
+            <updated>2022-12-31T08:05:10&#43;08:00</updated>
+            <published>2022-12-31T08:05:10&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Worldvoice</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/worldvoice/" />
+            <id>https://mhhsei.github.io/nvda-addons/worldvoice/</id>
+            <updated>2022-12-31T08:05:01&#43;08:00</updated>
+            <published>2022-12-31T08:05:01&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Unspoken</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/unspoken/" />
+            <id>https://mhhsei.github.io/nvda-addons/unspoken/</id>
+            <updated>2022-12-31T08:04:41&#43;08:00</updated>
+            <published>2022-12-31T08:04:41&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Unmute</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/unmute/" />
+            <id>https://mhhsei.github.io/nvda-addons/unmute/</id>
+            <updated>2022-12-31T08:04:31&#43;08:00</updated>
+            <published>2022-12-31T08:04:31&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Translate 翻譯附加元件</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/translate-%E7%BF%BB%E8%AD%AF%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/" />
+            <id>https://mhhsei.github.io/nvda-addons/translate-%E7%BF%BB%E8%AD%AF%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/</id>
+            <updated>2022-12-31T08:04:21&#43;08:00</updated>
+            <published>2022-12-31T08:04:21&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Speech History Review and Copying</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/speech-history-review-and-copying/" />
+            <id>https://mhhsei.github.io/nvda-addons/speech-history-review-and-copying/</id>
+            <updated>2022-12-31T08:04:09&#43;08:00</updated>
+            <published>2022-12-31T08:04:09&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Resource Monitor 資源監視器</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/resource-monitor-%E8%B3%87%E6%BA%90%E7%9B%A3%E8%A6%96%E5%99%A8/" />
+            <id>https://mhhsei.github.io/nvda-addons/resource-monitor-%E8%B3%87%E6%BA%90%E7%9B%A3%E8%A6%96%E5%99%A8/</id>
+            <updated>2022-12-31T08:03:56&#43;08:00</updated>
+            <published>2022-12-31T08:03:56&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Remote Support</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/remote-support/" />
+            <id>https://mhhsei.github.io/nvda-addons/remote-support/</id>
+            <updated>2022-12-31T08:03:46&#43;08:00</updated>
+            <published>2022-12-31T08:03:46&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">NVDA Recorder 紀錄器</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/nvda-recorder-%E7%B4%80%E9%8C%84%E5%99%A8/" />
+            <id>https://mhhsei.github.io/nvda-addons/nvda-recorder-%E7%B4%80%E9%8C%84%E5%99%A8/</id>
+            <updated>2022-12-31T08:03:33&#43;08:00</updated>
+            <published>2022-12-31T08:03:33&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">NoBeepsSpeechMode 去除逼逼生</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/nobeepsspeechmode-%E5%8E%BB%E9%99%A4%E9%80%BC%E9%80%BC%E7%94%9F/" />
+            <id>https://mhhsei.github.io/nvda-addons/nobeepsspeechmode-%E5%8E%BB%E9%99%A4%E9%80%BC%E9%80%BC%E7%94%9F/</id>
+            <updated>2022-12-31T08:03:18&#43;08:00</updated>
+            <published>2022-12-31T08:03:18&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">NAO 使用 Windows OCR 便是圖片文字或 Pdf 內容</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/nao-%E4%BD%BF%E7%94%A8-windows-ocr-%E4%BE%BF%E6%98%AF%E5%9C%96%E7%89%87%E6%96%87%E5%AD%97%E6%88%96-pdf-%E5%85%A7%E5%AE%B9/" />
+            <id>https://mhhsei.github.io/nvda-addons/nao-%E4%BD%BF%E7%94%A8-windows-ocr-%E4%BE%BF%E6%98%AF%E5%9C%96%E7%89%87%E6%96%87%E5%AD%97%E6%88%96-pdf-%E5%85%A7%E5%AE%B9/</id>
+            <updated>2022-12-31T08:03:02&#43;08:00</updated>
+            <published>2022-12-31T08:03:02&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Markdown Forever</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/markdown-forever/" />
+            <id>https://mhhsei.github.io/nvda-addons/markdown-forever/</id>
+            <updated>2022-12-31T08:02:48&#43;08:00</updated>
+            <published>2022-12-31T08:02:48&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Goldwave Enhanced</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/goldwave-enhanced/" />
+            <id>https://mhhsei.github.io/nvda-addons/goldwave-enhanced/</id>
+            <updated>2022-12-31T08:02:36&#43;08:00</updated>
+            <published>2022-12-31T08:02:36&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Command Helper</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/command-helper/" />
+            <id>https://mhhsei.github.io/nvda-addons/command-helper/</id>
+            <updated>2022-12-31T08:02:12&#43;08:00</updated>
+            <published>2022-12-31T08:02:12&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">CJK EnhancedUI 字形字義播報</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/cjk-enhancedui-%E5%AD%97%E5%BD%A2%E5%AD%97%E7%BE%A9%E6%92%AD%E5%A0%B1/" />
+            <id>https://mhhsei.github.io/nvda-addons/cjk-enhancedui-%E5%AD%97%E5%BD%A2%E5%AD%97%E7%BE%A9%E6%92%AD%E5%A0%B1/</id>
+            <updated>2022-12-31T08:01:58&#43;08:00</updated>
+            <published>2022-12-31T08:01:58&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">BluetoothAudio</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/bluetoothaudio/" />
+            <id>https://mhhsei.github.io/nvda-addons/bluetoothaudio/</id>
+            <updated>2022-12-31T08:01:20&#43;08:00</updated>
+            <published>2022-12-31T08:01:20&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">AudioControl   音訊控制附加元件</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/audiocontrol-%E9%9F%B3%E8%A8%8A%E6%8E%A7%E5%88%B6%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/" />
+            <id>https://mhhsei.github.io/nvda-addons/audiocontrol-%E9%9F%B3%E8%A8%8A%E6%8E%A7%E5%88%B6%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/</id>
+            <updated>2022-12-31T08:00:54&#43;08:00</updated>
+            <published>2022-12-31T08:00:54&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Addon Updater   插件更新氣</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/addon-updater-%E6%8F%92%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%B0%A3/" />
+            <id>https://mhhsei.github.io/nvda-addons/addon-updater-%E6%8F%92%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%B0%A3/</id>
+            <updated>2022-12-31T08:00:02&#43;08:00</updated>
+            <published>2022-12-31T08:00:02&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">A8M</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/a8m/" />
+            <id>https://mhhsei.github.io/nvda-addons/a8m/</id>
+            <updated>2022-12-31T04:28:42&#43;08:00</updated>
+            <published>2022-12-31T04:28:42&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
                     
                 
                     
