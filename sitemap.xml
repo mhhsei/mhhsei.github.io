@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mhhsei.github.io/software/brave/</loc>
-    <lastmod>2023-01-03T09:02:03+08:00</lastmod>
-  </url><url>
     <loc>https://mhhsei.github.io/categories/</loc>
-    <lastmod>2023-01-03T09:02:03+08:00</lastmod>
+    <lastmod>2023-01-03T11:02:20+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/</loc>
-    <lastmod>2023-01-03T09:02:03+08:00</lastmod>
+    <lastmod>2023-01-03T11:02:20+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/windows/win-11-%E8%BC%B8%E5%85%A5%E8%A1%A8%E6%83%85%E7%AC%A6%E8%99%9F/</loc>
+    <lastmod>2023-01-03T11:02:20+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/categories/windows/</loc>
+    <lastmod>2023-01-03T11:02:20+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/windows/</loc>
+    <lastmod>2023-01-03T11:02:20+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/categories/software/</loc>
+    <lastmod>2023-01-03T10:57:20+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/win-11-%E8%BC%B8%E5%85%A5%E8%A1%A8%E6%83%85%E7%AC%A6%E8%99%9F/</loc>
+    <lastmod>2023-01-03T10:57:20+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/software/brave/</loc>
     <lastmod>2023-01-03T09:02:03+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/software/</loc>
@@ -120,12 +132,6 @@
     <lastmod>2022-12-31T04:12:19+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/windows/win-11-%E5%88%87%E6%8F%9B%E6%88%90%E5%82%B3%E7%B5%B1%E8%BC%B8%E5%85%A5%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2022-12-31T08:54:29+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/categories/windows/</loc>
-    <lastmod>2022-12-31T08:54:29+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/windows/</loc>
     <lastmod>2022-12-31T08:54:29+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/software/chocolatey/</loc>
