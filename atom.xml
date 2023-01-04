@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
     <title type="text">learn pro</title>
     <subtitle type="html">蝦寫的，歡迎來瞧瞧</subtitle>
-    <updated>2023-01-04T10:10:00&#43;08:00</updated>
+    <updated>2023-01-04T13:10:31&#43;08:00</updated>
     <id>https://mhhsei.github.io/</id>
     <link rel="alternate" type="text/html" href="https://mhhsei.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mhhsei.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Dual Voice 雙語因附加元件</title>
             <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/dual-voice-%E9%9B%99%E8%AA%9E%E5%9B%A0%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/" />
             <id>https://mhhsei.github.io/nvda-addons/dual-voice-%E9%9B%99%E8%AA%9E%E5%9B%A0%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/</id>
-            <updated>2023-01-04T09:04:12&#43;08:00</updated>
+            <updated>2023-01-04T10:27:25&#43;08:00</updated>
             <published>2023-01-04T09:02:59&#43;08:00</published>
             <author>
                     <name>mingo say</name>
@@ -64,6 +64,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&#34;download&#34;&gt;download&lt;/h2&gt;
+&lt;p&gt;nvda2022.4 可用&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/dualvoice/files/latest/download&#34;&gt;dual voice5.1&lt;/a&gt;&lt;/p&gt;
 </content>
             
             
