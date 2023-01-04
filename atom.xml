@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
     <title type="text">learn pro</title>
     <subtitle type="html">蝦寫的，歡迎來瞧瞧</subtitle>
-    <updated>2023-01-03T16:56:12&#43;08:00</updated>
+    <updated>2023-01-04T10:10:00&#43;08:00</updated>
     <id>https://mhhsei.github.io/</id>
     <link rel="alternate" type="text/html" href="https://mhhsei.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mhhsei.github.io/atom.xml" />
@@ -16,6 +16,76 @@
             </author>
     <rights>若轉載請附個連結吧</rights>
     <generator uri="https://gohugo.io/" version="0.109.0">Hugo</generator>
+        <entry>
+            <title type="text">Dual Voice 雙語因附加元件</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/dual-voice-%E9%9B%99%E8%AA%9E%E5%9B%A0%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/" />
+            <id>https://mhhsei.github.io/nvda-addons/dual-voice-%E9%9B%99%E8%AA%9E%E5%9B%A0%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/</id>
+            <updated>2023-01-04T09:04:12&#43;08:00</updated>
+            <published>2023-01-04T09:02:59&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <rights>若轉載請附個連結吧</rights><summary type="html">dual voice 雙語因附加元件， 可以指定一個非拉丁字母的語音與一個拉丁字……</summary>
+            
+                <content type="html">&lt;p&gt;dual voice 雙語因附加元件，&lt;br&gt;
+可以指定一個非拉丁字母的語音與一個拉丁字母的語音共同協作，&lt;br&gt;
+非拉丁字母的語音  中、日、韓&lt;br&gt;
+拉丁字母的語音  英文、西班牙文等等。&lt;/p&gt;
+&lt;p&gt;安裝的部分與其他 nvda-addon 一樣，&lt;br&gt;
+只要找到他並對他按下 enter,&lt;br&gt;
+按照提示 都說是&lt;br&gt;
+就可以完成安裝了&lt;/p&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;首先我們要把語音引擎換成 dual voice
+&lt;ul&gt;
+&lt;li&gt;nvda + ctrl + v 打開 nvda 語音功能表&lt;/li&gt;
+&lt;li&gt;剛進來的時候會告訴你現在採用的是哪個語音引擎 worldvoice , espeak&lt;/li&gt;
+&lt;li&gt;按下 tab 找到便更 space&lt;/li&gt;
+&lt;li&gt;游標上下找到 dual voice&lt;/li&gt;
+&lt;li&gt;tab 找到確認 enter&lt;/li&gt;
+&lt;li&gt;tab 找到 語音(V)  這邊可以游標上下找到一個你喜歡的中文語音如 Microsoft Hanhan Desktop - Chinese (Taiwan)&lt;/li&gt;
+&lt;li&gt;接著 tab 找到確認 enter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;對 dual voice 作揖些設定
+&lt;ul&gt;
+&lt;li&gt;nvda + n 打開 NVDA 設定功能表&lt;/li&gt;
+&lt;li&gt;游標往下找到 Dual voice  子功能表  v enter 進入&lt;/li&gt;
+&lt;li&gt;游標可以在這裡上下移動 往左是退出 找到 Settings of the Dual voice...  s enter 打開設定對話框&lt;/li&gt;
+&lt;li&gt;利用 tab 可以再項目間跳轉 space 可以打勾 有選單就用游標上下選擇，其中幾個選項需要了解遺下&lt;/li&gt;
+&lt;li&gt;Secondary voice:  Microsoft David Desktop - English (United States)  折疊  Alt+v  這是第二語言的選擇框 你可以選一個英文語音&lt;/li&gt;
+&lt;li&gt;Use the secondary voice for reading Latin text instead of non-Latin.  勾選  Alt+u 使用輔助語音來閱讀拉丁文本而不是非拉丁文本。 勾選 Alt+u  這個項目打勾才能讓中英營分別由不同的朗讀者來提供語音&lt;/li&gt;
+&lt;li&gt;Prioritize non-Latin text over Latin text.  勾選  Alt+p  將非拉丁文本優先於拉丁文本。 勾選 Alt+P  因為我們是繁體中文的環境底下 所倚這個項目需要打勾&lt;/li&gt;
+&lt;li&gt;Read numbers and punctuations based on surrounding text.  勾選  Alt+n&lt;/li&gt;
+&lt;li&gt;最後 tab 找到確認就可以完成設定了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">NVDA 2021.2 適用的 Addon</title>
             <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/nvda-2021.2-%E9%81%A9%E7%94%A8%E7%9A%84-addon/" />
