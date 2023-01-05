@@ -7,7 +7,7 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>learn pro</title>
+        <title>learn high and higher</title>
         <link>https://mhhsei.github.io/</link>
         <description>蝦寫的，歡迎來瞧瞧</description>
         <generator>Hugo 0.109.0 https://gohugo.io/</generator>
@@ -23,7 +23,7 @@
         
             <copyright>若轉載請附個連結吧</copyright>
         
-        <lastBuildDate>Thu, 05 Jan 2023 13:56:53 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 05 Jan 2023 14:09:38 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mhhsei.github.io/rss.xml" />
         
