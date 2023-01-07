@@ -1,23 +1,573 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
 
+    <meta name="generator" content="Hugo 0.109.0"><meta name="theme-color" content="#fff" />
+    <meta name="color-scheme" content="light dark">
 
-<div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script>
-  const gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: [''],
-    id: location.pathname, 
-    distractionFreeMode: false 
-  });
-  (function() {
-    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
-      return;
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>NVDA 基礎教材 | 日常 learn note</title>
+
+    <link rel="stylesheet" href="/css/meme.min.01ba035eab1ebb6ae656d607130499ca754fd07567dbed5882dad8d30f282276.css"/>
+
+    
+    
+        <script src="/js/meme.min.c70d58c6fbf2c246e928b35578b25c02d85b8919d138a16363c65b69fe907133.js"></script>
+
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
+
+    <meta name="author" content="mingo say" /><meta name="description" content="這份教材非常的詳細， 由特種兵大大翻譯並添加其使用心得， 讓使用……" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="日常 learn note" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="日常 learn note" />
+    <meta name="msapplication-starturl" content="../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    
+    
+
+    
+    <link rel="canonical" href="https://mhhsei.github.io/nvda/nvda-%E5%9F%BA%E7%A4%8E%E6%95%99%E6%9D%90/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "datePublished": "2023-01-03T15:42:41+08:00",
+        "dateModified": "2023-01-06T10:55:08+08:00",
+        "url": "https://mhhsei.github.io/nvda/nvda-%E5%9F%BA%E7%A4%8E%E6%95%99%E6%9D%90/",
+        "name": "NVDA 基礎教材",
+        "description": "這份教材非常的詳細， 由特種兵大大翻譯並添加其使用心得， 讓使用……",
+        "image": "https://mhhsei.github.io/icons/apple-touch-icon.png",
+        "license": "若轉載請附個連結吧",
+        "publisher": {
+            "@type": "Organization",
+            "name": "日常 learn note",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://mhhsei.github.io/icons/apple-touch-icon.png"
+            },
+            "url": "https://mhhsei.github.io/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://mhhsei.github.io/"
+        }
     }
-    gitalk.render('gitalk-container');
-  })();
 </script>
+
+    
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:site" content="@reuixiy" />
+<meta name="twitter:creator" content="@mhhsei" />
+
+    
+
+
+
+<meta property="og:title" content="NVDA 基礎教材" />
+<meta property="og:description" content="這份教材非常的詳細， 由特種兵大大翻譯並添加其使用心得， 讓使用……" />
+<meta property="og:url" content="https://mhhsei.github.io/nvda/nvda-%E5%9F%BA%E7%A4%8E%E6%95%99%E6%9D%90/" />
+<meta property="og:site_name" content="日常 learn note" />
+<meta property="og:locale" content="zh-tw" /><meta property="og:image" content="https://mhhsei.github.io/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+
+
+    
+    
+
+    
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header">
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/" class="brand">日常 learn note</a>
+        
+    </div>
+
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+            
+        
+        
+        
+        
+            
+                <li class="menu-item"><a href="/categories/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon th"><path d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z"/></svg><span class="menu-item-name">分類</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/about/about/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon user-circle"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">關於</span></a>
+                </li>
+            
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </div>
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="default" data-type="nvda" data-toc-num="true">
+
+            <h1 class="post-title p-name">NVDA 基礎教材</h1>
+
+            
+
+            
+                
+            
+
+            
+                
+
+<div class="post-meta">
+    
+    
+        
+        <time datetime="2023-01-06T10:55:08&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2023.1.6</time>
+    
+    
+    
+        
+        
+        
+            
+                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/nvda/" class="category-link p-category">nvda</a></span>
+            
+        
+    
+    
+        
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;2337</span>
+    
+    
+        
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;5&nbsp;分鐘</span>
+    
+    
+    
+</div>
+
+            
+
+            <div class="post-body e-content">
+                <p>這份教材非常的詳細，<br>
+由特種兵大大翻譯並添加其使用心得，<br>
+讓使用繁體中文環境的我們，<br>
+能夠更了解教材的意思，<br>
+值得，NVDA的使用者、教學者或想了解NVDA 的人一看。<br>
+這邊會貼上章節的連結，<br>
+以及自己的操作與筆記。<br>
+想要看特種兵大大所撰寫的內容，<br>
+請棟棟您的手指，<br>
+選擇您感興趣的張傑並按下 enter...</p>
+<h2 id="基礎教材-1-介紹與準備--標題----第-2-級httpswwwnvdaorgtwteachingarticleui100204tm1997456371"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1997456371" target="_blank" rel="noopener">[基礎教材] 1 介紹與準備  標題    第 2 級</a></h2>
+<hr>
+<p>若您從沒有碰過電腦<br>
+不了解案件位置<br>
+那您得花一些時間來上個克。</p>
+<p>當然，能在這而看到這些文章的你，<br>
+一定是會使用電腦的使用者，<br>
+因此，您可以放心觀看此教材，<br>
+裡面有大量的範例供您學習。</p>
+<hr>
+<h2 id="基礎教材-2-nvda-入門httpswwwnvdaorgtwteachingarticleui100204tm1998426657"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1998426657" target="_blank" rel="noopener">[基礎教材] 2 NVDA 入門</a></h2>
+<hr>
+<p>請先點開本張，<br>
+了解學習目標，<br>
+當看完該章節的時候，<br>
+在來看看學習目標是否都有達到。</p>
+<hr>
+<h3 id="基礎教材-21-啟動-nvdahttpswwwnvdaorgtwteachingarticleui100204tm1998485902"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1998485902" target="_blank" rel="noopener">[基礎教材] 2.1 啟動 NVDA</a></h3>
+<hr>
+<ol>
+<li>通常 NVDA 會自己啟動</li>
+<li>若沒有啟動可以按下 control + alt + n 來啟動 您會聽到油低到高的提示聲音</li>
+<li>若 NVDA 正在運行中按下 control + alt + n 將重啟 NVDA. 會先聽到由高志低的提示生，這就是冠掉了 NVDA 接著才打開她</li>
+<li>control + alt + n  這表示您需要先按下 control不放開接著按下 alt一樣手不要放開接著再按下 n 然後說好了手放開</li>
+<li>操作不方便的人可以開啟鄉年鑑 連按武嚇 shift 來啟動  此時，可以依序按下 control,alt,n 來開關 NVDA</li>
+</ol>
+<h4 id="案件位置的介紹">案件位置的介紹</h4>
+<p>這裡說的是最常見的鍵盤布局</p>
+<ul>
+<li>control 在最左下角</li>
+<li>往右一個則是 windows 案件</li>
+<li>載往右一個 則是 alt</li>
+<li>接著往右 最長的案件 他是 space</li>
+<li>在往右 是一顆 alt</li>
+<li>alt 的右邊是 windows案件</li>
+<li>在往右 叫做快顯功能鍵 application</li>
+<li>在往右 則是 control</li>
+</ul>
+<p>你會發現 control , win , alt 算是蠻對稱的<br>
+這也是一種人性化的設計，<br>
+不管事習慣用右手按或左手按都能達到目的。</p>
+<hr>
+<h3 id="基礎教材-22-nvda-控制鍵httpswwwnvdaorgtwteachingarticleui100204tm1998568348"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1998568348" target="_blank" rel="noopener">[基礎教材] 2.2 NVDA 控制鍵</a></h3>
+<hr>
+<ul>
+<li>nvda件 主要用於與NVDA互動單案他是不起反映的，需要搭配其他的案件或者雙吉他 如讓NVDA讀出時間你可以按下 NVDA + F12</li>
+<li>哪一科案件是 NVDA Key 這取決於 NVDA 的鍵盤配置  若是桌上型電腦 insert 匯市您的 NVDA Key 而若是筆記型電腦 大小寫切換鍵是你的 NVDA Key</li>
+</ul>
+<h4 id="案件說明">案件說明</h4>
+<p>大小寫切換鍵就在左下角的 control 往上屬兩個<br>
+往上屬第一顆是 shift 可以把他想成轉換的意思如小寫變成大寫 未選擇變成以選取等等<br>
+接著往上屬 就是大小寫切換案件<br>
+再往上 則是 tab  通常拿來跳轉項目或者是輸入 tab</p>
+<hr>
+<blockquote>
+<p>章節裡的活動請跟著練習看看</p>
+</blockquote>
+<h3 id="基礎教材-23-再談-nvda-控制鍵httpswwwnvdaorgtwteachingarticleui100204tm1999048577"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1999048577" target="_blank" rel="noopener">[基礎教材] 2.3 再談 NVDA 控制鍵</a></h3>
+<hr>
+<ul>
+<li>讀取時間很簡單 nvda + f12,而讀取日期同樣是按著 NVDA + double F12快按兩下</li>
+<li>像這樣快按兩下或三下的設計 在 NVDA 還蠻常見的 一定要跟著練習試試看</li>
+<li>原本大小寫切換間或 insert 是有它的功能但現在被 NVDA 占用，所以你要按兩下才會執行原本的功能</li>
+</ul>
+<hr>
+<h3 id="基礎教材-24-停止朗讀-httpswwwnvdaorgtwteachingarticleui100204tm1999177926"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1999177926" target="_blank" rel="noopener">[基礎教材] 2.4 停止朗讀 </a></h3>
+<hr>
+<ul>
+<li>語音正在朗讀時可以按下 shift 暫停朗讀，在案一夏可以繼續朗讀
+<ul>
+<li>在編輯文本區可會切換輸入法而停止朗讀</li>
+</ul>
+</li>
+<li>語音朗讀時按下 control 可以停止朗讀</li>
+<li>暫停可以再繼續朗讀  停止則不行</li>
+</ul>
+<h4 id="指派案件只讓其中之一的-shift-切換輸入法--另一顆就可以拿來停止語音朗讀">指派案件只讓其中之一的 shift 切換輸入法  另一顆就可以拿來停止語音朗讀</h4>
+<p>win 11</p>
+<ul>
+<li>win + i 打開設定</li>
+<li>時間與語言</li>
+<li>輸入</li>
+<li>進階鍵盤設定</li>
+<li>輸入語言快速鍵</li>
+<li>切換語言 找到變更之後就可以改變了</li>
+</ul>
+<hr>
+<h3 id="基礎教材-25-輸入說明模式-httpswwwnvdaorgtwteachingarticleui100204tm1999273160"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1999273160" target="_blank" rel="noopener">[基礎教材] 2.5 輸入說明模式 </a></h3>
+<hr>
+<ul>
+<li>開關輸入說明模式 NVDA + 1(大鍵盤數字依) 分別為聽到 輸入說明 開  NVDA + 1 輸入說明關的提示因</li>
+<li>打開輸入說明模式後
+<ul>
+<li>按下案件 nvda 會朗讀該案件</li>
+<li>若案的事 nvda 的功能案件會朗讀其功能</li>
+<li>caps lock num lock insert 等 NVDA 功能鍵按兩下會告訴你原有的案件功能</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="基礎教材-26-使用點顯器來閱讀資訊-httpswwwnvdaorgtwteachingarticleui100204tm1999281813"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1999281813" target="_blank" rel="noopener">[基礎教材] 2.6 使用點顯器來閱讀資訊 </a></h3>
+<hr>
+<ul>
+<li>語音朗讀的資訊能同樣的在點字顯示器上被獨到</li>
+<li>點顯氣空間有限 一些常用的電腦符號會被簡寫 也提供二級與三級的縮寫點字</li>
+<li>有點顯器的人 可以先去看看 點字資訊與語音自訓 有哪些差別</li>
+</ul>
+<hr>
+<h3 id="基礎教材-27-重新啟動與停止-nvda-httpswwwnvdaorgtwteachingarticleui100204tm1999347974"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1999347974" target="_blank" rel="noopener">[基礎教材] 2.7 重新啟動與停止 NVDA </a></h3>
+<hr>
+<ul>
+<li>啟動 NVDA 的快速鍵是?</li>
+</ul>
+<p>nvda + control + n</p>
+<ul>
+<li>關閉 NVDA 可以按下 ctrl + q
+<ul>
+<li>會彈出對話框 問你想做什麼 游標上下可以選擇項目 enter 可以執行功能</li>
+<li>若找到 結束 並按下 enter    NVDA 就會被關閉</li>
+<li>若選到 重新啟動 按下 enter 以後  就相當於之前介紹的 nvda + ctrl + n 先關閉 nvda 後再啟動她</li>
+<li>重新啟動並停用附加元件 附加元件會改變 nvda 的行為與運作 主要是讓 NVDA 更好用才會開發此功能 但若有NVDA運作不順或異常的情形就可以利用功能檢查看看是否是 nvda-addons 的問題</li>
+<li>若不想看到此對話框 你可以在 NVDA功能表 - 偏好 - 設定 - 一般 - 結束 NVDA 時顯示結束選項(W)  勾選  Alt+w
+<ul>
+<li>勾選  就是要顯示對話框  沒勾選  當然就是不顯示了</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="基礎教材-28-本章回顧httpswwwnvdaorgtwteachingarticleui100204tm1999474930"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=1999474930" target="_blank" rel="noopener">[基礎教材] 2.8 本章回顧</a></h3>
+<hr>
+<p>這裡有些小問題，<br>
+若可以 請閱讀他<br>
+並嘗試回答<br>
+如果不記得也沒關係<br>
+再回去翻一遍相關的內容就可以</p>
+<hr>
+<h2 id="基礎教材-3-windows-入門-httpswwwnvdaorgtwteachingarticleui100204tm2010410441"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=2010410441" target="_blank" rel="noopener">[基礎教材] 3 Windows 入門 </a></h2>
+<hr>
+<p>介紹 windows 基礎，因為 win 的版本差異 所以會加一些內容，<br>
+熟悉win的基本操作對使用電腦很有幫助。</p>
+<ul>
+<li>熟悉開始功能表</li>
+<li>認識系統焦點  有關焦點相關的內容都特別重要</li>
+<li>尋找與開啟城市</li>
+<li>朗讀目前開啟的城市名稱</li>
+<li>關閉城市</li>
+</ul>
+<blockquote>
+<p>特別強調要跟著操作</p>
+</blockquote>
+<hr>
+<h3 id="基礎教材-31-開始功能表-httpswwwnvdaorgtwteachingarticleui100204tm2010689085"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=2010689085" target="_blank" rel="noopener">[基礎教材] 3.1 開始功能表 </a></h3>
+<hr>
+<p>介紹了 win 10 的功能表操作，若還在 win 10 可以參考看看，<br>
+win10 &amp; win 11 的開始功能表基本上大智的操作是一樣的</p>
+<h4 id="win-11-按下-win-之後">win 11 按下 win 之後</h4>
+<ol>
+<li>首先出現的是編輯區 這而可以輸入城市名稱來搜尋</li>
+<li>tab 可以找到pinned tiles</li>
+<li>tab 所有城市區塊 按下 enter 且游標往下拉就可以看到所有城市</li>
+<li>tab 切換帳戶 開啟 / 關閉</li>
+</ol>
+<hr>
+<h3 id="基礎教材-32-系統焦點-httpswwwnvdaorgtwteachingarticleui100204tm2010689468"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=2010689468" target="_blank" rel="noopener">[基礎教材] 3.2 系統焦點 </a></h3>
+<hr>
+<p>系統焦點是可直接與 nvda 互動的 通常直接按下 enter / space 就能與焦點項目互動<br>
+想要讀取焦點資訊可以按下 NVDA + tab  你可以打開功能表嘗試看看</p>
+<blockquote>
+<p>在任何地方都可以試試看 桌面、開始功能表...</p>
+</blockquote>
+<hr>
+<h3 id="基礎教材-33-搜尋與開啟程式-httpswwwnvdaorgtwteachingarticleui100204tm2011531639"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=2011531639" target="_blank" rel="noopener">[基礎教材] 3.3 搜尋與開啟程式 </a></h3>
+<hr>
+<ul>
+<li>我們試著打開 wordpad</li>
+<li>按下 win 會停在搜尋的地方</li>
+<li>輸入 wordpad 載入路的過程中電腦就會將相關的選項列出來  所以也許不用打得很完整就會出現 wordpad</li>
+<li>想要打開城市 直接按下 enter 就可以</li>
+</ul>
+<blockquote>
+<p>可以試著只打上 word 游標往下找找看有哪些城市</p>
+</blockquote>
+<hr>
+<h3 id="基礎教材-34-朗讀當前視窗的標題列-httpswwwnvdaorgtwteachingarticleui100204tm2011537495"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=2011537495" target="_blank" rel="noopener">[基礎教材] 3.4 朗讀當前視窗的標題列 </a></h3>
+<hr>
+<p>win + t 可以朗讀標題 與 nvda + tab 一樣在哪裡都是用 wordpad , 開始菜單 , 桌面</p>
+<hr>
+<h3 id="基礎教材-35-程式標題與焦點的差異-httpswwwnvdaorgtwteachingarticleui100204tm2011550155"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=2011550155" target="_blank" rel="noopener">[基礎教材] 3.5 程式標題與焦點的差異 </a></h3>
+<hr>
+<ul>
+<li>NVDA + t 是朗讀當前焦點所在的程式或開啟檔案的標題列資訊。</li>
+<li>NVDA + tab 是朗讀當前焦點所在項目的名稱與類型。</li>
+</ul>
+<blockquote>
+<p>向上一張一樣 在哪都可以按按看 聽聽兩者的區別</p>
+</blockquote>
+<hr>
+<h3 id="基礎教材-36-關閉-wordpad-httpswwwnvdaorgtwteachingarticleui100204tm2011557646"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=2011557646" target="_blank" rel="noopener">[基礎教材] 3.6 關閉 WordPad </a></h3>
+<hr>
+<ul>
+<li>想要關閉城市 原則上只需要按下 alt + F4</li>
+<li>若再 wordpad 有編輯的行為按下 alt + F4 會跳出對話框問你要不要存檔 利用 tab 或者游標可以瀏覽項目</li>
+<li>我們選擇不要 程式就會關閉</li>
+<li>選擇取消 就會回到編輯畫面  相當於按下 ESC</li>
+<li>存檔我們暫且不提</li>
+</ul>
+<hr>
+<h3 id="基礎教材-37-本章回顧-httpswwwnvdaorgtwteachingarticleui100204tm2011568059"><a href="https://www.nvda.org.tw/teaching/article/ui=100204tm=2011568059" target="_blank" rel="noopener">[基礎教材] 3.7 本章回顧 </a></h3>
+<hr>
+<p>看看你收穫了多少的時候到了</p>
+<hr>
+
+            </div>
+
+            
+    
+    
+        <ul class="post-copyright">
+            <li class="copyright-item author"><span class="copyright-item-text">作者</span>：<a href="https://io-oi.me/" class="p-author h-card" target="_blank" rel="noopener">mingo say</a></li>
+            
+                
+                
+                
+                
+                <li class="copyright-item link"><span class="copyright-item-text">連結</span>：<a href="/nvda/nvda-%E5%9F%BA%E7%A4%8E%E6%95%99%E6%9D%90/" target="_blank" rel="noopener">https://mhhsei.github.io/nvda/nvda-基礎教材/</a></li>
+            
+            <li class="copyright-item license"><span class="copyright-item-text">許可</span>：若轉載請附個連結吧</li>
+            
+        </ul>
+    
+
+
+
+        </article>
+
+        
+
+        
+    <div class="updated-badge-container">
+        <span title="Updated @ 2023-01-06 10:55:08 CST" style="cursor:help">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-01-06</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-01-06</text></g></svg>
+        </span></div>
+
+
+
+        
+
+
+        
+
+
+        
+    
+    
+        <div class="related-posts">
+            <h2 class="related-title">相關文章：<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon related-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"/></svg></h2>
+            <ul class="related-list">
+                
+                    <li class="related-item">
+                        <a href="/nvda/%E5%BF%AB%E9%80%9F%E5%8F%96%E5%BE%97-nvda-%E8%88%87%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/" class="related-link">快速取得 NVDA 與附加元件</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+
+
+
+        
+    
+
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+    </div>
+</main>
+
+
+            
+
+            
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="site-info">©&nbsp;2022–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;mingo say</div><div class="site-copyright">若轉載請附個連結吧</div>
+
+            
+    
+        <ul class="socials"><li class="socials-item">
+                    <a href="/rss.xml" target="_blank" rel="external noopener" title="RSS"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon social-icon"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="mailto:reuixiy@gmail.com" target="_blank" rel="external noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://github.com/reuixiy" target="_blank" rel="external noopener" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon social-icon"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://twitter.com/reuixiy" target="_blank" rel="external noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://t.me/yixiuer" target="_blank" rel="external noopener" title="Telegram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon social-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
+                </li></ul>
+    
+
+
+
+            
+        </div>
+    </footer>
+
+
+        </div>
+        
+
+        
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    let imgNodes = document.querySelectorAll('div.post-body img');
+    imgNodes = Array.from(imgNodes).filter(node => node.parentNode.tagName !== "A");
+
+    mediumZoom(imgNodes, {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
+
+
+
+
+
+
+    </body>
+</html>
