@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
     <title type="text">日常 learn note</title>
     <subtitle type="html">蝦寫的，歡迎來瞧瞧</subtitle>
-    <updated>2023-01-11T15:50:19&#43;08:00</updated>
+    <updated>2023-01-12T10:16:10&#43;08:00</updated>
     <id>https://mhhsei.github.io/</id>
     <link rel="alternate" type="text/html" href="https://mhhsei.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mhhsei.github.io/atom.xml" />
@@ -14,7 +14,7 @@
             
                 <email>mhhsei@mail.batol.net</email>
             </author>
-    <rights>若轉載請附個連結吧</rights>
+    
     <generator uri="https://gohugo.io/" version="0.109.0">Hugo</generator>
         <entry>
             <title type="text">Dual Voice 雙語因附加元件</title>
@@ -27,7 +27,7 @@
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">dual voice 雙語因附加元件， 可以指定一個非拉丁字母的語音與一個拉丁字……</summary>
+            <summary type="html">dual voice 雙語因附加元件， 可以指定一個非拉丁字母的語音與一個拉丁字……</summary>
             
                 <content type="html">&lt;p&gt;dual voice 雙語因附加元件，&lt;br&gt;
 可以指定一個非拉丁字母的語音與一個拉丁字母的語音共同協作，&lt;br&gt;
@@ -100,7 +100,7 @@
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">Access8Math 3.1:數學 Addon-updater 21.10:更新附加元件的附加元件 AudioControl 1.5:……</summary>
+            <summary type="html">Access8Math 3.1:數學 Addon-updater 21.10:更新附加元件的附加元件 AudioControl 1.5:……</summary>
             
                 <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://addons.nvda-project.org/files/get.php?file=access8math&#34;&gt;Access8Math 3.1:數學&lt;/a&gt;&lt;/li&gt;
@@ -152,7 +152,7 @@
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">這是另一個翻譯附加元件， 可以將朗讀到的文本時時翻譯成中文， 採……</summary>
+            <summary type="html">這是另一個翻譯附加元件， 可以將朗讀到的文本時時翻譯成中文， 採……</summary>
             
                 <content type="html">&lt;p&gt;這是另一個翻譯附加元件，&lt;br&gt;
 可以將朗讀到的文本時時翻譯成中文，&lt;br&gt;
@@ -200,7 +200,7 @@
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">NVDA 裝上附加元件就可以使用點字輸入 bkey nvda 無字天書輸入法附加元件 (……</summary>
+            <summary type="html">NVDA 裝上附加元件就可以使用點字輸入 bkey nvda 無字天書輸入法附加元件 (……</summary>
             
                 <content type="html">&lt;p&gt;NVDA 裝上附加元件就可以使用點字輸入&lt;/p&gt;
 &lt;h2 id=&#34;bkey-nvda-無字天書輸入法附加元件-20180813版新增說明20181012&#34;&gt;bkey nvda 無字天書輸入法附加元件 (2018/08/13版)新增說明(2018/10/12)&lt;/h2&gt;
@@ -245,7 +245,7 @@
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">authur: coscell date 8/15/21 來源 introduction 安裝這個NVDA附加元件，NVDA+F12 按一……</summary>
+            <summary type="html">authur: coscell date 8/15/21 來源 introduction 安裝這個NVDA附加元件，NVDA+F12 按一……</summary>
             
                 <content type="html">&lt;p&gt;authur: coscell&lt;br&gt;
 date 8/15/21&lt;br&gt;
@@ -288,7 +288,7 @@ date 8/15/21&lt;br&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">文章來源 簡介 您是否遇過，使用 NVDA 聽取某些物件資訊時，由於程式開……</summary>
+            <summary type="html">文章來源 簡介 您是否遇過，使用 NVDA 聽取某些物件資訊時，由於程式開……</summary>
             
                 <content type="html">&lt;p&gt;&lt;a href=&#34;https://www.nvda.org.tw/discussion/ui=60143tm=1997539581&#34;&gt;文章來源&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;簡介&#34;&gt;簡介&lt;/h2&gt;
@@ -342,7 +342,7 @@ date 8/15/21&lt;br&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">來源： NVDA 討論群組 說明 这是一款 NVDA 插件，借助该插件您可以快捷的在……</summary>
+            <summary type="html">來源： NVDA 討論群組 說明 这是一款 NVDA 插件，借助该插件您可以快捷的在……</summary>
             
                 <content type="html">&lt;p&gt;來源：&lt;br&gt;
 &lt;a href=&#34;https://groups.io/g/nvda-tw/topic/windowsofprocess_2022_1_1/88071618?p=,,,20,0,0,0::recentpostdate/sticky,,,20,2,0,88071618,previd=9223372036854775807,nextid=1640684068118277439&amp;amp;previd=9223372036854775807&amp;amp;nextid=1640684068118277439&#34;&gt;NVDA 討論群組&lt;/a&gt;&lt;/p&gt;
@@ -410,7 +410,7 @@ date 8/15/21&lt;br&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">開關： SHIFT+NVDA+E 有人提出特殊的需求希望閱讀時能過濾掉英文與數字 於是 coscell……</summary>
+            <summary type="html">開關： SHIFT+NVDA+E 有人提出特殊的需求希望閱讀時能過濾掉英文與數字 於是 coscell……</summary>
             
                 <content type="html">&lt;p&gt;開關： SHIFT+NVDA+E&lt;/p&gt;
 &lt;p&gt;有人提出特殊的需求希望閱讀時能過濾掉英文與數字&lt;br&gt;
@@ -450,7 +450,7 @@ date 8/15/21&lt;br&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">來源： nvda 討論群組 NVDA 討論區 authur:maxe 說明 字幕閱讀器：在您使用瀏覽器觀看……</summary>
+            <summary type="html">來源： nvda 討論群組 NVDA 討論區 authur:maxe 說明 字幕閱讀器：在您使用瀏覽器觀看……</summary>
             
                 <content type="html">&lt;p&gt;來源：&lt;/p&gt;
 &lt;ul&gt;
@@ -500,7 +500,7 @@ date 8/15/21&lt;br&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">authur: coscell date:9/23/21 說明 NVDA 小鍵盤2快按兩次會報讀國字辭解，快按三次會報讀國……</summary>
+            <summary type="html">authur: coscell date:9/23/21 說明 NVDA 小鍵盤2快按兩次會報讀國字辭解，快按三次會報讀國……</summary>
             
                 <content type="html">&lt;p&gt;authur: coscell&lt;/p&gt;
 &lt;p&gt;date:9/23/21&lt;/p&gt;
@@ -541,7 +541,7 @@ date 8/15/21&lt;br&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">來源 作者: tsengwoody 时间: 2022-02-19 說明 在高度網路化及國際化的年代，語言的學……</summary>
+            <summary type="html">來源 作者: tsengwoody 时间: 2022-02-19 說明 在高度網路化及國際化的年代，語言的學……</summary>
             
                 <content type="html">&lt;p&gt;&lt;a href=&#34;https://www.nvdacn.com/index.php/archives/830/&#34;&gt;來源&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;作者: tsengwoody&lt;br&gt;
@@ -625,7 +625,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">透過不同的聲音提示你物件的類型 下拉選單 和取方塊 編輯區 等等 從音……</summary>
+            <summary type="html">透過不同的聲音提示你物件的類型 下拉選單 和取方塊 編輯區 等等 從音……</summary>
             
                 <content type="html">&lt;p&gt;透過不同的聲音提示你物件的類型 下拉選單 和取方塊 編輯區 等等 從音效的提示 就能知道您焦點在哪個物件上 需要做怎樣的動作&lt;/p&gt;
 &lt;p&gt;運用聲音位置讓您大致了解物件所在螢幕何處。&lt;/p&gt;
@@ -666,7 +666,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">此插件會在 NVDA 啟動時檢查 Windows 音頻系統的狀態 如果聲音已靜音 - 插件會……</summary>
+            <summary type="html">此插件會在 NVDA 啟動時檢查 Windows 音頻系統的狀態 如果聲音已靜音 - 插件會……</summary>
             
                 <content type="html">&lt;p&gt;此插件會在 NVDA 啟動時檢查 Windows 音頻系統的狀態&lt;br&gt;
 如果聲音已靜音 - 插件會強行將其打開。&lt;br&gt;
@@ -720,7 +720,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">說明 安裝附加元件與其他附加元件相同 按下 ctrl + shift + nvda + t : [翻譯……</summary>
+            <summary type="html">說明 安裝附加元件與其他附加元件相同 按下 ctrl + shift + nvda + t : [翻譯……</summary>
             
                 <content type="html">&lt;h2 id=&#34;說明&#34;&gt;說明&lt;/h2&gt;
 &lt;p&gt;安裝附加元件與其他附加元件相同&lt;br&gt;
@@ -766,7 +766,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">Clip Copy 插件的更新版本， 最初由 Tyler Spivey 創建。 該插件允許您查看 NVDA 所說的……</summary>
+            <summary type="html">Clip Copy 插件的更新版本， 最初由 Tyler Spivey 創建。 該插件允許您查看 NVDA 所說的……</summary>
             
                 <content type="html">&lt;p&gt;Clip Copy 插件的更新版本，&lt;br&gt;
 最初由 Tyler Spivey 創建。&lt;br&gt;
@@ -817,7 +817,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">可以讓您簡單的了解，CPU,RAM,ROM,Bettery的……</summary>
+            <summary type="html">可以讓您簡單的了解，CPU,RAM,ROM,Bettery的……</summary>
             
                 <content type="html">&lt;p&gt;可以讓您簡單的了解，CPU,RAM,ROM,Bettery的狀態&lt;br&gt;
 緊要用 NVDA + Shift + 1:8 就可以聽讀資訊了。&lt;br&gt;
@@ -861,7 +861,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">遠端控制支持，裝上該附加元件，您將可以遠端操控其他的電腦，在……</summary>
+            <summary type="html">遠端控制支持，裝上該附加元件，您將可以遠端操控其他的電腦，在……</summary>
             
                 <content type="html">&lt;p&gt;遠端控制支持，裝上該附加元件，您將可以遠端操控其他的電腦，在迴護或日常使用將變得梗省時。&lt;/p&gt;
 &lt;h2 id=&#34;說明文件&#34;&gt;說明文件&lt;/h2&gt;
@@ -911,7 +911,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">說明 由 coscell 開發 Rui Fontes 改寫 此附加元件的功能是輸出 NVDA 的語音轉乘 tex……</summary>
+            <summary type="html">說明 由 coscell 開發 Rui Fontes 改寫 此附加元件的功能是輸出 NVDA 的語音轉乘 tex……</summary>
             
                 <content type="html">&lt;h2 id=&#34;說明&#34;&gt;說明&lt;/h2&gt;
 &lt;p&gt;由 coscell 開發 Rui Fontes 改寫&lt;br&gt;
@@ -955,7 +955,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">Author: Alberto Buffolino. 說明 當你使用 NVDA + s 有三種模式 語音模式 說話 語音模式 關 逼逼……</summary>
+            <summary type="html">Author: Alberto Buffolino. 說明 當你使用 NVDA + s 有三種模式 語音模式 說話 語音模式 關 逼逼……</summary>
             
                 <content type="html">&lt;p&gt;Author: Alberto Buffolino.&lt;/p&gt;
 &lt;h2 id=&#34;說明&#34;&gt;說明&lt;/h2&gt;
@@ -1007,7 +1007,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">authur:蔡宗豪 date:12/15/21 Edited: 2/10/22 文章來源 介紹 從作業系統 Windows 10 開始，系……</summary>
+            <summary type="html">authur:蔡宗豪 date:12/15/21 Edited: 2/10/22 文章來源 介紹 從作業系統 Windows 10 開始，系……</summary>
             
                 <content type="html">&lt;p&gt;authur:蔡宗豪&lt;/p&gt;
 &lt;p&gt;date:12/15/21&lt;/p&gt;
@@ -1069,7 +1069,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">什麼事markdown Markdown 是一種輕量級標記式語言，它允許人們使……</summary>
+            <summary type="html">什麼事markdown Markdown 是一種輕量級標記式語言，它允許人們使……</summary>
             
                 <content type="html">&lt;h2 id=&#34;什麼事markdown&#34;&gt;什麼事markdown&lt;/h2&gt;
 &lt;p&gt;Markdown 是一種輕量級標記式語言，它允許人們使用易讀易寫的純文字格式編寫文件，然後轉換成有效的XHTML（或者HTML）文件。&lt;br&gt;
@@ -1129,7 +1129,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">Authors: Joseph Lee, NVDA contributors. NVDA compatibility: 2021.3 and later 2021.3或更新的版本 This app module enhances access and usage of……</summary>
+            <summary type="html">Authors: Joseph Lee, NVDA contributors. NVDA compatibility: 2021.3 and later 2021.3或更新的版本 This app module enhances access and usage of……</summary>
             
                 <content type="html">&lt;ul&gt;
 &lt;li&gt;Authors: Joseph Lee, NVDA contributors.&lt;/li&gt;
@@ -1189,7 +1189,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">介紹 安裝方法與其它的 nvda-addon 沒什麼不一樣的 要啟動 Command Helper 的選單功能只要……</summary>
+            <summary type="html">介紹 安裝方法與其它的 nvda-addon 沒什麼不一樣的 要啟動 Command Helper 的選單功能只要……</summary>
             
                 <content type="html">&lt;h2 id=&#34;介紹&#34;&gt;介紹&lt;/h2&gt;
 &lt;p&gt;安裝方法與其它的 nvda-addon 沒什麼不一樣的&lt;/p&gt;
@@ -1232,7 +1232,7 @@ WorldVoice 是一款多國語音朗讀 NVDA 附加元件，可使用在高於 20
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">文章來源 authur: woody tseng date: 6/07/21 操作 安裝方法與其他附加元件相同 一般在網頁或……</summary>
+            <summary type="html">文章來源 authur: woody tseng date: 6/07/21 操作 安裝方法與其他附加元件相同 一般在網頁或……</summary>
             
                 <content type="html">&lt;p&gt;&lt;a href=&#34;https://class.kh.edu.tw/19061/bulletin/msg_view/384&#34;&gt;文章來源&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;authur: woody tseng&lt;br&gt;
@@ -1331,7 +1331,7 @@ date: 6/07/21&lt;/p&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">Author: Tony Malykh 說明 當你使用藍芽耳機/喇叭的時候，是不是會發生按下某個……</summary>
+            <summary type="html">Author: Tony Malykh 說明 當你使用藍芽耳機/喇叭的時候，是不是會發生按下某個……</summary>
             
                 <content type="html">&lt;p&gt;Author: Tony Malykh&lt;/p&gt;
 &lt;h2 id=&#34;說明&#34;&gt;說明&lt;/h2&gt;
@@ -1378,7 +1378,7 @@ nvda 19.3 才能夠安裝他&lt;/p&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">為正在運行的應用程式調整音量，設置靜音狀態以及切換NVDA聲……</summary>
+            <summary type="html">為正在運行的應用程式調整音量，設置靜音狀態以及切換NVDA聲……</summary>
             
                 <content type="html">&lt;p&gt;為正在運行的應用程式調整音量，設置靜音狀態以及切換NVDA聲音輸出的附加元件。&lt;/p&gt;
 &lt;h2 id=&#34;說明&#34;&gt;說明&lt;/h2&gt;
@@ -1471,7 +1471,7 @@ nvda 19.3 才能夠安裝他&lt;/p&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">安裝了他你就可以直接更新擬的附加元件 介紹 這個附加元件會到 addons.nvda-project.org/ 自……</summary>
+            <summary type="html">安裝了他你就可以直接更新擬的附加元件 介紹 這個附加元件會到 addons.nvda-project.org/ 自……</summary>
             
                 <content type="html">&lt;p&gt;安裝了他你就可以直接更新擬的附加元件&lt;/p&gt;
 &lt;h2 id=&#34;介紹&#34;&gt;介紹&lt;/h2&gt;
@@ -1530,7 +1530,7 @@ nvda 19.3 才能夠安裝他&lt;/p&gt;
                     <uri>https://mhhsei.github.io/</uri>
                     <email>mhhsei@mail.batol.net</email>
                     </author>
-            <rights>若轉載請附個連結吧</rights><summary type="html">author: tseng woody time: 2022-01-01 來源 說明 此 NVDA 附加元件提供數學內容的閱讀，原先NVD……</summary>
+            <summary type="html">author: tseng woody time: 2022-01-01 來源 說明 此 NVDA 附加元件提供數學內容的閱讀，原先NVD……</summary>
             
                 <content type="html">&lt;p&gt;author: tseng woody&lt;br&gt;
 time: 2022-01-01&lt;/p&gt;
