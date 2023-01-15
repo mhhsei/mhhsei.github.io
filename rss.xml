@@ -21,10 +21,254 @@
             <webMaster>mhhsei@mail.batol.net (mingo say)</webMaster>
         
         
-        <lastBuildDate>Fri, 13 Jan 2023 13:53:22 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 15 Jan 2023 19:03:57 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mhhsei.github.io/rss.xml" />
         
+        
+            <item>
+                <title>A8m 操作</title>
+                <link>https://mhhsei.github.io/nvda-addons/a8m-%E6%93%8D%E4%BD%9C/</link>
+                <guid isPermaLink="true">https://mhhsei.github.io/nvda-addons/a8m-%E6%93%8D%E4%BD%9C/</guid>
+                <pubDate>Sun, 15 Jan 2023 15:53:22 &#43;0800</pubDate>
+                
+                    <author>mhhsei@mail.batol.net (mingo say)</author>
+                
+                
+                
+                    <description>&lt;p&gt;這整篇，都來自 a8m 的作者的說明文黨&lt;/p&gt;
+&lt;p&gt;win 11&lt;br&gt;
+nvda V:2022.4&lt;br&gt;
+a8m V:3.4&lt;/p&gt;
+&lt;h1 id=&#34;閱讀&#34;&gt;閱讀&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;報讀：可以序列化文字報讀在網頁瀏覽器（Mozilla Firefox, Microsoft Edge and Google Chrome）上以 MathML 撰寫的數學物件或在 Microsoft Word 上以 MathType 撰寫的數學物件（需安裝 MathType）&lt;/li&gt;
+&lt;li&gt;互動：在數學物件上按下空白或 enter 可與該數學內容進行互動導航，亦即可部份瀏覽數學內容中的子內容、在內容間移動、縮放檢閱內容片段之大小&lt;/li&gt;
+&lt;li&gt;分析內容整體的數學意義：將數學內容進行語意分析，符合特定規則時，以該規則進行朗讀&lt;br&gt;
+分析內容項目的數學意義：在互動導航時會提示該項內容在其上層內容下的意義，例如分數項有兩項，在其間移動會報讀該項目為分母或分子&lt;/li&gt;
+&lt;li&gt;項目與項目間停頓：數學內容中各項次間語音可停頓，讓閱讀者能更快掌握整體數學內容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;互動案件&#34;&gt;互動案件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;空白鍵 進入互動模式&lt;/li&gt;
+&lt;li&gt;向上鍵：放大當前數學內容成更大的子內容&lt;/li&gt;
+&lt;li&gt;向左鍵：向前一項數學內容&lt;/li&gt;
+&lt;li&gt;向右鍵：向後一項數學內容&lt;/li&gt;
+&lt;li&gt;Ctrl+c: 複製物件MathML原始碼&lt;/li&gt;
+&lt;li&gt;home鍵：回到最頂層（完整數學內容）&lt;/li&gt;
+&lt;li&gt;數字鍵盤1-9：使用NVDA 檢閱模式閱讀數學內容（請參見 NVDA 用戶指南的檢閱模式章節）&lt;/li&gt;
+&lt;li&gt;esc鍵：退出互動導航模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/zh-tw/%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86&#34;&gt;示範網址&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;進入後 按下 h 找到定理&lt;/li&gt;
+&lt;li&gt;游標往下找到數學物件&lt;/li&gt;
+&lt;li&gt;按下 space&lt;/li&gt;
+&lt;li&gt;游標左右移動試試看&lt;/li&gt;
+&lt;li&gt;接著游標往下&lt;/li&gt;
+&lt;li&gt;再試試看游標往左或往右的聽取竹向朗讀&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;數學規則&#34;&gt;數學規則&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;數學結構分析規則：此類規則是為了提高常用數學結構的閱讀體驗而設計，例如：「x^2」將報讀為「x 的平方」而非「x 上標 2」&lt;/li&gt;
+&lt;li&gt;簡化朗讀規則：簡化朗讀規則是各種規則的簡化版，當其內容僅為單一項目時，便可省略前後標記朗讀，以達到更好的理解與閱讀，而亦不致造成混淆，例如：「\frac{1}{2}」將報讀為「2 分之 1」而非「分數 2 分之 1 結束分數」## 互動導航案件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;書寫&#34;&gt;書寫&lt;/h1&gt;
+&lt;p&gt;可以書寫 LaTeX/AsciiMath  的數學內容，&lt;br&gt;
+建議都使用 a8m 的編輯器書寫。&lt;/p&gt;
+&lt;h2 id=&#34;開啟-a8m-編輯器&#34;&gt;開啟 a8m 編輯器&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;nvda + n  工具 → a8m → 編輯器&lt;/li&gt;
+&lt;li&gt;在檔案總管內找到 .txt .md 的檔案按下 nvda + application 接著選編輯就可以&lt;/li&gt;
+&lt;li&gt;或在檔案總管按下 nvda + alt + e&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;以-latexasciimath-書寫數學內容與文字&#34;&gt;以 LaTeX/AsciiMath 書寫數學內容與文字&lt;/h2&gt;
+&lt;p&gt;你可以輸入一班文字 或輸入 latex / asciiMath的數學內容&lt;br&gt;
+但你需要將數學內容與一班文字分割開，&lt;br&gt;
+在符號間的是數學內容，而在外面的就是一班文字。&lt;/p&gt;
+&lt;p&gt;latex () / $$&lt;br&gt;
+asciimath |  / ``&lt;/p&gt;
+&lt;p&gt;可以一班輸入或使用指令選單或快捷首飾來輸入 Latex數學式。&lt;/p&gt;
+&lt;h2 id=&#34;指令手勢&#34;&gt;指令手勢&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;nvda + alt + c 可以開關指令手勢&lt;/li&gt;
+&lt;li&gt;alt+m：彈出標記指令視窗，選擇 LaTeX/AsciiMath 按下 enter 鍵即會在當前所選文字前後（無選擇文字時為當前游標處）加入 LaTeX/AsciiMath 標記並會自動將游標移入其內，以快速輸入內容。&lt;/li&gt;
+&lt;li&gt;alt+l：彈出 LaTeX 指令視窗，選擇要加入的 LaTeX 指令項目按下 enter 鍵即會在當前游標處加入對應的 LaTeX 語法並會自動將游標移入適當輸入點，以快速輸入內容（如游標未在 LaTeX 區內會自動加上開始與結束標記）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;latex-指令視窗&#34;&gt;LaTeX 指令視窗&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;選到任意 LaTeX 指令項目按下英文字母(a~z)或 f1~f12 設定快捷&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;選到任意 LaTeX 指令項目按下 delete/back space 移除已設定的快捷&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;選到任意 LaTeX 指令項目按下 enter 在當前游標處加入對應的 LaTeX 語法&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;alt+i：游標停在數學區塊上時，可與該數學區塊進行互動導航&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;alt+h：可轉換出文字區塊與數學區塊的 HTML 文件並可進行預覽或匯出。其中數學區塊之內容匯轉成 MathML 並與文字並列呈現，以利視覺閱讀。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在書寫設定中的 HTML 文件顯示，可選擇匯出後的 HTML 文件以 Markdown 或純文字解析轉換。&lt;/li&gt;
+&lt;li&gt;在書寫設定中的 HTML 數學顯示，可選擇匯出後的 HTML 文件中數學物件是否為一區塊。效果為在瀏覽模式上下方向鍵移動報讀整行內容時，數學物件是否獨立一行呈現。&lt;/li&gt;
+&lt;li&gt;預覽：透過系統設定的預設開啟 .HTML 副檔名應用程式打開轉換後的 HTML 文件。&lt;/li&gt;
+&lt;li&gt;匯出：將轉換後的 HTML 文件與原始文字檔打包儲存為一壓縮檔，壓縮檔內包含 HTML (可視讀、聽讀、摸讀格式)與 txt (原始可編輯檔案)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;alt+t：可將游標所在的數學區塊在 LaTeX 與 AsciiMath 間轉換（游標需在數學區塊內）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;alt+b:可將整份文件進行批次轉換，包括 LaTeX 分隔符括號與錢號互轉、LaTeX 與 AsciiMath 互轉。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在書寫設定內可選擇啟動時是否啟用指令手勢，編輯區中按 NVDA+alt+c 可啟用或停用指令手勢，可於輸入手勢中變更。&lt;/p&gt;
+&lt;h2 id=&#34;書寫區塊導航手勢&#34;&gt;書寫區塊導航手勢&lt;/h2&gt;
+&lt;p&gt;nvda + alt + n : 開關書寫區塊導航手勢&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;alt+向左鍵：移動到上一個資料區塊的開始點&lt;/li&gt;
+&lt;li&gt;alt+向下鍵：不移動僅讀出當前資料區塊的內容&lt;/li&gt;
+&lt;li&gt;alt+向右鍵：移動到下一個資料區塊的開始點&lt;/li&gt;
+&lt;li&gt;alt+home：移動到當前資料區塊的開始點&lt;/li&gt;
+&lt;li&gt;alt+end：移動到當前資料區塊的結束點&lt;/li&gt;
+&lt;li&gt;alt+shift+向左鍵：移動到上一個資料區塊並選取&lt;/li&gt;
+&lt;li&gt;alt+shift+向下鍵：不移動僅選取當前資料區塊的內容&lt;/li&gt;
+&lt;li&gt;alt+shift+向右鍵：移動到下一個資料區塊並選取&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在書寫設定內可選擇啟動時是否啟用區塊導航手勢，編輯區中按 NVDA+alt+n 可啟用或停用區塊導航手勢，可於輸入手勢中變更。&lt;/p&gt;
+&lt;h2 id=&#34;快捷手勢&#34;&gt;快捷手勢&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;nvda + alt + s  開關快捷手勢&lt;/li&gt;
+&lt;li&gt;當游標在 LaTeX 區塊時，按字母、 f1~f12 可快速插入綁定之 LaTeX 語法。按 shift+字母、shift+f1~f12 可讀出該快捷當下綁定之 LaTeX 語法。（需先於指令選單中設定快捷鍵）&lt;/li&gt;
+&lt;li&gt;在書寫設定內可選擇啟動時是否啟用快捷手勢，編輯區中按 NVDA+alt+s 可啟用或停用快捷手勢，可於輸入手勢中變更。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;當游標在 LaTeX 區塊時，按字母、 f1~f12 可快速插入綁定之 LaTeX 語法。按 shift+字母、shift+f1~f12 可讀出該快捷當下綁定之 LaTeX 語法。（需先於指令選單中設定快捷鍵）&lt;br&gt;
+在書寫設定內可選擇啟動時是否啟用快捷手勢，編輯區中按 NVDA+alt+s 可啟用或停用快捷手勢，可於輸入手勢中變更。&lt;/p&gt;
+&lt;h2 id=&#34;希臘字母手勢&#34;&gt;希臘字母手勢&lt;/h2&gt;
+&lt;p&gt;nvda + alt + g 可以開關希臘自首是&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;alt + m 選擇 latex&lt;/li&gt;
+&lt;li&gt;nvda + alt + g 打開希臘字母&lt;/li&gt;
+&lt;li&gt;按下 a,z 就會輸入對應的希臘字母，&lt;/li&gt;
+&lt;li&gt;當然如果你會 latex 你也可以直接輸入 latex 語法對應的希臘字母。&lt;/li&gt;
+&lt;li&gt;nvda + alt + g 關閉輸入希臘字母手勢&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;瀏覽導航模式開關nvdaspace&#34;&gt;瀏覽導航模式（開關：NVDA+space）&lt;/h2&gt;
+&lt;p&gt;當瀏覽導航模式開啟時，游標移動報讀出的數學區塊會讀出數學文字化內容而非原始語法&lt;/p&gt;
+&lt;p&gt;可用以下按鍵手勢移動編輯游標與互動導航&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;向左鍵：移動到上一個資料區塊的開始點並讀出&lt;/li&gt;
+&lt;li&gt;向右鍵：移動到下一個資料區塊的開始點並讀出&lt;/li&gt;
+&lt;li&gt;向上鍵：移動到上一行並讀出該行所有資料區塊的內容&lt;/li&gt;
+&lt;li&gt;向下鍵：移動到下一行並讀出該行所有資料區塊的內容&lt;/li&gt;
+&lt;li&gt;pageUp：往上移動十行並讀出該行所有資料區塊的內容&lt;/li&gt;
+&lt;li&gt;pageDown：往下移動十行並讀出該行所有資料區塊的內容&lt;/li&gt;
+&lt;li&gt;home：移動到游標所在行的第一個區塊&lt;/li&gt;
+&lt;li&gt;end：移動到游標所在行的最後一個區塊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上游標移動按鍵加上 shift 鍵則會一併選取文字&lt;br&gt;
+space/enter：游標停在數學區塊上時可與該資料區塊數學內容互動導航&lt;br&gt;
+下列的按鍵，若僅按該單一鍵，編輯游標會跳至其對應的後一個資料區塊位置，若同時按 shift + 該單一按鍵，編輯游標會跳至前一個資料區塊位置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;l: 移到下一個 LaTeX 資料區塊並讀出&lt;/li&gt;
+&lt;li&gt;a: 移到下一個 AsciiMath 資料區塊並讀出&lt;/li&gt;
+&lt;li&gt;m: 移到下一個 MathML 資料區塊並讀出&lt;/li&gt;
+&lt;li&gt;t: 移到下一個文字區塊並讀出&lt;/li&gt;
+&lt;li&gt;tab: 移動到下一個可互動區塊（數學區塊）並讀出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可用以下按鍵手勢編修文件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ctrl+x：剪下當前游標區塊&lt;/li&gt;
+&lt;li&gt;ctrl+c：複製當前游標區塊&lt;/li&gt;
+&lt;li&gt;ctrl+v：於當前游標區塊後貼上內容&lt;/li&gt;
+&lt;li&gt;delete/back space：刪除當前游標區塊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;access8math-編輯器與-access8math-document&#34;&gt;Access8Math 編輯器與 Access8Math Document&lt;/h2&gt;
+&lt;p&gt;windows 11 起記事本的編輯區為豐富文本區域非傳統編輯區，故在 windows 11 必需使用此編輯器方能使用書寫功能。此編輯器亦提供開啟舊檔、儲存檔案、預覽等功能。&lt;br&gt;
+使用 Access8Math 編輯器可書寫 markdown 文件且當有資源時可將資源至於編輯器工作空間內並進行引用。當點選編輯器的匯出功能，會將文件內有引用到的資源一併打包成壓縮檔&lt;br&gt;
+檢視功能表下的預覽、匯出功能與指令手勢下的檢視功能（alt+h）相同可產生 Access8Math Document 檔，兩者唯一區別為 Access8Math 編輯器會將被引用的資源一併打包加入壓縮檔內&lt;br&gt;
+為了讓 Access8Math 編輯器匯出的檔案可匯入再編輯，Access8Math 編輯器匯出時會寫入一個 Access8Math.json ，其為 meta 資料。我們稱含有此 meta 的壓縮檔/資料夾為 Access8Math Document&lt;br&gt;
+在檔案總管內可按下 NVDA+快顯鍵，當選擇的路徑為 txt/Access8Math Document 時，會彈出虛擬路徑位置功能表，可快速開啟檢視或編輯該檔案&lt;/p&gt;
+&lt;h1 id=&#34;設定&#34;&gt;設定&lt;/h1&gt;
+&lt;h2 id=&#34;閱讀設定&#34;&gt;閱讀設定&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;語言：Access8Math 朗讀數學內容的語言&lt;/li&gt;
+&lt;li&gt;語音來源：選擇使用 Access8Math 或 Math Player 的語音朗讀方式&lt;/li&gt;
+&lt;li&gt;點字來源：選擇使用 Access8Math 或 Math Player 的點字顯示方式&lt;/li&gt;
+&lt;li&gt;互動來源：選擇使用 Access8Math 或 Math Player 的互動導航方式&lt;/li&gt;
+&lt;li&gt;分析內容的數學意義：將數學內容進行語意分析，符合特定規則時，套用該規則的語音朗讀與點字顯示&lt;/li&gt;
+&lt;li&gt;當進入互動模式時，顯⽰互動視窗：在數學物件上啟動事件進入互動導航模式前是否顯示「Access8Math 互動視窗」。&lt;/li&gt;
+&lt;li&gt;在互動導航模式下讀出字典預先定義的意義：在互動導航模式下，當字典檔有定義時，使用字典檔讀出提示該項子內容在其上層子內容的意義&lt;/li&gt;
+&lt;li&gt;在互動導航模式下讀出⾃動產⽣的意義：在互動導航模式下，當字典檔無定義或不完整時，使用自動產生功能讀出提示該項子內容在其上層子內容的意義或項次&lt;/li&gt;
+&lt;li&gt;在互動導航下使⽤⾳效來提⽰無法移動：在互動模式下導航時，當無法在移動時發出提示音，如未勾選將以語音「無移動」提示&lt;/li&gt;
+&lt;li&gt;項目間隔時間：設定數學內容項目與項目間報讀停頓的時間，數值從1到100，數值愈小表示停頓時間愈短，反之數值愈大表示停頓時間愈長。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;書寫設定&#34;&gt;書寫設定&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;啟動時啟⽤指令⼿勢&lt;/li&gt;
+&lt;li&gt;啟動時啟⽤區塊導航⼿勢&lt;/li&gt;
+&lt;li&gt;啟動時啟⽤快捷⼿勢&lt;/li&gt;
+&lt;li&gt;以⾳效提⽰書寫導航模式的切換&lt;/li&gt;
+&lt;li&gt;HTML 顯⽰&lt;/li&gt;
+&lt;li&gt;LaTeX 分隔符&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;規則設定&#34;&gt;規則設定&lt;/h2&gt;
+&lt;p&gt;選擇特定規則是否啟用的設定。&lt;/p&gt;
+&lt;h2 id=&#34;本地化&#34;&gt;本地化&lt;/h2&gt;
+&lt;p&gt;工具-&amp;gt;Access8Math-&amp;gt;本地化選單中可自定議語音朗讀與點字顯示，語音朗讀與點字顯示內皆分為「unicode 字點」與「數學規則」兩部份&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;語音 unicode 字典：可客製設定各項符號文字的語音朗讀&lt;/li&gt;
+&lt;li&gt;語音數學規則：可客製設定各數學類型的語音朗讀&lt;/li&gt;
+&lt;li&gt;點字 unicode 字典：可客製設定各項符號文字的點字顯示&lt;/li&gt;
+&lt;li&gt;點字數學規則：可客製設定各數學類型的點字顯示&lt;/li&gt;
+&lt;li&gt;「加入新語言」可加入原先於內建未提供的語言，加入後於一般設定內會多出剛新增的語系並可再透過「unicode 字典」與「數學規則」定義讀法達到多國語言客製化設定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;unicode-字典編輯&#34;&gt;unicode 字典編輯&lt;/h2&gt;
+&lt;p&gt;Access8Math 透過字典檔方式將特定符號對應到特定文字／點字，以解決部份罕見符號語音合成器不支援、複合多個符號為一個數學符號（sin 為正弦）、或因部份符號通用性問題在數學上與一般使用上有所不同（! 為階層）等問題&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新增：增加一組對應字典檔紀錄，按下後可輸入欲新增的符號，按確認後即可在字典檔紀錄列表上看到新增的符號&lt;/li&gt;
+&lt;li&gt;修改選擇符號：選擇一筆字典檔紀錄並在替代文字輸入值後，未來 Access8Math 看到此符號後即會對應以替代文字朗讀此符號&lt;/li&gt;
+&lt;li&gt;移除：選擇一筆字典檔紀錄後按下移除按鈕可刪除選定的字典檔紀錄&lt;/li&gt;
+&lt;li&gt;還原預設值：將字典檔列表還原到初始預設值。&lt;/li&gt;
+&lt;li&gt;匯入：將字典檔檔案匯入，可用於載入字典檔檔案。&lt;/li&gt;
+&lt;li&gt;匯出：將字典檔檔案儲存於指定路徑，以利分享或保存字典檔檔案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;數學規則編輯&#34;&gt;數學規則編輯&lt;/h2&gt;
+&lt;p&gt;Access8Math將常用數學式依據類型與邏輯，建立46項數學規則，程式依據這套規則判別數學式的唸法與唸讀順序，依據各地習慣不同，可以變更數學唸讀順序與唸法，方法如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;編輯: 進入&amp;quot;數學規則&amp;quot;後，視窗內有數學規則列表，選則任一規則可選擇&amp;quot;編輯按鈕&amp;quot;進入編輯條目。&lt;/li&gt;
+&lt;li&gt;規則的&amp;quot;編輯條目&amp;quot;可分為兩大區塊，分別是序列化順序與子節點角色。 * 序列化順序：將數學規則依據唸讀順序劃分多個區塊，在此區域可變更規則子項目的唸讀順序及開始、項目間與結束的分隔文字，以分數規則mfrac為例，此規則分為五個唸讀順序，順序0、2和4分別代表起始提示、項目區隔提示與結束提示，可在各欄位中輸入變更自己習慣的唸法，而順序1與3則可調整子節點唸讀的先後，可於下拉式選單中變更順序。 * 子節點角色：為該數學規則的下一階層子項目，以分數規則mfrac為例，此項規則就包含分子與分母兩項，而在子節點欄位中，可以變更該項子內容在其上層子內容的意義文字，。&lt;/li&gt;
+&lt;li&gt;範例：可先行查閱確認編輯修改後對此類型的數學規則讀法。點擊後會出現一個預設好符合該對應數學規則的數學內容，供確認對此類型的數學規則讀法是否符合預期。&lt;/li&gt;
+&lt;li&gt;還原預設值：將數學規則列表還原到初始預設值。&lt;/li&gt;
+&lt;li&gt;匯入：將數學規則檔案匯入，可用於載入數學規則檔案。&lt;/li&gt;
+&lt;li&gt;匯出：將數學規則檔案儲存於指定路徑，以利分享或保存數學規則檔案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;其他教學文章&#34;&gt;其他教學文章&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://tdtb.org/information_nvda_view.aspx?nid=20180903002403&#34;&gt;nvda 也可以讀數學2&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mhhsei.github.io/categories/nvda-addons/">nvda-addons</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Dual Voice 雙語因附加元件</title>

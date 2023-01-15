@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mhhsei.github.io/nvda-addons/a8m-%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2023-01-15T19:03:42+08:00</lastmod>
+  </url><url>
     <loc>https://mhhsei.github.io/categories/</loc>
-    <lastmod>2023-01-13T13:51:54+08:00</lastmod>
+    <lastmod>2023-01-15T19:03:42+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/categories/nvda-addons/</loc>
+    <lastmod>2023-01-15T19:03:42+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/nvda-addons/</loc>
+    <lastmod>2023-01-15T19:03:42+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/</loc>
+    <lastmod>2023-01-15T19:03:42+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/categories/google/</loc>
+    <lastmod>2023-01-15T10:57:12+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/google/</loc>
+    <lastmod>2023-01-15T10:57:12+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/google/google-%E6%90%9C%E5%B0%8B%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2023-01-15T10:57:12+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/software/qtranslate/</loc>
     <lastmod>2023-01-13T13:00:02+08:00</lastmod>
@@ -13,9 +34,6 @@
   </url><url>
     <loc>https://mhhsei.github.io/software/</loc>
     <lastmod>2023-01-13T13:00:02+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/</loc>
-    <lastmod>2023-01-13T13:51:54+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/categories/info/</loc>
     <lastmod>2023-01-13T10:45:48+08:00</lastmod>
@@ -27,13 +45,13 @@
     <lastmod>2023-01-13T10:45:48+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/windows/win-11-%E5%9C%A8%E9%9B%BB%E8%85%A6%E4%B8%8A%E4%BD%BF%E7%94%A8%E8%AA%9E%E9%9F%B3%E8%BC%B8%E5%85%A5%E4%BB%A3%E6%9B%BF%E6%89%93%E5%AD%97/</loc>
-    <lastmod>2023-01-13T10:02:04+08:00</lastmod>
+    <lastmod>2023-01-15T10:58:01+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/categories/windows/</loc>
-    <lastmod>2023-01-13T11:43:03+08:00</lastmod>
+    <lastmod>2023-01-15T10:58:01+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/windows/</loc>
-    <lastmod>2023-01-13T11:43:03+08:00</lastmod>
+    <lastmod>2023-01-15T10:58:01+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/cpp/0.3-introduction-to-c-and-c&#43;&#43;/</loc>
     <lastmod>2023-01-13T09:31:39+08:00</lastmod>
@@ -123,12 +141,6 @@
     <lastmod>2023-01-04T14:04:49+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/nvda-addons/dual-voice-%E9%9B%99%E8%AA%9E%E5%9B%A0%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/</loc>
-    <lastmod>2023-01-04T10:27:25+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/categories/nvda-addons/</loc>
-    <lastmod>2023-01-04T10:27:25+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/nvda-addons/</loc>
     <lastmod>2023-01-04T10:27:25+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/categories/nvda/</loc>
@@ -237,7 +249,7 @@
     <lastmod>2023-01-11T09:57:27+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/nvda-addons/a8m/</loc>
-    <lastmod>2022-12-31T19:17:27+08:00</lastmod>
+    <lastmod>2023-01-15T18:02:47+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/nvda/%E5%BF%AB%E9%80%9F%E5%8F%96%E5%BE%97-nvda-%E8%88%87%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6/</loc>
     <lastmod>2022-12-31T04:12:19+08:00</lastmod>
