@@ -57,7 +57,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2023-01-16T09:02:17+08:00",
-        "dateModified": "2023-01-16T09:48:29+08:00",
+        "dateModified": "2023-01-16T10:01:05+08:00",
         "url": "https://mhhsei.github.io/cpp/0.4-introduction-to-c++-development/",
         "name": "0.4   Introduction to C++ Development",
         "description": "Chapter 0 Introduction / Getting Started 0.4 — Introduction to C++ development AuthorALEX DateMAY 15, 2022 source 在編寫和執行第一個c++程……",
@@ -188,7 +188,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1916</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1922</span>
     
     
         
@@ -254,15 +254,27 @@
 <li>行編號。當編譯器給我們一個錯誤時，行號很有用，因為典型的編譯器錯誤會指出：一些錯誤代碼/消息，第 64 行。如果沒有顯示行號的編輯器，找到第 64 行可能會很麻煩。<br>
 2.語法高亮和著色。語法突出顯示和著色會更改程序各個部分的顏色，以便更容易識別程序的不同組件。下面是一個帶有行號和語法高亮的 C++ 程序示例：</li>
 </ol>
-<p>&quot;&quot;&quot;<br>
-#include <iostream></p>
-<p>int main()<br>
-{<br>
-std::cout &lt;&lt; &quot;Colored text!&quot;;<br>
-return 0;<br>
-}<br>
-&quot;&quot;&quot;</p>
-<p>我們在本教程中展示的示例總是有行編號和語法高亮顯示，以使它們更容易理解。</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Colored text!&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>我們在本教程中展示的示例總是有行編號和語法高亮顯示，以使它們更容易理解。</p>
 <ol start="3">
 <li>明確的字體。非編程字體通常很難區分數字 0 和字母 O，或者區分數字 1、字母 l（小寫 L）和字母 I（大寫 i）。一種好的編程字體將確保這些符號在視覺上有所區別，以確保不會意外地用一個符號代替另一個符號。默認情況下，所有代碼編輯器都應啟用此功能，但標准文本編輯器可能不會。</li>
 </ol>
@@ -286,7 +298,7 @@ return 0;<br>
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2023-01-16 09:48:29 CST" style="cursor:help">
+        <span title="Updated @ 2023-01-16 10:01:05 CST" style="cursor:help">
 
 <svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-01-16</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-01-16</text></g></svg>
         </span></div>
