@@ -21,7 +21,7 @@
             <webMaster>mhhsei@mail.batol.net (mingo say)</webMaster>
         
         
-        <lastBuildDate>Tue, 17 Jan 2023 11:26:49 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 17 Jan 2023 13:13:53 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mhhsei.github.io/rss.xml" />
         
@@ -246,6 +246,7 @@ space/enter：游標停在數學區塊上時可與該資料區塊數學內容互
 &lt;li&gt;匯入：將數學規則檔案匯入，可用於載入數學規則檔案。&lt;/li&gt;
 &lt;li&gt;匯出：將數學規則檔案儲存於指定路徑，以利分享或保存數學規則檔案。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://mhhsei.github.io/nvda-addons/a8m/&#34;&gt;download and install A8M&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;其他教學文章&#34;&gt;其他教學文章&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://tdtb.org/information_nvda_view.aspx?nid=20180903002403&#34;&gt;nvda 也可以讀數學2&lt;/a&gt;&lt;/p&gt;
 </description>
