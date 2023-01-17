@@ -15,7 +15,7 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>0.4   Introduction to C&#43;&#43; Development | 日常 learn note</title>
+    <title>0.5 Introduction to the Compiler, Linker, and Libraries | 日常 learn note</title>
 
     <link rel="stylesheet" href="/css/meme.min.38d867f7f00b2db875e15087f46e9890f35c8ee1a452b17f91b3d1179149a7ad.css"/>
 
@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="alex" /><meta name="description" content="Chapter 0 Introduction / Getting Started 0.4 — Introduction to C&#43;&#43; development AuthorALEX DateMAY 15, 2022 source 在編寫和執行第一個c&#43;&#43;程……" />
+    <meta name="author" content="alex" /><meta name="description" content="Chapter 0 Introduction / Getting Started 0.5 Introduction to the compiler, linker, and libraries Author:ALEX DateNOVEMBER 13, 2019 source 繼續我們在上一課（0.……" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -49,18 +49,18 @@
     
 
     
-    <link rel="canonical" href="https://mhhsei.github.io/cpp/0.4-introduction-to-c&#43;&#43;-development/" />
+    <link rel="canonical" href="https://mhhsei.github.io/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/" />
     
 
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "datePublished": "2023-01-16T09:02:17+08:00",
-        "dateModified": "2023-01-16T10:01:05+08:00",
-        "url": "https://mhhsei.github.io/cpp/0.4-introduction-to-c++-development/",
-        "name": "0.4   Introduction to C++ Development",
-        "description": "Chapter 0 Introduction / Getting Started 0.4 — Introduction to C++ development AuthorALEX DateMAY 15, 2022 source 在編寫和執行第一個c++程……",
+        "datePublished": "2023-01-17T08:55:02+08:00",
+        "dateModified": "2023-01-17T09:22:13+08:00",
+        "url": "https://mhhsei.github.io/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/",
+        "name": "0.5 Introduction to the Compiler, Linker, and Libraries",
+        "description": "Chapter 0 Introduction / Getting Started 0.5 Introduction to the compiler, linker, and libraries Author:ALEX DateNOVEMBER 13, 2019 source 繼續我們在上一課（0.……",
         "image": "https://mhhsei.github.io/icons/apple-touch-icon.png",
         "publisher": {
             "@type": "Organization",
@@ -89,9 +89,9 @@
 
 
 
-<meta property="og:title" content="0.4   Introduction to C&#43;&#43; Development" />
-<meta property="og:description" content="Chapter 0 Introduction / Getting Started 0.4 — Introduction to C&#43;&#43; development AuthorALEX DateMAY 15, 2022 source 在編寫和執行第一個c&#43;&#43;程……" />
-<meta property="og:url" content="https://mhhsei.github.io/cpp/0.4-introduction-to-c&#43;&#43;-development/" />
+<meta property="og:title" content="0.5 Introduction to the Compiler, Linker, and Libraries" />
+<meta property="og:description" content="Chapter 0 Introduction / Getting Started 0.5 Introduction to the compiler, linker, and libraries Author:ALEX DateNOVEMBER 13, 2019 source 繼續我們在上一課（0.……" />
+<meta property="og:url" content="https://mhhsei.github.io/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/" />
 <meta property="og:site_name" content="日常 learn note" />
 <meta property="og:locale" content="zh-tw" /><meta property="og:image" content="https://mhhsei.github.io/icons/apple-touch-icon.png" />
     <meta property="og:type" content="website" />
@@ -162,7 +162,7 @@
 
         <article class="content post h-entry" data-align="default" data-type="cpp" data-toc-num="true">
 
-            <h1 class="post-title p-name">0.4   Introduction to C++ Development</h1>
+            <h1 class="post-title p-name">0.5 Introduction to the Compiler, Linker, and Libraries</h1>
 
             
 
@@ -188,11 +188,11 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1922</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1439</span>
     
     
         
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;4&nbsp;分鐘</span>
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;3&nbsp;分鐘</span>
     
     
     
@@ -202,87 +202,53 @@
 
             <div class="post-body e-content">
                 <h2 id="chapter0-introduction--getting-started">Chapter 0 Introduction / Getting Started</h2>
-<h3 id="04--introduction-to-c-development">0.4 — Introduction to C++ development</h3>
-<p>AuthorALEX DateMAY 15, 2022<br>
-<a href="https://www.learncpp.com/cpp-tutorial/introduction-to-cpp-development/" target="_blank" rel="noopener">source</a></p>
+<h3 id="05-introduction-to-the-compiler-linker-and-libraries">0.5 Introduction to the compiler, linker, and libraries</h3>
+<p>Author:ALEX DateNOVEMBER 13, 2019</p>
+<p><a href="https://www.learncpp.com/cpp-tutorial/introduction-to-the-compiler-linker-and-libraries/" target="_blank" rel="noopener">source</a></p>
 <hr>
-<p>在編寫和執行第一個c++程序之前，我們需要更詳細地瞭解c++程序是如何開發的。<br>
-這裡有一個圖表概述了一個簡單的方法</p>
-<h4 id="軟件開發過程">軟件開發過程</h4>
-<h5 id="第一步定義你想要解決的問題">第一步:定義你想要解決的問題</h5>
-<p>這是what步驟，在這裡你要弄清楚你打算解決什麼問題。<br>
-提出你想要編程的最初想法可能是最簡單的步驟，也可能是最難的步驟。<br>
-但從概念上講，它是最簡單的。<br>
-您所需要的只是一個可以明確定義的想法，您就可以為下一步做好準備。</p>
-<p>這裡有一些例子：</p>
-<ul>
-<li>“我想編寫一個程序，允許我輸入許多數字，然後計算平均值。”</li>
-<li>“我想編寫一個生成二維迷宮並讓用戶在其中導航的程序。如果他們到達終點，用戶就贏了。”</li>
-<li>“我想編寫一個程序來讀取股票價格文件並預測股票是上漲還是下跌。”</li>
-</ul>
-<h5 id="第-2-步確定您將如何解決問題">第 2 步：確定您將如何解決問題</h5>
-<p>這是“如何”步驟，您可以在此處確定如何解決您在步驟 1 中遇到的問題。這也是軟件開發中最容易被忽視的步驟。<br>
-問題的癥結在於解決問題的方法有很多種——然而，這些解決方案有的好，有的不好。<br>
-很多時候，程序員會想到一個想法，坐下來，然後立即開始編寫解決方案。<br>
-這通常會生成屬於不良類別的解決方案。<br>
-通常，好的解決方案具有以下特徵：</p>
-<ul>
-<li>它們簡單明了（不過分複雜或令人困惑）。</li>
-<li>它們有據可查（尤其是圍繞所做的任何假設或限制）。</li>
-<li>它們是模塊化構建的，因此部分可以在以後重複使用或更改，而不會影響程序的其他部分。</li>
-<li>它們很健壯，可以在意外發生時恢復或給出有用的錯誤信息。</li>
-</ul>
-<p>當您坐下來立即開始編碼時，您通常會想“我想做 <something>”，因此您會實施能夠最快實現目標的解決方案。<br>
-這可能會導致程序變得脆弱、以後難以更改或擴展，或者有很多錯誤（技術缺陷）。</p>
-<p>順便一提…<br>
-早在 1870 年代，Thomas Edison 就首次使用了 bug 這個術語！然而，這個詞在 1940 年代流行起來，當時工程師發現一隻真正的飛蛾卡在早期計算機的硬件中，導致短路。<br>
-報告錯誤的日誌和飛蛾現在都屬於史密森尼美國歷史博物館。<br>
-<a href="https://americanhistory.si.edu/collections/search/object/nmah_334663" target="_blank" rel="noopener">可以在這裡查看。</a></p>
-<p>研究表明，程序員只有 20% 的時間實際用於編寫初始程序。<br>
-另外 80% 用於維護，包括調試（消除錯誤）、更新以應對環境變化（例如在新的操作系統版本上運行）、增強（小的變化以提高可用性或功能），或內部改進（以提高可靠性或可維護性）。<br>
-因此，在開始編寫代碼之前，花一點額外的時間來思考解決問題的最佳方法、您所做的假設以及您如何為未來做計劃是值得的，這樣可以為您節省大量的時間和麻煩。<br>
-我們將在以後的課程中討論如何有效地設計問題的解決方案。</p>
-<h5 id="步驟3編寫程序">步驟3:編寫程序</h5>
-<p>為了編寫程序，我們需要兩件事：首先，我們需要了解編程語言——這就是這些教程的目的！其次，我們需要一個文本編輯器來編寫和保存我們寫好的程序。<br>
-我們使用 C++ 指令編寫的程序稱為源代碼（通常簡稱為代碼）。<br>
-可以使用您想要的任何文本編輯器編寫程序，甚至是像 Windows 的記事本或 Unix 的 vi 或 pico 這樣簡單的編輯器。<br>
-但是，我們強烈建議您使用專為編程設計的編輯器（稱為代碼編輯器）。<br>
-如果您還沒有，請不要擔心。<br>
-我們將很快介紹如何安裝代碼編輯器。<br>
-為編碼而設計的典型編輯器具有一些使編程更容易的功能，包括：</p>
-<ol>
-<li>行編號。當編譯器給我們一個錯誤時，行號很有用，因為典型的編譯器錯誤會指出：一些錯誤代碼/消息，第 64 行。如果沒有顯示行號的編輯器，找到第 64 行可能會很麻煩。<br>
-2.語法高亮和著色。語法突出顯示和著色會更改程序各個部分的顏色，以便更容易識別程序的不同組件。下面是一個帶有行號和語法高亮的 C++ 程序示例：</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Colored text!&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table></div>
-</div>
-</div><p>我們在本教程中展示的示例總是有行編號和語法高亮顯示，以使它們更容易理解。</p>
-<ol start="3">
-<li>明確的字體。非編程字體通常很難區分數字 0 和字母 O，或者區分數字 1、字母 l（小寫 L）和字母 I（大寫 i）。一種好的編程字體將確保這些符號在視覺上有所區別，以確保不會意外地用一個符號代替另一個符號。默認情況下，所有代碼編輯器都應啟用此功能，但標准文本編輯器可能不會。</li>
-</ol>
-<p>您編寫的程序通常被命名為 something.cpp，其中的某些內容會替換為您為程序選擇的名稱（例如計算器、hi-lo 等）。 .cpp 擴展名告訴編譯器（和您）這是一個包含 C++ 指令的 C++ 源代碼文件。請注意，有些人使用擴展名 .cc 而不是 .cpp，但我們建議您使用 .cpp。</p>
-<h4 id="最佳實踐">最佳實踐</h4>
-<p>將您的代碼文件命名為 something.cpp，其中 something 是您選擇的名稱，而 .cpp 是表明該文件是 C++ 源文件的擴展名。<br>
-另請注意，許多複雜的 C++ 程序都有多個 .cpp 文件。儘管您最初要創建的大多數程序只有一個 .cpp 文件，但可以編寫具有數十個或數百個 .cpp 文件的單個程序。<br>
-一旦我們編寫了我們的程序，接下來的步驟就是將源代碼轉換成我們可以運行的東西，然後看看它是否有效！我們將在下一課討論這些步驟 (4-7)。</p>
+<p>繼續我們在上一課（0.4 -- C++ 開發簡介）中對該圖的討論：<br>
+軟件開發過程<br>
+讓我們討論步驟 4-7。</p>
+<h4 id="step-4-compiling-your-source-code">Step 4: Compiling your source code</h4>
+<p>為了編譯 C++ 程序，我們使用 C++ 編譯器。<br>
+C++ 編譯器按順序遍歷程序中的每個源代碼 (.cpp) 文件並執行兩項重要任務：<br>
+首先，它會檢查您的代碼以確保它遵循 C++ 語言的規則。<br>
+如果沒有，編譯器會給你一個錯誤（和相應的行號）來幫助查明需要修復的地方。<br>
+編譯過程也將中止，直到錯誤被修復。</p>
+<p>其次，它將您的 C++ 源代碼翻譯成稱為目標文件的機器語言文件。<br>
+目標文件通常命名為 name.o 或 name.obj，其中 name 與生成它的 .cpp 文件同名。</p>
+<p>如果您的程序有 3 個 .cpp 文件，編譯器將生成 3 個目標文件：</p>
+<h5 id="編譯過程">編譯過程</h5>
+<p>C++ 編譯器可用於許多不同的操作系統。<br>
+我們將很快討論安裝編譯器，所以現在沒有必要這樣做。</p>
+<h4 id="step-5-linking-object-files-and-libraries">Step 5: Linking object files and libraries</h4>
+<p>編譯器創建一個或多個目標文件後，另一個稱為鏈接器的程序就會啟動。<br>
+鏈接器的工作分為三部分：<br>
+首先，將編譯器生成的所有目標文件組合成一個可執行程序。<br>
+其次，除了能夠鏈接目標文件之外，鏈接器還能夠鏈接庫文件。<br>
+庫文件是預編譯代碼的集合，這些代碼已經“打包”以供在其他程序中重用。</p>
+<p>C++ 核心語言實際上相當小巧和簡潔（您將在這些教程中學到很多）。<br>
+但是，C++ 還附帶一個擴展庫，稱為 C++ 標準庫（通常簡稱為標準庫），它提供了您可以在程序中使用的附加功能。<br>
+C++ 標準庫中最常用的部分之一是 iostream 庫，它包含在監視器上打印文本和獲取用戶鍵盤輸入的功能。<br>
+幾乎每個編寫的 C++ 程序都以某種形式使用標準庫，因此將標準庫鏈接到您的程序中是很常見的。<br>
+大多數鏈接器會在您使用標準庫的任何部分後立即自動鏈接到標準庫中，因此這通常不是您需要擔心的事情。</p>
+<p>您還可以選擇鏈接到其他庫中。<br>
+例如，如果您打算編寫一個播放聲音的程序，您可能不想編寫自己的代碼來從磁盤讀取聲音文件、檢查以確保它們有效，或者弄清楚如何路由聲音數據到操作系統或硬件通過揚聲器播放——那將是很多工作！相反，您可能會下載一個已經知道如何做這些事情的庫，然後使用它。<br>
+我們將在附錄中討論如何鏈接庫（並創建你自己的庫！）。</p>
+<p>第三，鏈接器確保正確解析所有跨文件依賴項。<br>
+例如，如果您在一個 .cpp 文件中定義某些內容，然後在另一個 .cpp 文件中使用它，則鏈接器會將兩者連接在一起。<br>
+如果鏈接器無法將對某些內容的引用與其定義連接起來，您將收到鏈接器錯誤，並且鏈接過程將中止。<br>
+一旦鏈接器完成鏈接所有目標文件和庫（假設一切順利），您將擁有一個可以運行的可執行文件！</p>
+<h5 id="對於進階的讀者">對於進階的讀者</h5>
+<p>對於復雜的項目，一些開發環境使用 makefile，這是一個描述如何構建程序的文件（例如，要編譯和鏈接哪些文件，或者以各種方式處理哪些文件）。<br>
+關於如何編寫和維護 makefile 的書籍已經寫了很多，它們可以成為一個非常強大的工具。<br>
+但是，由於 makefile 不是 C++ 核心語言的一部分，您也不需要使用它們來繼續，因此我們不會將它們作為本教程系列的一部分進行討論。</p>
+<h4 id="steps-6--7-testing-and-debugging">Steps 6 &amp; 7: Testing and Debugging</h4>
+<p>這是有趣的部分（希望如此）！您可以運行您的可執行文件並查看它是否產生您期望的輸出！<br>
+如果您的程序運行但不能正常工作，那麼是時候進行一些調試以找出問題所在。<br>
+我們將很快更詳細地討論如何測試您的程序以及如何調試它們。</p>
+<p>Integrated development environments (IDEs)<br>
+請注意，步驟 3、4、5 和 7 都涉及軟件（編輯器、編譯器、鏈接器、調試器）。雖然您可以為這些活動中的每一個使用單獨的程序，但稱為集成開發環境 (IDE) 的軟件包將所有這些功能捆綁並集成在一起。我們將在下一節中討論 IDE 並安裝。</p>
 <hr>
 <p>我的翻譯很爛也不會 coding，所以你還是<a href="https://www.learncpp.com/" target="_blank" rel="noopener">要來看原文的</a></p>
 <p>這裡主要是方便自己的學習，希望能依職維持吧...</p>
@@ -298,9 +264,9 @@
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2023-01-16 10:01:05 CST" style="cursor:help">
+        <span title="Updated @ 2023-01-17 09:22:13 CST" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-01-16</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-01-16</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-01-17</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-01-17</text></g></svg>
         </span></div>
 
 
@@ -317,28 +283,28 @@
             
                 <div class="share-item twitter">
                     
-                    <a href="https://twitter.com/share?url=https://mhhsei.github.io/cpp/0.4-introduction-to-c&#43;&#43;-development/&amp;text=0.4%20%20%20Introduction%20to%20C&#43;&#43;%20Development&amp;hashtags=&amp;via=reuixiy" title="分享到「Twitter」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                    <a href="https://twitter.com/share?url=https://mhhsei.github.io/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/&amp;text=0.5%20Introduction%20to%20the%20Compiler,%20Linker,%20and%20Libraries&amp;hashtags=&amp;via=reuixiy" title="分享到「Twitter」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item facebook">
                     
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mhhsei.github.io/cpp/0.4-introduction-to-c&#43;&#43;-development/&amp;hashtag=%23" title="分享到「Facebook」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mhhsei.github.io/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/&amp;hashtag=%23" title="分享到「Facebook」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item linkedin">
                     
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://mhhsei.github.io/cpp/0.4-introduction-to-c&#43;&#43;-development/&amp;title=0.4%20%20%20Introduction%20to%20C&#43;&#43;%20Development&amp;summary=Chapter%200%20Introduction%20/%20Getting%20Started%200.4%20%e2%80%94%20Introduction%20to%20C&#43;&#43;%20development%20AuthorALEX%20DateMAY%2015,%202022%20source%20%e5%9c%a8%e7%b7%a8%e5%af%ab%e5%92%8c%e5%9f%b7%e8%a1%8c%e7%ac%ac%e4%b8%80%e5%80%8bc&#43;&#43;%e7%a8%8b%e2%80%a6%e2%80%a6&amp;source=%e6%97%a5%e5%b8%b8%20learn%20note" title="分享到「LinkedIn」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://mhhsei.github.io/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/&amp;title=0.5%20Introduction%20to%20the%20Compiler,%20Linker,%20and%20Libraries&amp;summary=Chapter%200%20Introduction%20/%20Getting%20Started%200.5%20Introduction%20to%20the%20compiler,%20linker,%20and%20libraries%20Author:ALEX%20DateNOVEMBER%2013,%202019%20source%20%e7%b9%bc%e7%ba%8c%e6%88%91%e5%80%91%e5%9c%a8%e4%b8%8a%e4%b8%80%e8%aa%b2%ef%bc%880.%e2%80%a6%e2%80%a6&amp;source=%e6%97%a5%e5%b8%b8%20learn%20note" title="分享到「LinkedIn」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item telegram">
                     
-                    <a href="https://t.me/share/url?url=https://mhhsei.github.io/cpp/0.4-introduction-to-c&#43;&#43;-development/&amp;text=0.4%20%20%20Introduction%20to%20C&#43;&#43;%20Development" title="分享到「Telegram」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
+                    <a href="https://t.me/share/url?url=https://mhhsei.github.io/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/&amp;text=0.5%20Introduction%20to%20the%20Compiler,%20Linker,%20and%20Libraries" title="分享到「Telegram」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
                 </div>
             
 
@@ -367,7 +333,7 @@
             <ul class="related-list">
                 
                     <li class="related-item">
-                        <a href="/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/" class="related-link">0.5 Introduction to the Compiler, Linker, and Libraries</a>
+                        <a href="/cpp/0.4-introduction-to-c&#43;&#43;-development/" class="related-link">0.4   Introduction to C++ Development</a>
                     </li>
                 
                     <li class="related-item">
