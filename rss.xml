@@ -21,10 +21,52 @@
             <webMaster>mhhsei@mail.batol.net (mingo say)</webMaster>
         
         
-        <lastBuildDate>Mon, 30 Jan 2023 16:05:25 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 31 Jan 2023 10:25:21 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mhhsei.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Dummy Keyboard</title>
+                <link>https://mhhsei.github.io/nvda-addons/dummy-keyboard/</link>
+                <guid isPermaLink="true">https://mhhsei.github.io/nvda-addons/dummy-keyboard/</guid>
+                <pubDate>Tue, 31 Jan 2023 10:12:45 &#43;0800</pubDate>
+                
+                    <author>mhhsei@mail.batol.net (mingo say)</author>
+                
+                
+                
+                    <description>&lt;p&gt;數字區虛擬鍵盤，懶人專用。&lt;br&gt;
+nvda鍵盤模式有分成桌上型與筆記型，&lt;br&gt;
+如果你不想多劑一組筆記型的案件指法，&lt;br&gt;
+可以使用該附加元件，&lt;br&gt;
+能以 j,k,l,u,i,o,7,8,9 等件模擬numpad 的案件&lt;br&gt;
+當然 + - * / . 也都包含在裡面，&lt;br&gt;
+你只要用 nvda + -(大鍵盤) 就可以開關模擬功能。&lt;/p&gt;
+&lt;h3 id=&#34;原文說明與下在&#34;&gt;原文說明與下在&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nvdacn.com/index.php/archives/1003/&#34;&gt;先來看個說明吧&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://dl.nvdacn.com/NVDA-Addons/New/DummyKeyboard_2022.9.26.nvda-addon&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mhhsei.github.io/categories/nvda-addons/">nvda-addons</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>A8m 操作</title>

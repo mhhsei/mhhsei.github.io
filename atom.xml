@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
     <title type="text">日常 learn note</title>
     <subtitle type="html">蝦寫的，歡迎來瞧瞧</subtitle>
-    <updated>2023-01-30T16:05:25&#43;08:00</updated>
+    <updated>2023-01-31T10:25:21&#43;08:00</updated>
     <id>https://mhhsei.github.io/</id>
     <link rel="alternate" type="text/html" href="https://mhhsei.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mhhsei.github.io/atom.xml" />
@@ -16,6 +16,51 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.109.0">Hugo</generator>
+        <entry>
+            <title type="text">Dummy Keyboard</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/dummy-keyboard/" />
+            <id>https://mhhsei.github.io/nvda-addons/dummy-keyboard/</id>
+            <updated>2023-01-31T10:21:24&#43;08:00</updated>
+            <published>2023-01-31T10:12:45&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://mhhsei.github.io/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <summary type="html">數字區虛擬鍵盤，懶人專用。 nvda鍵盤模式有分成桌上型與筆記……</summary>
+            
+                <content type="html">&lt;p&gt;數字區虛擬鍵盤，懶人專用。&lt;br&gt;
+nvda鍵盤模式有分成桌上型與筆記型，&lt;br&gt;
+如果你不想多劑一組筆記型的案件指法，&lt;br&gt;
+可以使用該附加元件，&lt;br&gt;
+能以 j,k,l,u,i,o,7,8,9 等件模擬numpad 的案件&lt;br&gt;
+當然 + - * / . 也都包含在裡面，&lt;br&gt;
+你只要用 nvda + -(大鍵盤) 就可以開關模擬功能。&lt;/p&gt;
+&lt;h3 id=&#34;原文說明與下在&#34;&gt;原文說明與下在&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nvdacn.com/index.php/archives/1003/&#34;&gt;先來看個說明吧&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://dl.nvdacn.com/NVDA-Addons/New/DummyKeyboard_2022.9.26.nvda-addon&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">A8m 操作</title>
             <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/a8m-%E6%93%8D%E4%BD%9C/" />
