@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+
+    <meta name="generator" content="Hugo 0.109.0"><meta name="theme-color" content="#fff" />
+    <meta name="color-scheme" content="light dark">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>0.6 Installing an Integrated Development Environment (IDE) | 日常 learn note</title>
+
+    <link rel="stylesheet" href="/css/meme.min.38d867f7f00b2db875e15087f46e9890f35c8ee1a452b17f91b3d1179149a7ad.css"/>
+
+    
+    
+        <script src="/js/meme.min.7ac5d813ffafa39f063aece843552e3d59f7d0cb7bcf488b428c1a0dcfb89985.js"></script>
+
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
+
+    <meta name="author" content="alex" /><meta name="description" content="Chapter 0 Introduction / Getting Started 0.6 Installing an Integrated Development Environment (IDE) Author: ALEX Date:JANUARY 14, 2023 source 集成開發環境 (IDE) 是一種軟……" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="日常 learn note" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="日常 learn note" />
+    <meta name="msapplication-starturl" content="../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    
+    
+
+    
+    <link rel="canonical" href="https://mhhsei.github.io/cpp/0.6-installing-an-integrated-development-environment-ide/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "datePublished": "2023-01-30T14:23:11+08:00",
+        "dateModified": "2023-01-30T16:01:00+08:00",
+        "url": "https://mhhsei.github.io/cpp/0.6-installing-an-integrated-development-environment-ide/",
+        "name": "0.6 Installing an Integrated Development Environment (IDE)",
+        "description": "Chapter 0 Introduction / Getting Started 0.6 Installing an Integrated Development Environment (IDE) Author: ALEX Date:JANUARY 14, 2023 source 集成開發環境 (IDE) 是一種軟……",
+        "image": "https://mhhsei.github.io/icons/apple-touch-icon.png",
+        "publisher": {
+            "@type": "Organization",
+            "name": "日常 learn note",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://mhhsei.github.io/icons/apple-touch-icon.png"
+            },
+            "url": "https://mhhsei.github.io/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://mhhsei.github.io/"
+        }
+    }
+</script>
+
+    
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:site" content="@reuixiy" />
+<meta name="twitter:creator" content="@mhhsei" />
+
+    
+
+
+
+<meta property="og:title" content="0.6 Installing an Integrated Development Environment (IDE)" />
+<meta property="og:description" content="Chapter 0 Introduction / Getting Started 0.6 Installing an Integrated Development Environment (IDE) Author: ALEX Date:JANUARY 14, 2023 source 集成開發環境 (IDE) 是一種軟……" />
+<meta property="og:url" content="https://mhhsei.github.io/cpp/0.6-installing-an-integrated-development-environment-ide/" />
+<meta property="og:site_name" content="日常 learn note" />
+<meta property="og:locale" content="zh-tw" /><meta property="og:image" content="https://mhhsei.github.io/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+
+
+    
+    
+
+    
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header">
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/" class="brand">日常 learn note</a>
+        
+    </div>
+
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+            
+        
+        
+        
+        
+            
+                <li class="menu-item"><a href="/categories/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon th"><path d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z"/></svg><span class="menu-item-name">分類</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/about/about/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon user-circle"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">關於</span></a>
+                </li>
+            
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </div>
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="default" data-type="cpp" data-toc-num="true">
+
+            <h1 class="post-title p-name">0.6 Installing an Integrated Development Environment (IDE)</h1>
+
+            
+
+            
+                
+            
+
+            
+                
+
+<div class="post-meta">
+    
+    
+    
+    
+        
+        
+        
+            
+                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/cpp/" class="category-link p-category">cpp</a></span>
+            
+        
+    
+    
+        
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;3728</span>
+    
+    
+        
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;8&nbsp;分鐘</span>
+    
+    
+    
+</div>
+
+            
+
+            <div class="post-body e-content">
+                <h2 id="chapter0-introduction--getting-started">Chapter 0 Introduction / Getting Started</h2>
+<h3 id="06-installing-an-integrated-development-environment-ide">0.6 Installing an Integrated Development Environment (IDE)</h3>
+<p>Author: ALEX Date:JANUARY 14, 2023</p>
+<p><a href="https://www.learncpp.com/cpp-tutorial/installing-an-integrated-development-environment-ide/" target="_blank" rel="noopener">source</a></p>
+<hr>
+<p>集成開發環境 (IDE) 是一種軟件，包含開發、編譯、鏈接和調試程序所需的所有內容。</p>
+<p>在典型的c++ IDE中，代碼編輯器可以進行行編號和語法高亮顯示。<br>
+許多(但不是全部)IDE包含c++編譯器和鏈接器，IDE知道如何與它們交互，以便將源代碼轉換為可執行文件。<br>
+當需要調試程序時，可以使用集成調試器。</p>
+<p>此外，IDE 通常捆綁了許多其他有用的編輯功能，例如集成幫助、名稱完成、自動格式化，有時還有版本控制系統。<br>
+因此，雖然您可以單獨完成所有這些事情，但安裝 IDE 並從一個界面訪問它們要容易得多。</p>
+<p>所以，讓我們安裝一個吧!顯而易見的下一個問題是，是安裝哪一個IDE?<br>
+許多ide都是免費的(在價格上)，如果您願意，可以安裝多個ide，因此這裡沒有錯誤的決定。我們將在下面推薦一些我們最喜歡的。</p>
+<p>如果您有其他IDE，當然也可以使用他們。<br>
+我們在這些教程中展示的概念通常適用於任何像樣的現代IDE。<br>
+然而，不同的IDE使用不同的名稱、佈局、鍵映射等，所以你可能不得不在IDE中做一些搜索來找到等效的功能。</p>
+<p>小貼士:為了獲得本教程的最大價值，我們建議安裝一個帶有c++ 17編譯器的IDE。</p>
+<p>如果您被限制使用只支持c++ 14或c++ 11的編譯器(由於教育或業務限制)，大多數課程和示例仍然可以工作。然而，如果你遇到了使用c++ 17(或更新版本)概念的課程，而你使用的是較舊的語言編譯器，你將不得不跳過它或將其翻譯到你的版本，這可能很容易，也可能不容易。<br>
+你不應該使用任何不支持至少c++ 11(通常被認為是c++的現代最低規範)的編譯器。</p>
+<p>我們建議安裝最新版本的編譯器。如果你不能使用最新的版本，以下是支持c++ 17的編譯器的絕對最低版本:</p>
+<ul>
+<li>GCC/G++ 7</li>
+<li>Clang++ 8</li>
+<li>Visual Studio 2017 15.7</li>
+</ul>
+<h4 id="visual-studio-for-windows">Visual Studio (for Windows)</h4>
+<p>如果你在Windows 10機器上開發，那麼我們強烈建議下載Visual Studio 2022 Community。<br>
+運行安裝程序後，您最終會看到一個屏幕，詢問您希望安裝什麼樣的工作負載。<br>
+選擇使用c++進行桌面開發。<br>
+如果不這樣做，則c++功能將不可用。</p>
+<p>在屏幕右側選擇默認選項應該沒問題，但請確保選擇了 Windows 10 SDK。</p>
+<p>在屏幕右側選擇默認選項應該沒問題，但請確保選擇了 Windows 10 SDK。</p>
+<h5 id="visual-studio-workload">Visual Studio Workload</h5>
+<p>如果磁盤空間和/或下載大小是一個挑戰，那麼 Microsoft 仍然提供 Visual Studio Express 2017 for Windows Desktop，您可以在頁面底部找到它。<br>
+微軟不再支持此產品，並且它沒有許多更新的c++語言功能，因此我們只建議不能安裝Visual Studio Community的用戶使用該產品。</p>
+<h4 id="codeblocks-for-linux-or-windows">Code::Blocks (for Linux or Windows)</h4>
+<p>如果您在 Linux 上進行開發（或者您在 Windows 上進行開發但希望編寫可以輕鬆移植到 Linux 的程序），我們推薦使用 Code::Blocks。<br>
+Code::Blocks 是一個免費、開源、跨平台的 IDE，可以在 Linux 和 Windows 上運行。</p>
+<h5 id="for-windows-users">For Windows users</h5>
+<p>確保獲得捆綁了 MinGW 的 Code::Blocks 版本（它應該是文件名以 mingw-setup.exe 結尾的版本）。<br>
+這將安裝 MinGW，其中包括 GCC C++ 編譯器的 Windows 端口：<br>
+<a href="https://www.codeblocks.org/downloads/binaries/" target="_blank" rel="noopener">code:block MinGW Windows 下載</a></p>
+<p>Code::Blocks 20.03附帶了一個過時的MinGW版本，只支持c++ 17(目前是最新版c++的一個版本)。如果您想使用最新版本的c++ (c++ 20)，您將需要更新MinGW。要做到這一點，請遵循以下步驟:</p>
+<ol>
+<li>按照上面的方法安裝 Code::Blocks。</li>
+<li>關閉Code::Blocks 如果它是打開的。</li>
+<li>打開 Windows 文件資源管理器（鍵盤快捷鍵 Win-E）。</li>
+<li>導航到您的 Code::Blocks 安裝目錄（可能是 C:\Program Files (x86)\CodeBlocks）。</li>
+<li>將“MinGW”目錄重命名為“MinGW.bak”（以防出錯）。</li>
+<li>打開瀏覽器並導航至 <a href="https://winlibs.com/" target="_blank" rel="noopener">https://winlibs.com/</a>。</li>
+<li>下載更新版本的 MinGW。您可能想要 Release Versions -&gt; UCRT Runtime -&gt; LATEST -&gt; Win64 -&gt; without LLVM/Clang/LLD/LLDB -&gt; Zip archive 下的版本。</li>
+<li>將“mingw64”文件夾解壓縮到您的 Code::blocks 安裝目錄。</li>
+<li>將“mingw64”重命名為“MinGW”。</li>
+</ol>
+<p>一旦確認更新後的編譯器可以工作，就可以刪除舊文件夾(MinGW.bak)。</p>
+<h5 id="for-linux-users">For Linux users</h5>
+<p>某些 Linux 安裝可能缺少使用 Code::Blocks 運行或編譯程序所需的依賴項。</p>
+<p>基於 Debian 的 Linux 用戶（例如使用 Mint 或 Ubuntu 的用戶）可能需要安裝 build-essential 軟件包。<br>
+為此，請從終端命令行鍵入：sudo apt-get install build-essential。</p>
+<p>Arch Linux 用戶可能需要安裝 base-devel 包。</p>
+<p>使用其他 Linux 變體的用戶將需要確定他們的等效包管理器和包是什麼。<br>
+當您第一次啟動 Code::Blocks 時，您可能會看到一個編譯器自動檢測對話框。<br>
+如果是這樣，請確保將 GNU GCC 編譯器設置為默認編譯器，然後選擇“確定”按鈕。</p>
+<h5 id="compilers-auto-detection-dialog">Compilers Auto Detection dialog</h5>
+<p>問:如果我得到一個“無法在您的GNU GCC編譯器的配置搜索路徑中找到可執行的編譯器”錯誤，我該怎麼辦</p>
+<p>嘗試以下操作：</p>
+<ol>
+<li>如果您使用的是 Windows，請確保您已經下載了 Code::Blocks WITH MinGW 版本。這是名字中帶有“mingw”的那個。</li>
+<li>嘗試轉到設置、編譯器，然後選擇“重置為默認值”。</li>
+<li>嘗試轉到設置、編譯器、工具鏈可執行文件選項卡，並確保“編譯器的安裝目錄”設置為 MinGW 目錄（例如 C:\Program Files (x86)\CodeBlocks\MinGW）。</li>
+<li>嘗試完全卸載，然後重新安裝。</li>
+<li>嘗試不同的編譯器。</li>
+</ol>
+<h4 id="visual-studio-code-for-experienced-linux-macos-or-windows-users">Visual Studio Code (for experienced Linux, macOS, or Windows users)</h4>
+<p>Visual Studio Code（也稱為“VS Code”，不要與同名的“Visual Studio Community”混淆）是一種代碼編輯器，是經驗豐富的開發人員的熱門選擇，因為它快速、靈活、開源，適用於多種編程語言，並且可用於許多不同的平台。</p>
+<p>缺點是 VS Code 比此列表中的其他選擇更難正確配置（在 Windows 上，也更難安裝）。<br>
+在繼續之前，我們建議您閱讀下面鏈接的安裝和配置文檔，以確保您理解並適應所涉及的步驟。</p>
+<p>作者的話<br>
+我們不建議新程序員或沒有修改配置 .json 文件經驗的程序員使用此選項。我們無法在此站點上提供安裝或配置支持。<br>
+另外，向用戶 glibg10b 致敬，因為他在多篇文章中提供了這些說明的初稿。</p>
+<h5 id="for-linux-users-1">For Linux users</h5>
+<p>VS Code應該使用發行版的包管理器下載。linux的VS Code指令涵蓋了如何為各種linux發行版做到這一點。<br>
+一旦安裝了VS Code，請按照關於如何為linux配置c++的說明進行操作。</p>
+<h5 id="for-mac-users">For Mac users</h5>
+<p>Mac 的說明詳細介紹瞭如何為 macOS 安裝和設置 VS code。<br>
+安裝 VS Code 後，請按照有關如何為 Mac 配置 C++ 的說明進行操作。</p>
+<h5 id="對於-windows-用戶">對於 Windows 用戶</h5>
+<p>適用於 Windows 的 VS Code 說明詳細說明瞭如何安裝和設置適用於 Windows 的 VS Code。<br>
+安裝 VS Code 後，請按照有關如何為 Windows 配置 C++ 的說明進行操作。</p>
+<blockquote>
+<p>VS code 我這邊是用 choco 直接安裝，但個人習慣找一個編輯器+g++ 來完成編譯工作。所以，有關安裝與搭配 g++ 這邊我沒有嘗試過。</p>
+</blockquote>
+<h4 id="other-macos-ides">Other macOS IDEs</h4>
+<p>其他流行的 Mac 選擇包括 Xcode（如果您可以使用）和 Eclipse 代碼編輯器。默認情況下，Eclipse 未設置為使用 C++，您需要安裝可選的 C++ 組件。<br>
+雖然 Visual Studio for Mac 已經發布，但截至 2022 年 8 月，它不支持 C++，因此目前我們不推薦它。</p>
+<h4 id="other-compilers-or-platforms">Other compilers or platforms</h4>
+<p>問：我可以使用基於網絡的編譯器嗎？<br>
+是的，對於某些事情。在您的 IDE 下載期間（或者如果您不確定是否要安裝一個），您可以使用基於 Web 的編譯器繼續本教程。我們推薦以下之一：</p>
+<ul>
+<li>TutorialsPoint</li>
+<li>Wandbox（可選擇不同版本的GCC或Clang）</li>
+<li>Godbolt（可以看到程序集）<br>
+基於 Web 的編譯器非常適合涉獵和簡單的練習。但是，它們的功能通常非常有限——許多不允許您創建多個文件或有效地調試您的程序。如果可以，您將希望遷移到完整的 IDE。<br>
+問：我可以使用命令行編譯器（例如 Linux 上的 g++）嗎？</li>
+</ul>
+<p>是的，但我們不建議初學者使用它。您需要找到自己的編輯器並查找如何在其他地方使用它。使用命令行調試器不像集成調試器那麼容易，並且會使調試程序更加困難。</p>
+<p>問：我可以使用其他代碼編輯器或 IDE，例如 Eclipse、Sublime 或 Notepad++ 嗎？</p>
+<p>是的，但我們不建議初學者使用它。有許多很棒的代碼編輯器和 IDE，可以配置為支持多種語言，並允許您混合和匹配插件以自定義您喜歡的體驗。然而，許多這些編輯器和 IDE 需要額外的配置來編譯 C++ 程序，並且在此過程中可能會出現很多錯誤。對於初學者，我們推荐一些開箱即用的東西，這樣您就可以花更多的時間學習編碼，而花更少的時間去弄清楚為什麼您的代碼編輯器無法與您的編譯器或調試器一起正常工作。</p>
+<h4 id="要避免的-ide">要避免的 IDE</h4>
+<p>您應該完全避免使用以下 IDE，因為它們至少不支持 C++11，根本不支持 C++，或者不再積極支持或維護：</p>
+<p>• Borland Turbo C++——不支持 C++11<br>
+• Visual Studio for Mac -- 不支持 C++</p>
+<p>當存在支持現代 C++ 的輕量級免費替代方案時，沒有充分的理由使用過時或不受支持的編譯器。<br>
+當出現問題時（也就是當 IDE 代表“我什至……”時）<br>
+IDE 安裝似乎會導致相當多的問題。安裝可能會徹底失敗（或者安裝可能會工作，但由於配置問題，IDE 在您嘗試使用它時會出現問題）。如果遇到此類問題，請嘗試卸載 IDE（如果它首先安裝），重新啟動計算機，暫時禁用防病毒軟件或反惡意軟件，然後再次嘗試安裝。<br>
+如果此時您仍然遇到問題，您有兩種選擇。更簡單的選擇是嘗試不同的 IDE。另一種選擇是解決問題。不幸的是，安裝和配置錯誤的原因多種多樣，並且特定於 IDE 軟件本身，我們無法就如何解決此類問題提供有效建議。在這種情況下，我們建議將您遇到的錯誤消息或問題複製到您最喜歡的搜索引擎（例如 Google 或 Duck Duck Go）中，並嘗試從某個不可避免地遇到相同問題的可憐人那裡找到論壇帖子。通常會有關於您可以嘗試解決問題的建議。</p>
+<h4 id="接著往下說">接著往下說</h4>
+<p>安裝 IDE 後（如果事情沒有按預期進行，這可能是最困難的步驟之一），或者如果您暫時使用基於 Web 的編譯器，您就可以編寫您的第一個程序了！</p>
+<hr>
+<p>我的翻譯很爛也不會 coding，所以你還是<a href="https://www.learncpp.com/" target="_blank" rel="noopener">要來看原文的</a></p>
+<p>這裡主要是方便自己的學習，希望能依職維持吧...</p>
+
+            </div>
+
+            
+
+
+        </article>
+
+        
+
+        
+    <div class="updated-badge-container">
+        <span title="Updated @ 2023-01-30 16:01:00 CST" style="cursor:help">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-01-30</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-01-30</text></g></svg>
+        </span></div>
+
+
+
+        
+
+
+        <div class="post-share">
+
+        
+
+        <div class="share-items">
+
+            
+                <div class="share-item twitter">
+                    
+                    <a href="https://twitter.com/share?url=https://mhhsei.github.io/cpp/0.6-installing-an-integrated-development-environment-ide/&amp;text=0.6%20Installing%20an%20Integrated%20Development%20Environment%20%28IDE%29&amp;hashtags=&amp;via=reuixiy" title="分享到「Twitter」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                </div>
+            
+
+            
+                <div class="share-item facebook">
+                    
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mhhsei.github.io/cpp/0.6-installing-an-integrated-development-environment-ide/&amp;hashtag=%23" title="分享到「Facebook」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+                </div>
+            
+
+            
+                <div class="share-item linkedin">
+                    
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://mhhsei.github.io/cpp/0.6-installing-an-integrated-development-environment-ide/&amp;title=0.6%20Installing%20an%20Integrated%20Development%20Environment%20%28IDE%29&amp;summary=Chapter%200%20Introduction%20/%20Getting%20Started%200.6%20Installing%20an%20Integrated%20Development%20Environment%20%28IDE%29%20Author:%20ALEX%20Date:JANUARY%2014,%202023%20source%20%e9%9b%86%e6%88%90%e9%96%8b%e7%99%bc%e7%92%b0%e5%a2%83%20%28IDE%29%20%e6%98%af%e4%b8%80%e7%a8%ae%e8%bb%9f%e2%80%a6%e2%80%a6&amp;source=%e6%97%a5%e5%b8%b8%20learn%20note" title="分享到「LinkedIn」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                </div>
+            
+
+            
+                <div class="share-item telegram">
+                    
+                    <a href="https://t.me/share/url?url=https://mhhsei.github.io/cpp/0.6-installing-an-integrated-development-environment-ide/&amp;text=0.6%20Installing%20an%20Integrated%20Development%20Environment%20%28IDE%29" title="分享到「Telegram」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
+                </div>
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        </div>
+
+    </div>
+
+
+
+
+        
+    
+    
+        <div class="related-posts">
+            <h2 class="related-title">相關文章：<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon related-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"/></svg></h2>
+            <ul class="related-list">
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/" class="related-link">0.5 Introduction to the Compiler, Linker, and Libraries</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.4-introduction-to-c&#43;&#43;-development/" class="related-link">0.4   Introduction to C++ Development</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.3-introduction-to-c-and-c&#43;&#43;/" class="related-link">0.3 Introduction to C and C++</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.2-introduction-to-programming-languages/" class="related-link">0.2 Introduction to Programming Languages</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.1-introduction-to-these-tutorials/" class="related-link">0.1 Introduction to These Tutorials</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+
+
+
+        
+    
+
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+
+
+
+    </div>
+</main>
+
+    <div class="disqus markdown">
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    
+    
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = '';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </div>
+
+            
+
+            
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="site-info">2022–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;mingo say</div><div class="site-copyright"></div><div class="custom-footer"><hr>
+<h2 id="footer">footer</h2>
+</div>
+                <div class="busuanzi-site-uv-and-pv">
+                    <span id="busuanzi_container_site_uv">本站訪客數&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon busuanzi-site-uv"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"/></svg>&nbsp;<span id="busuanzi_value_site_uv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_pv">本站訪問量&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon busuanzi-site-pv"><path d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"/></svg>&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+                </div>
+
+            
+    
+        <ul class="socials"><li class="socials-item">
+                    <a href="mailto:mhhsei@mail.batol.net" target="_blank" rel="external noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://github.com/mhhsei" target="_blank" rel="external noopener" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon social-icon"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://twitter.com/mhhsei" target="_blank" rel="external noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                </li></ul>
+    
+
+
+
+            
+        </div>
+    </footer>
+
+
+        </div>
+        
+
+        
+
+
+
+
+
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    let imgNodes = document.querySelectorAll('div.post-body img');
+    imgNodes = Array.from(imgNodes).filter(node => node.parentNode.tagName !== "A");
+
+    mediumZoom(imgNodes, {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
+
+
+
+    
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+
+
+
+
+    </body>
+</html>
