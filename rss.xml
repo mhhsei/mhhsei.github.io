@@ -21,10 +21,71 @@
             <webMaster>mhhsei@mail.batol.net (mingo say)</webMaster>
         
         
-        <lastBuildDate>Wed, 01 Feb 2023 09:56:48 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 01 Feb 2023 10:30:59 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mhhsei.github.io/rss.xml" />
         
+        
+            <item>
+                <title>TesseractOCR</title>
+                <link>https://mhhsei.github.io/nvda-addons/tesseractocr/</link>
+                <guid isPermaLink="true">https://mhhsei.github.io/nvda-addons/tesseractocr/</guid>
+                <pubDate>Wed, 01 Feb 2023 10:22:49 &#43;0800</pubDate>
+                
+                    <author>mhhsei@mail.batol.net (mingo say)</author>
+                
+                
+                
+                    <description>&lt;ul&gt;
+&lt;li&gt;Authors: Rui Fontes &lt;a href=&#34;mailto:rui.fontes@tiflotecnia.com&#34;&gt;rui.fontes@tiflotecnia.com&lt;/a&gt; and Angelo Abrantes &lt;a href=&#34;mailto:ampa4374@gmail.com&#34;&gt;ampa4374@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated in 21/03/2022&lt;/li&gt;
+&lt;li&gt;Compatibility: NVDA version 2019.3 and beyond&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;資訊&#34;&gt;資訊&lt;/h2&gt;
+&lt;p&gt;此插件使用免費和開源的 Tesseract OCR 引擎，無需打開圖像文件、PDF、JPG、TIF 或其他文件即可執行光學字符識別。它還可以通過 WIA 兼容掃描儀掃描和識別紙質文檔。在NVDA的Preferences中，創建了一個目錄TesseractOCR，在這裡可以設置識別使用的語言和識別的文檔類型。&lt;/p&gt;
+&lt;h2 id=&#34;快速鍵&#34;&gt;快速鍵&lt;/h2&gt;
+&lt;p&gt;默認命令是：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;* Windows+Control+r - 識別所選文檔； 
+* Windows+Control+Shift+r - 通過掃描儀掃描和識別文檔。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然後等待 ocr.txt 以識別的文本打開。如果您想保留已識別的文本，請不要忘記將文檔以另一個名稱保存在另一個位置，因為在下一個 OCR 過程開始時，臨時目錄中的所有文件都會被刪除！&lt;br&gt;
+可以在輸入手識對話框中的 &amp;quot;tesseractOCR&amp;quot;修改此命令。&lt;/p&gt;
+&lt;h2 id=&#34;自動更新&#34;&gt;自動更新&lt;/h2&gt;
+&lt;p&gt;此附加組件包括自動更新功能。每次加載 NVDA 時都會執行新版本檢查。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;nvda | 菸號 | 設定 | tesseractOCR&lt;/li&gt;
+&lt;li&gt;tab 找到 Check for updates at startup  沒勾選 若勾選那就都會檢查是否有更新版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;支持的語言&#34;&gt;支持的語言&lt;/h2&gt;
+&lt;p&gt;有很多，你可以到 設定中的 tesseractOCR 當中找到&lt;/p&gt;
+&lt;h2 id=&#34;已知問題&#34;&gt;已知問題&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;此版本僅適用於 64 位 Windows。&lt;/li&gt;
+&lt;li&gt;在“文檔類型”組合框中選擇“各種”選項時，識別出的文本可能會出現許多空行這是Tesseract 的一個已知問題，並且在不消耗大量處理時間的情況下，我還沒有找到任何解決方案.但是，我還是沒有放棄！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;download&#34;&gt;download&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ruifontes/tesseractOCR/releases/download/2022.05/tesseractOCR-2022.05.nvda-addon&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mhhsei.github.io/categories/nvda-addons/">nvda-addons</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Dummy Keyboard</title>
