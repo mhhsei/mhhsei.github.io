@@ -57,7 +57,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2023-01-31T11:27:47+08:00",
-        "dateModified": "2023-02-01T08:44:03+08:00",
+        "dateModified": "2023-02-01T08:51:33+08:00",
         "url": "https://mhhsei.github.io/q-a/%E5%BE%80%E6%96%B9%E7%84%A1%E6%B3%95%E9%80%A3%E7%B7%9A-%E5%AD%98%E5%8F%96%E8%A2%AB%E6%8B%92-%E8%A7%A3%E6%B1%BA%E7%9B%B8%E9%97%9C/",
         "name": "往方無法連線 存取被拒 解決相關",
         "description": "往方設定請看這篇 網路中看不到區域內的電腦 控制台 瀏覽改成大圖示……",
@@ -188,7 +188,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;176</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;223</span>
     
     
         
@@ -215,15 +215,23 @@
 <li>重新開機</li>
 </ul>
 <ol start="2">
-<li>因權限存取被拒<br>
-win + r<br>
-regedit<br>
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters]           &quot;AllowInsecureGuestAuth&quot;=dword:1</li>
+<li>因權限存取被拒</li>
 </ol>
+<ul>
+<li>win + r</li>
+<li>regedit</li>
+<li>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters]           &quot;AllowInsecureGuestAuth&quot;=dword:1</li>
+</ul>
 <blockquote>
 <p>如果你看到 AllowInsecureGuestAuth 不見了，請新增一個Dword，數值設定為1 <br>
 ▼新增一個Dword (32位元) AllowInsecureGuestAuth，數值設定為1 </p>
 </blockquote>
+<ol start="3">
+<li>還是沒辦法就只能使用 net use 試試看<br>
+net use * /delete /y  中斷所有網路連線<br>
+net use z:\ \ip\folder /user:id password<br>
+如果沒有密碼用雙引號 &quot;&quot; 舊型</li>
+</ol>
 <hr>
 <p>較簡單能搞定的問題才會放在這</p>
 
@@ -238,7 +246,7 @@ regedit<br>
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2023-02-01 08:44:03 CST" style="cursor:help">
+        <span title="Updated @ 2023-02-01 08:51:33 CST" style="cursor:help">
 
 <svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-02-01</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-02-01</text></g></svg>
         </span></div>
