@@ -15,7 +15,7 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>0.2 Introduction to Programming Languages | 日常 learn note</title>
+    <title>0.8   a Few Common C&#43;&#43; Problems | 日常 learn note</title>
 
     <link rel="stylesheet" href="/css/meme.min.38d867f7f00b2db875e15087f46e9890f35c8ee1a452b17f91b3d1179149a7ad.css"/>
 
@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="mingo say" /><meta name="description" content="Chapter 0 Introduction / Getting Started 0.2 — Introduction to programming languages source author: ALEXDateFEBRUARY 8, 2022 現代計算機的速度快得令人難……" />
+    <meta name="author" content="mingo say" /><meta name="description" content="Chapter 0 Introduction / Getting Started 0.8 — A few common C&#43;&#43; problems Author:ALEX Date:FEBRUARY 8, 2022 source 在本節中，我們將解決新程……" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -49,18 +49,18 @@
     
 
     
-    <link rel="canonical" href="https://mhhsei.github.io/cpp/0.2-introduction-to-programming-languages/" />
+    <link rel="canonical" href="https://mhhsei.github.io/cpp/0.8-a-few-common-c&#43;&#43;-problems/" />
     
 
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "datePublished": "2023-01-12T09:12:54+08:00",
-        "dateModified": "2023-01-12T10:13:54+08:00",
-        "url": "https://mhhsei.github.io/cpp/0.2-introduction-to-programming-languages/",
-        "name": "0.2 Introduction to Programming Languages",
-        "description": "Chapter 0 Introduction / Getting Started 0.2 — Introduction to programming languages source author: ALEXDateFEBRUARY 8, 2022 現代計算機的速度快得令人難……",
+        "datePublished": "2023-02-06T10:20:17+08:00",
+        "dateModified": "2023-02-06T10:48:27+08:00",
+        "url": "https://mhhsei.github.io/cpp/0.8-a-few-common-c++-problems/",
+        "name": "0.8   a Few Common C++ Problems",
+        "description": "Chapter 0 Introduction / Getting Started 0.8 — A few common C++ problems Author:ALEX Date:FEBRUARY 8, 2022 source 在本節中，我們將解決新程……",
         "image": "https://mhhsei.github.io/icons/apple-touch-icon.png",
         "publisher": {
             "@type": "Organization",
@@ -88,9 +88,9 @@
 
 
 
-<meta property="og:title" content="0.2 Introduction to Programming Languages" />
-<meta property="og:description" content="Chapter 0 Introduction / Getting Started 0.2 — Introduction to programming languages source author: ALEXDateFEBRUARY 8, 2022 現代計算機的速度快得令人難……" />
-<meta property="og:url" content="https://mhhsei.github.io/cpp/0.2-introduction-to-programming-languages/" />
+<meta property="og:title" content="0.8   a Few Common C&#43;&#43; Problems" />
+<meta property="og:description" content="Chapter 0 Introduction / Getting Started 0.8 — A few common C&#43;&#43; problems Author:ALEX Date:FEBRUARY 8, 2022 source 在本節中，我們將解決新程……" />
+<meta property="og:url" content="https://mhhsei.github.io/cpp/0.8-a-few-common-c&#43;&#43;-problems/" />
 <meta property="og:site_name" content="日常 learn note" />
 <meta property="og:locale" content="zh-tw" /><meta property="og:image" content="https://mhhsei.github.io/icons/apple-touch-icon.png" />
     <meta property="og:type" content="website" />
@@ -161,7 +161,7 @@
 
         <article class="content post h-entry" data-align="default" data-type="cpp" data-toc-num="true">
 
-            <h1 class="post-title p-name">0.2 Introduction to Programming Languages</h1>
+            <h1 class="post-title p-name">0.8   a Few Common C++ Problems</h1>
 
             
 
@@ -187,7 +187,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;2327</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;2177</span>
     
     
         
@@ -201,69 +201,64 @@
 
             <div class="post-body e-content">
                 <h2 id="chapter0-introduction--getting-started">Chapter 0 Introduction / Getting Started</h2>
-<h3 id="02--introduction-to-programming-languages">0.2 — Introduction to programming languages</h3>
-<p><a href="https://www.learncpp.com/cpp-tutorial/introduction-to-programming-languages/" target="_blank" rel="noopener">source</a></p>
-<p>author: ALEXDateFEBRUARY 8, 2022</p>
+<h3 id="08--a-few-common-c-problems">0.8 — A few common C++ problems</h3>
+<p>Author:ALEX Date:FEBRUARY 8, 2022</p>
+<p><a href="https://www.learncpp.com/cpp-tutorial/a-few-common-cpp-problems/" target="_blank" rel="noopener">source</a></p>
 <hr>
-<p>現代計算機的速度快得令人難以置信，而且一直在變快。<br>
-然而，計算機也有一些重要的限制:它們只能理解有限的一組命令，並且必須被確切地告知要做什麼。<br>
-計算機程序(通常也稱為應用程序)是計算機為了執行某些任務而可以執行的一組指令。<br>
-創建程序的過程叫做編程。<br>
-程序員通常通過生成源代碼(通常簡稱為代碼)來創建程序，源代碼是輸入到一個或多個文本文件中的命令列表。</p>
-<p>組成計算機並執行程序的物理計算機部件的集合稱為硬件。當計算機程序被加載到內存中，硬件按順序執行每條指令時，這被稱為運行或執行程序。</p>
-<h4 id="機器語言">機器語言</h4>
-<p>計算機的中央處理器不會說c++。</p>
-<p>CPU能夠直接理解的有限指令集被稱為機器代碼(或機器語言或指令集)。</p>
-<p>這裡是一個機器語言指令示例:10110000 01100001</p>
-<p>在計算機剛剛發明的時候，程序員必須直接用機器語言編寫程序，這是一件非常困難和耗時的事情。</p>
-<p>這些指令是如何組織的超出了本介紹的範圍，但有兩件事值得注意。</p>
-<p>首先，每條指令都由1和0的序列組成。每個單獨的0或1被稱為二進制數字，或簡稱為位。組成單個命令的比特數是不同的——例如，一些cpu處理指令總是32位長，而其他一些cpu(例如您可能正在使用的x86系列)的指令可以是可變長度的。</p>
-<p>其次，每組二進制數字都被CPU解釋為一個命令，以執行非常具體的工作，例如比較這兩個數字，或將這個數字放在內存位置。但是，由於不同的CPU有不同的指令集，為一種CPU類型編寫的指令不能在不共享相同指令集的CPU上使用。這意味著程序通常不能移植到不同類型的系統中，必須重新編寫一次。</p>
-<h4 id="組合語言">組合語言</h4>
-<p>由於機器語言對人類來說太難閱讀和理解，於是就發明了彙編語言。在彙編語言中，每條指令都由一個簡短的縮寫(而不是一組位)標識，並且可以使用名稱和其他數字。</p>
-<p>下面是與上面相同的彙編語言指令:mov al, 061h</p>
-<p>這使得彙編語言比機器語言更容易讀和寫。但是，CPU不能直接理解彙編語言。相反，在計算機執行彙編程序之前，必須將其翻譯成機器語言。這是通過使用一個叫做彙編程序的程序來完成的。用彙編語言編寫的程序往往非常快，今天當速度是關鍵時仍然使用匯編。</p>
-<p>然而，組合語言仍然有一些缺點。</p>
-<p>首先，彙編語言仍然需要大量的指令來完成簡單的任務。雖然單個指令本身在某種程度上是人類可讀的，但理解整個程序在做什麼可能具有挑戰性(這有點像試圖通過逐個查看每個字母來理解一個句子)。</p>
-<p>其次，彙編語言仍然不是很容易移植——用彙編語言為一個CPU編寫的程序可能無法在使用不同指令集的硬件上運行，並且必須重寫或大量修改。</p>
-<h4 id="高級語言">高級語言</h4>
-<p>為了解決可讀性和可移植性問題，開發了新的編程語言，如C、c++、Pascal(以及後來的Java、Javascript和Perl等語言)。<br>
-這些語言被稱為高級語言，因為它們被設計成允許程序員編寫程序，而不必擔心程序將在哪種計算機上運行。</p>
-<p>下面是在 C/C++ 中與上面相同的指令：a = 97;</p>
-<p>與彙編程序非常相似，用高級語言編寫的程序在運行前必須翻譯成計算機可以理解的格式。有兩種主要方法可以做到這一點：編譯和解釋。<br>
-編譯器是一個程序，它讀取源代碼並生成一個獨立的可執行程序，然後可以運行。<br>
-一旦代碼被轉換為可執行文件，就不需要編譯器來運行程序。<br>
-一開始，編譯器很原始，生成的代碼很慢，沒有經過優化。<br>
-然而，隨著時間的推移，編譯器已經變得非常擅長於生成快速優化的代碼，在某些情況下可以比人類在彙編語言中做得更好</p>
-<p>下面是編譯過程的簡化表示<br>
-圖片 編譯示例</p>
-<p>由於c++程序通常是編譯的，我們將稍後更詳細地探討編譯器。解釋器是直接執行源代碼中的指令，而不需要先將它們編譯成可執行文件的程序。解釋器往往比編譯器更靈活，但在運行程序時效率較低，因為每次運行程序時都需要執行解釋過程。這意味著每次程序運行時都需要解釋器。</p>
-<p>下面是解釋過程的簡化表示<br>
-圖片 解釋實例</p>
-<p>編譯器和解釋器優點的比較可以在這裡找到。<br>
-大多數語言都可以編譯或解釋，然而，傳統的語言如C、c++和Pascal是編譯的，而腳本語言如Perl和Javascript傾向於解釋的。<br>
-有些語言，比如Java，混合使用了這兩種語言。<br>
-高級語言有許多理想的屬性。<br>
-首先，高級語言更容易讀和寫，因為這些命令更接近我們每天使用的自然語言。</p>
-<p>其次，高級語言需要更少的指令來執行與低級語言相同的任務，<br>
-使程序更簡潔，更容易理解。<br>
-在c++中，你可以這樣做 a = b * 2 + 5; 在一行裡。<br>
-在彙編語言中，這需要5到6條不同的指令。</p>
-<p>第三，程序可以針對許多不同的系統進行編譯(或解釋)，並且不需要更改程序以在不同的CPU上運行(只需針對該CPU重新編譯)。</p>
-<p>舉個例子<br>
-gif 便攜性的例子</p>
-<p>可移植性有兩個例外。<br>
-首先，許多操作系統(如Microsoft Windows)包含特定於平臺的功能，您可以在代碼中使用這些功能。<br>
-這使得針對特定操作系統編寫程序變得更加容易，但代價是可移植性。<br>
-在這些教程中，我們將避免任何特定於平臺的代碼。<br>
-一些編譯器還支持特定於編譯器的擴展——如果您使用這些擴展，您的程序將無法被其他不支持相同擴展的編譯器編譯不支持未經修改的相同擴展。一旦安裝了編譯器，我們將在後面詳細討論這些內容。</p>
-<p>規則、最佳實踐和警告在我們繼續學習這些教程的過程中，我們將在以下三個類別中強調許多要點:</p>
-<p>rules<br>
-規則是你必須按照語言的要求去做的指令。不遵守規則通常會導致你的程序無法工作。</p>
-<p>Best practice<br>
-最佳實踐是你應該做的事情，因為這種做事的方式通常被認為是一種標準或強烈推薦的。也就是說，要麼每個人都這樣做(如果你不這樣做，你就會做一些人們不期望的事情)，要麼它比其他選擇更好。</p>
-<p>Warning<br>
-警告是你不應該做的事情，因為它們通常會導致意想不到的結果。</p>
+<p>在本節中，我們將解決新程序員似乎很有可能遇到的一些常見問題。這並不是編譯或執行問題的綜合列表，而是非常基本問題的實用解決方案列表。如果您對可能添加到此列表的其他問題有任何建議，請將它們發佈在下面的評論部分。</p>
+<h3 id="一般運行時問題">一般運行時問題</h3>
+<p>Q：執行程序時，控制台窗口閃爍，然後立即關閉。</p>
+<p>首先，添加或確保以下行位於程序頂部附近（Visual Studio 用戶，確保這些行出現在<code>#include &quot;pch.h&quot;</code>之後</p>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+#include &lt;limits&gt;
+</code></pre><p>其次，在 main() 函數的末尾添加以下代碼（就在 return 語句之前）：</p>
+<pre tabindex="0"><code>std::cin.clear(); // reset any error flags
+std::cin.ignore(std::numeric_limits&lt;std::streamsize&gt;::max(), &#39;\n&#39;); // ignore any characters in the input buffer until we find an enter character
+std::cin.get(); // get one more char from the user```
+</code></pre><p>這將導致您的程序在繼續之前等待用戶按下某個鍵，這將使您有時間在操作系統關閉控制台窗口之前檢查程序的輸出。<br>
+其他解決方案，例如通常建議的系統（“暫停”）解決方案可能僅適用於某些操作系統，應避免使用。<br>
+當程序在開始調試 (F5) 模式下運行時，舊版本的 Visual Studio 可能不會暫停。嘗試在 Start Without Debugging (Ctrl-F5) 模式下運行。</p>
+<p>問：我運行我的程序並得到一個窗口但沒有輸出。<br>
+您的病毒掃描程序或反惡意軟件可能會阻止執行。嘗試暫時禁用它，看看是否是問題所在。</p>
+<p>問：我的程序可以編譯，但不能正常運行。我該怎麼辦？<br>
+調試它！第 3 章後面有關於如何診斷和調試程序的提示。</p>
+<h3 id="general-compile-time-issues-一般編譯問題">General compile-time issues 一般編譯問題</h3>
+<p>問：當我編譯我的程序時，我收到有關未解析的外部符號 _main 或 _WinMain@16 的錯誤<br>
+這意味著您的編譯器找不到您的 main() 函數。所有程序都必須包含一個 main() 函數。<br>
+有幾件事要檢查：<br>
+a) 您的代碼是否包含名為 main 的函數？<br>
+b) main 拼寫正確嗎？<br>
+c) 當你編譯你的程序時，你看到包含函數 main() 的文件被編譯了嗎？如果不是，則將 main() 函數移動到一個，或者將文件添加到您的項目（有關如何執行此操作的更多信息，請參閱第 2.8 課——具有多個代碼文件的程序）。<br>
+d) 您是否創建了控制台項目？嘗試創建一個新的控制台項目。</p>
+<p>問：我正在嘗試使用 C++11/14/17/XX 功能，但它不起作用<br>
+如果您的編譯器很舊，它可能不支持這些最近添加到該語言中的內容。在這種情況下，請升級您的編譯器。<br>
+對於現代 IDE/編譯器，您的編譯器可能默認使用較舊的語言標準。我們在第 0.12 課中介紹瞭如何更改您的語言標準——配置您的編譯器：選擇語言標準。</p>
+<p>問：當嘗試使用 cin、cout 或 endl 時，編譯器說 cin、cout 或 endl 是“未聲明的標識符”<br>
+首先，確保在文件頂部附近包含以下行：<br>
+<code>#include &lt;iostream&gt;</code><br>
+其次，確保 cin、cout 和 endl 的每次使用都以“std::”為前綴。例如：<br>
+<code>std::cout &lt;&lt; &quot;Hello world!&quot; &lt;&lt; std::endl;</code><br>
+如果這不能解決您的問題，則可能是您的編譯器已過時，或者安裝已損壞。嘗試重新安裝和/或升級到最新版本的編譯器。</p>
+<p>問：嘗試使用 endl 結束打印行時，編譯器說 end1 是“未聲明的標識符”<br>
+請確保您沒有將 endl 中的字母 l（小寫 L）誤認為是數字 1。endl 是所有字母。確保您的編輯器使用的字體能夠清楚區分小寫字母 L、大寫字母 i 和數字 1 之間的區別。此外，大寫字母 o 和數字零在許多非編程字體中很容易混淆。</p>
+<h3 id="visual-studio-issues">Visual Studio issues</h3>
+<p>問：當使用 Microsoft Visual C++ 進行編譯時，您會遇到 C1010 致命錯誤，錯誤消息類似於“c:\vcprojects\test.cpp(263) :fatal error C1010: unexpected end of file while looking for precompiled header directive”</p>
+<p>當 Microsoft Visual C++ 編譯器設置為使用預編譯頭文件但您的一個（或多個）C++ 代碼文件沒有將 #include “stdafx.h” 或 #include “pch.h” 作為代碼的第一行時，會發生此錯誤文件。<br>
+我們建議的解決方法是關閉預編譯頭文件，我們將在第 0.7 課 -- 編譯您的第一個程序中展示如何執行此操作。<br>
+如果你想保持預編譯頭打開，要解決這個問題，只需找到產生錯誤的文件（在上面的錯誤中，test.cpp 是罪魁禍首），並在最頂部添加以下行文件）：<br>
+<code>#include &quot;pch.h&quot;</code><br>
+舊版本的 Visual Studio 使用“stdafx.h”而不是“pch.h”，因此如果 pch.h 不能解決問題，請嘗試 stdafx.h。<br>
+請注意，對於具有多個文件的程序，每個 C++ 代碼文件都需要以此行開頭。<br>
+或者，您可以關閉預編譯標頭。</p>
+<p>問：Visual Studio 給出以下錯誤：“1MSVCRTD.lib(exe_winmain.obj)：錯誤 LNK2019：未解析的外部符號 _WinMain@16 在函數“int __cdecl invoke_main(void)”(?invoke_main@@YAHXZ) 中引用”<br>
+您可能創建了 Windows 圖形應用程序而不是控制台應用程序。重新創建您的項目，並確保將其創建為 Windows（或 Win32）控制台項目</p>
+<p>問：當我編譯我的程序時，我收到關於“無法找到或打開 PDB 文件”的警告<br>
+這是一個警告，而不是錯誤，因此它不會影響您的程序。然而，這很煩人。要修復它，請進入調試菜單 -&gt; 選項和設置 -&gt; 符號，然後選中“Microsoft 符號服務器”。</p>
+<h3 id="something-else">something else</h3>
+<p>問：我還有一些其他的問題，我想不通。怎樣才能快速得到答复？<br>
+隨著您逐步閱讀材料，您無疑會遇到問題或遇到意想不到的問題。接下來做什麼取決於您的問題。但總的來說，您可以嘗試一些事情。<br>
+首先，詢問搜索引擎。找到一個很好的方式來表達你的問題並進行搜索。如果您正在搜索錯誤消息，請使用引號粘貼準確的錯誤消息（不包括任何文件名或行號）。很可能有人已經問過同樣的問題，並且有答案等著你。<br>
+如果失敗，請在問答板上提問。有些網站專為編程問題和答案而設計，例如 Stack Overflow。嘗試在那裡發布您的問題。請記住徹底了解您的問題是什麼，並包括所有相關信息，例如您使用的操作系統和使用的 IDE。</p>
 <hr>
 <p>我的翻譯很爛也不會 coding，所以你還是<a href="https://www.learncpp.com/" target="_blank" rel="noopener">要來看原文的</a></p>
 <p>這裡主要是方便自己的學習，希望能依職維持吧...</p>
@@ -279,9 +274,9 @@ gif 便攜性的例子</p>
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2023-01-12 10:13:54 CST" style="cursor:help">
+        <span title="Updated @ 2023-02-06 10:48:27 CST" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-01-12</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-01-12</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-02-06</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-02-06</text></g></svg>
         </span></div>
 
 
@@ -298,28 +293,28 @@ gif 便攜性的例子</p>
             
                 <div class="share-item twitter">
                     
-                    <a href="https://twitter.com/share?url=https://mhhsei.github.io/cpp/0.2-introduction-to-programming-languages/&amp;text=0.2%20Introduction%20to%20Programming%20Languages&amp;hashtags=&amp;via=" title="分享到「Twitter」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                    <a href="https://twitter.com/share?url=https://mhhsei.github.io/cpp/0.8-a-few-common-c&#43;&#43;-problems/&amp;text=0.8%20%20%20a%20Few%20Common%20C&#43;&#43;%20Problems&amp;hashtags=&amp;via=" title="分享到「Twitter」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item facebook">
                     
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mhhsei.github.io/cpp/0.2-introduction-to-programming-languages/&amp;hashtag=%23" title="分享到「Facebook」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mhhsei.github.io/cpp/0.8-a-few-common-c&#43;&#43;-problems/&amp;hashtag=%23" title="分享到「Facebook」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item linkedin">
                     
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://mhhsei.github.io/cpp/0.2-introduction-to-programming-languages/&amp;title=0.2%20Introduction%20to%20Programming%20Languages&amp;summary=Chapter%200%20Introduction%20/%20Getting%20Started%200.2%20%e2%80%94%20Introduction%20to%20programming%20languages%20source%20author:%20ALEXDateFEBRUARY%208,%202022%20%e7%8f%be%e4%bb%a3%e8%a8%88%e7%ae%97%e6%a9%9f%e7%9a%84%e9%80%9f%e5%ba%a6%e5%bf%ab%e5%be%97%e4%bb%a4%e4%ba%ba%e9%9b%a3%e2%80%a6%e2%80%a6&amp;source=%e6%97%a5%e5%b8%b8%20learn%20note" title="分享到「LinkedIn」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://mhhsei.github.io/cpp/0.8-a-few-common-c&#43;&#43;-problems/&amp;title=0.8%20%20%20a%20Few%20Common%20C&#43;&#43;%20Problems&amp;summary=Chapter%200%20Introduction%20/%20Getting%20Started%200.8%20%e2%80%94%20A%20few%20common%20C&#43;&#43;%20problems%20Author:ALEX%20Date:FEBRUARY%208,%202022%20source%20%e5%9c%a8%e6%9c%ac%e7%af%80%e4%b8%ad%ef%bc%8c%e6%88%91%e5%80%91%e5%b0%87%e8%a7%a3%e6%b1%ba%e6%96%b0%e7%a8%8b%e2%80%a6%e2%80%a6&amp;source=%e6%97%a5%e5%b8%b8%20learn%20note" title="分享到「LinkedIn」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item telegram">
                     
-                    <a href="https://t.me/share/url?url=https://mhhsei.github.io/cpp/0.2-introduction-to-programming-languages/&amp;text=0.2%20Introduction%20to%20Programming%20Languages" title="分享到「Telegram」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
+                    <a href="https://t.me/share/url?url=https://mhhsei.github.io/cpp/0.8-a-few-common-c&#43;&#43;-problems/&amp;text=0.8%20%20%20a%20Few%20Common%20C&#43;&#43;%20Problems" title="分享到「Telegram」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
                 </div>
             
 
@@ -348,10 +343,6 @@ gif 便攜性的例子</p>
             <ul class="related-list">
                 
                     <li class="related-item">
-                        <a href="/cpp/0.8-a-few-common-c&#43;&#43;-problems/" class="related-link">0.8   a Few Common C++ Problems</a>
-                    </li>
-                
-                    <li class="related-item">
                         <a href="/cpp/0.7-compiling-your-first-program/" class="related-link">0.7   Compiling Your First Program</a>
                     </li>
                 
@@ -365,6 +356,10 @@ gif 便攜性的例子</p>
                 
                     <li class="related-item">
                         <a href="/cpp/0.4-introduction-to-c&#43;&#43;-development/" class="related-link">0.4   Introduction to C++ Development</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.3-introduction-to-c-and-c&#43;&#43;/" class="related-link">0.3 Introduction to C and C++</a>
                     </li>
                 
             </ul>
