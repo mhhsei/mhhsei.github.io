@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+
+    <meta name="generator" content="Hugo 0.109.0"><meta name="theme-color" content="#fff" />
+    <meta name="color-scheme" content="light dark">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>0.7   Compiling Your First Program | 日常 learn note</title>
+
+    <link rel="stylesheet" href="/css/meme.min.38d867f7f00b2db875e15087f46e9890f35c8ee1a452b17f91b3d1179149a7ad.css"/>
+
+    
+    
+        <script src="/js/meme.min.7ac5d813ffafa39f063aece843552e3d59f7d0cb7bcf488b428c1a0dcfb89985.js"></script>
+
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
+
+    <meta name="author" content="mingo say" /><meta name="description" content="Chapter 0 Introduction / Getting Started 0.7 — Compiling your first program Author:ALEX Date:DECEMBER 10, 2022 source 在我們編寫第一個程序之前，……" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="日常 learn note" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="日常 learn note" />
+    <meta name="msapplication-starturl" content="../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    
+    
+
+    
+    <link rel="canonical" href="https://mhhsei.github.io/cpp/0.7-compiling-your-first-program/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "datePublished": "2023-02-02T13:27:05+08:00",
+        "dateModified": "2023-02-06T09:24:33+08:00",
+        "url": "https://mhhsei.github.io/cpp/0.7-compiling-your-first-program/",
+        "name": "0.7   Compiling Your First Program",
+        "description": "Chapter 0 Introduction / Getting Started 0.7 — Compiling your first program Author:ALEX Date:DECEMBER 10, 2022 source 在我們編寫第一個程序之前，……",
+        "image": "https://mhhsei.github.io/icons/apple-touch-icon.png",
+        "publisher": {
+            "@type": "Organization",
+            "name": "日常 learn note",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://mhhsei.github.io/icons/apple-touch-icon.png"
+            },
+            "url": "https://mhhsei.github.io/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://mhhsei.github.io/"
+        }
+    }
+</script>
+
+    
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:creator" content="@mhhsei" />
+
+    
+
+
+
+<meta property="og:title" content="0.7   Compiling Your First Program" />
+<meta property="og:description" content="Chapter 0 Introduction / Getting Started 0.7 — Compiling your first program Author:ALEX Date:DECEMBER 10, 2022 source 在我們編寫第一個程序之前，……" />
+<meta property="og:url" content="https://mhhsei.github.io/cpp/0.7-compiling-your-first-program/" />
+<meta property="og:site_name" content="日常 learn note" />
+<meta property="og:locale" content="zh-tw" /><meta property="og:image" content="https://mhhsei.github.io/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+
+
+    
+    
+
+    
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header">
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/" class="brand">日常 learn note</a>
+        
+    </div>
+
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+            
+        
+        
+        
+        
+            
+                <li class="menu-item"><a href="/categories/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon th"><path d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z"/></svg><span class="menu-item-name">分類</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/about/about/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon user-circle"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">關於</span></a>
+                </li>
+            
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </div>
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="default" data-type="cpp" data-toc-num="true">
+
+            <h1 class="post-title p-name">0.7   Compiling Your First Program</h1>
+
+            
+
+            
+                
+            
+
+            
+                
+
+<div class="post-meta">
+    
+    
+    
+    
+        
+        
+        
+            
+                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/cpp/" class="category-link p-category">cpp</a></span>
+            
+        
+    
+    
+        
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;5729</span>
+    
+    
+        
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;12&nbsp;分鐘</span>
+    
+    
+    
+</div>
+
+            
+
+            <div class="post-body e-content">
+                <h2 id="chapter0-introduction--getting-started">Chapter 0 Introduction / Getting Started</h2>
+<h3 id="07--compiling-your-first-program">0.7 — Compiling your first program</h3>
+<p>Author:ALEX Date:DECEMBER 10, 2022<br>
+<a href="https://www.learncpp.com/cpp-tutorial/compiling-your-first-program/" target="_blank" rel="noopener">source</a></p>
+<hr>
+<p>在我們編寫第一個程序之前，我們需要學習如何在我們的集成開發環境 (IDE) 中創建新程序。<br>
+在本課中，我們將介紹如何做到這一點，您還將編譯並執行您的第一個程序！</p>
+<h2 id="projects">Projects</h2>
+<p>要在 IDE 中編寫 C++ 程序，我們通常首先創建一個新項目（稍後我們將向您展示如何執行此操作）。<br>
+項目是一個容器，其中包含所有源代碼文件、圖像、數據文件等……生成可運行或使用的可執行文件（或庫、網站等）所需的這些文件。<br>
+該項目還保存各種 IDE、編譯器和鏈接器設置，並記住您離開的地方，以便您稍後重新打開項目時，IDE 的狀態可以恢復到您離開的地方。<br>
+當您選擇編譯程序時，項目中的所有 .cpp 文件都將被編譯和鏈接。<br>
+每個項目對應一個程序。<br>
+當您準備好創建第二個程序時，您要么需要創建一個新項目，要么覆蓋現有項目中的代碼（如果您不想保留它）。<br>
+項目文件通常是特定於 IDE 的，因此為一個 IDE 創建的項目需要在不同的 IDE 中重新創建。</p>
+<h3 id="best-practice">Best practice</h3>
+<p>為您編寫的每個新程序創建一個新項目。</p>
+<h2 id="console-projects">Console projects</h2>
+<p>當您創建一個新項目時，系統通常會詢問您要創建什麼類型的項目。<br>
+我們將在本教程中創建的所有項目都是控制台項目。<br>
+控制台項目意味著我們將創建可以從 Windows、Linux 或 Mac 控制台運行的程序。</p>
+<h3 id="windows-console">Windows console</h3>
+<p>默認情況下，控制台應用程序沒有圖形用戶界面 (GUI)，它們將文本打印到控制台，從鍵盤讀取輸入，並編譯成獨立的可執行文件。<br>
+這非常適合學習 C++，因為它可以將復雜性降到最低，並確保在各種系統上都能正常工作。</p>
+<p>如果您以前從未使用過控制台，或者不知道如何訪問它，請不要擔心。<br>
+我們將通過我們的 IDE 編譯和啟動我們的程序（必要時將調用控制台）。</p>
+<h2 id="workspaces--solutions">Workspaces / solutions</h2>
+<p>當您為您的程序創建一個新項目時，許多 IDE 會自動將您的項目添加到“工作區”或“解決方案”（術語因 IDE 而異）。工作區或解決方案是一個容器，可以容納一個或多個相關項目。例如，如果您正在編寫遊戲並希望為單人遊戲和多人遊戲分別創建可執行文件，則需要創建兩個項目。這兩個項目完全獨立是沒有意義的——畢竟，它們是同一個遊戲的一部分。最有可能的是，每個都將配置為單個工作區/解決方案中的單獨項目。<br>
+儘管您可以將多個項目添加到單個解決方案中，但我們通常建議為每個程序創建一個新的工作區或解決方案，尤其是在學習時。它更簡單，出錯的可能性更小。</p>
+<h2 id="writing-your-first-program">Writing your first program</h2>
+<p>傳統上，程序員用新語言編寫的第一個程序是臭名昭著的 hello world 程序，我們不會剝奪您的這種體驗！你以後會感謝我們的。或許。</p>
+<h3 id="creating-a-project-in-visual-studio-2019">Creating a project in Visual Studio 2019</h3>
+<p>運行 Visual Studio 2019 時，您應該會看到如下所示的對話框：<br>
+Visual Studio 2019 入門對話框</p>
+<p>選擇創建新項目。<br>
+然後你會看到一個如下所示的對話框：<br>
+Visual Studio 2019 創建新項目對話框<br>
+如果您已經打開了之前的項目，則可以通過文件菜單 &gt; 新建 &gt; 項目訪問此對話框。<br>
+選擇 Windows 桌面嚮導，然後單擊下一步。<br>
+如果你沒有看到這個，那麼你可能忘記了在安裝 Visual Studio 時選擇安裝 Desktop development with C++ 工作負載。<br>
+在這種情況下，請返回第 0.6 課——安裝集成開發環境 (IDE) 並按照指示重新安裝 Visual Studio（注意：無需完全重新安裝，您可以運行 Visual Studio 安裝程序並修改現有安裝以添加C++ 工作負載）。<br>
+接下來，您將看到一個如下所示的對話框：<br>
+Visual Studio 2019 配置新項目對話框<br>
+將現有的項目名稱替換為 HelloWorld。</p>
+<p>建議您還檢查 Place solution and project in the same directory，因為這會減少每個項目創建的子目錄的數量。</p>
+<p>單擊“創建”繼續。<br>
+最後，您將看到最後一個對話框：<br>
+Visual Studio 2019 項目選項對話框<br>
+確保應用程序類型設置為控制台應用程序 (.exe) 並且未選擇預編譯頭選項。然後單擊“確定”。<br>
+您現在已經創建了一個項目！跳轉到下面的 Visual Studio 解決方案資源管理器部分繼續。</p>
+<p>問：什麼是預編譯頭，我們為什麼要關閉它們？<br>
+在大型項目（那些有很多代碼文件的項目）中，預編譯頭文件可以通過避免一些大型項目中容易出現的冗餘編譯來提高編譯速度。<br>
+但是，使用預編譯標頭需要額外的工作，對於小型項目（例如您將在我們的教程中創建的項目），編譯時間幾乎沒有差異。<br>
+出於這個原因，我們建議一開始就關閉預編譯頭文件，只有在您發現編譯時間不佳時才啟用它們。</p>
+<h3 id="to-create-a-new-project-in-visual-studio-2017-or-older-go-to-the-file-menu--new--project-a-dialog-box-will-pop-up-that-looks-something-like-this">To create a new project in Visual Studio 2017 or older, go to the File menu &gt; New &gt; Project. A dialog box will pop up that looks something like this:</h3>
+<p>Visual Studio 2017 新建項目對話框<br>
+首先，確保 Visual C++ 列在左側。<br>
+如果您沒有看到 Visual C++，那麼您可能忘記在安裝 Visual Studio 時選擇安裝 Desktop development with C++ 工作負載。<br>
+在這種情況下，請返回第 0.6 課——安裝集成開發環境 (IDE) 並按照指示重新安裝 Visual Studio（注意：而不是完全重新安裝，您可以運行 Visual Studio 安裝程序並修改現有安裝以添加C++ 工作負載）。</p>
+<p>如果您使用的是 Visual Studio 2017 v15.3 或更新版本，請在 Visual C++ 下選擇 Windows 桌面，然後在主窗口中選擇 Windows 桌面嚮導。</p>
+<p>如果您沒有看到 Windows 桌面選項，則您可能使用的是舊版本的 Visual Studio。<br>
+沒關係。<br>
+相反，在主窗口中選擇 Win32，然後選擇 Win32 控制台應用程序。</p>
+<p>在下方的名稱字段中，輸入您的程序名稱（將現有名稱替換為 HelloWorld）。<br>
+在“位置”字段中，您可以選擇為要放置的項目選擇不同的位置。<br>
+現在默認就可以了。</p>
+<p>單擊確定。<br>
+如果您使用的是舊版本的 Visual Studio，將啟動 Win32 應用程序嚮導。<br>
+按下一步。<br>
+此時，您應該會看到一個如下所示的嚮導對話框（舊版本的 Visual Studio 使用不同的樣式，但具有大部分相同的選項）：<br>
+Visual Studio 2017 桌面嚮導<br>
+確保取消選中預編譯標頭。</p>
+<p>然後單擊確定或完成。<br>
+現在您的項目已創建！</p>
+<h3 id="visual-studio-solution-explorer">Visual Studio Solution Explorer</h3>
+<p>在窗口的左側或右側，您應該會看到一個標題為“解決方案資源管理器”的窗口。<br>
+在此窗口中，Visual Studio 已為您創建了一個解決方案（解決方案“HelloWorld”）。<br>
+其中，以粗體顯示的名稱是您的新項目 (HelloWorld)。<br>
+在該項目中，Visual Studio 已為您創建了許多文件，包括 HelloWorld.cpp（在源文件樹項下）。<br>
+您可能還會看到一些其他的 .cpp 或 .h 文件，您現在可以忽略這些文件。</p>
+<h3 id="visual-studio-2019-initial-windows">Visual Studio 2019 initial windows</h3>
+<p>在文本編輯器中，您將看到 Visual Studio 已經打開 HelloWorld.cpp 並為您創建了一些代碼。<br>
+選擇並刪除所有代碼，然後將以下內容鍵入/複製到您的 IDE 中：</p>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+
+int main()
+{
+	std::cout &lt;&lt; &#34;Hello, world!&#34;;
+	return 0;
+}
+</code></pre><p>要編譯您的程序，請按 F7（如果這不起作用，請嘗試 Ctrl-Shift-B）或轉到“生成”菜單 &gt;“生成解決方案”。<br>
+如果一切順利，您應該會在“輸出”窗口中看到以下內容：</p>
+<pre tabindex="0"><code>1&gt;------ Build started: Project: HelloWorld, Configuration: Debug Win32 ------
+1&gt;HelloWorld.cpp
+1&gt;HelloWorld.vcxproj -&gt; c:\users\alex\documents\visual studio 2017\Projects\HelloWorld\Debug\HelloWorld.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+</code></pre><p>這意味著你的編譯成功了！</p>
+<p>問：我收到錯誤 C1010（“致命錯誤 C1010：查找預編譯標頭時文件意外結束。<br>
+您是否忘記將‘#include“stdafx.h”’添加到您的源代碼中？”）。</p>
+<h3 id="what-now">what now?</h3>
+<p>您在創建項目時忘記關閉預編譯頭文件。<br>
+重新創建您的項目（按照上面的說明）並確保禁用預編譯頭文件。</p>
+<p>要運行已編譯的程序，請按 Ctrl-F5，或轉到“調試”菜單並選擇“不調試啟動”。<br>
+您將看到以下內容：</p>
+<h3 id="program-run">Program run</h3>
+<p>那是你程序的結果！恭喜，您已經編譯並運行了您的第一個程序！</p>
+<h3 id="related-content">Related content</h3>
+<p>當您直接從 Visual Studio 運行程序時，您可能會看到額外的一行輸出，如下所示：<br>
+C:\Users\Alex\source\repos\Project6\Debug\Project6.exe（進程 21896）已退出，代碼為 0。</p>
+<p>這是正常的。<br>
+Visual Studio 提供了一些關於您的程序是正常退出還是異常退出的附加信息。<br>
+我們將在第 2.2 課中進一步討論這個問題——函數返回值（返回值的函數）。</p>
+<h3 id="creating-a-project-in-codeblocks">Creating a project in Code::Blocks</h3>
+<p>要創建新項目，請轉到“文件”菜單 &gt;“新建”&gt;“項目”。<br>
+將彈出一個對話框，如下所示：<br>
+code::block project 對話框<br>
+選擇 Console application 並按下 Go（或 Create）按鈕。</p>
+<p>如果您看到控制台應用程序嚮導對話框，請按下一步，確保已選擇 C++，然後再次按下一步。<br>
+現在您將被要求為您的項目命名。<br>
+將項目命名為 HelloWorld。<br>
+您可以將其保存在任何您想要的地方。<br>
+在 Windows 上，我們建議您將其保存在 C 盤的子目錄中，例如 C:\CBProjects。</p>
+<p>code::block 保存項目對話框<br>
+您可能會看到另一個對話框，詢問您要啟用哪些配置。<br>
+這裡的默認值應該沒問題，所以選擇 Finish。</p>
+<p>現在您的新項目已經創建。</p>
+<p>在屏幕的左側，您應該會看到一個管理窗口，其中選中了項目選項卡。<br>
+在該窗口中，您會看到一個 Workspace 文件夾，其中包含您的 HelloWorld 項目：</p>
+<h4 id="codeblocks-workspace">Code::Blocks Workspace</h4>
+<p>在 HelloWorld 項目中，展開 Sources 文件夾，然後雙擊“main.cpp”。<br>
+您會看到已經為您編寫了一個 hello world 程序！<br>
+用以下內容替換那個：</p>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+
+int main()
+{
+	std::cout &lt;&lt; &#34;Hello, world!&#34;;
+	return 0;
+}
+</code></pre><p>要構建您的項目，請按 Ctrl-F9，或轉到“構建”菜單 &gt;“構建”。<br>
+如果一切順利，您應該會在構建日誌窗口中看到以下內容：</p>
+<pre tabindex="0"><code>-------------- Build: Debug in HelloWorld (compiler: GNU GCC Compiler)---------------
+mingw32-g++.exe -Wall -fexceptions -g -std=c++14  -c C:\CBProjects\HelloWorld\main.cpp -o obj\Debug\main.o
+
+mingw32-g++.exe  -o bin\Debug\HelloWorld.exe obj\Debug\main.o   
+Output file is bin\Debug\HelloWorld.exe with size 1.51 MB
+Process terminated with status 0 (0 minute(s), 0 second(s))
+0 error(s), 0 warning(s) (0 minute(s), 0 second(s))
+</code></pre><p>這意味著你的編譯成功了！<br>
+要運行已編譯的程序，請按 Ctrl-F10，或轉到“構建”菜單 &gt;“運行”。<br>
+您將看到類似於以下內容的內容：<br>
+Program run<br>
+That is the result of your program!</p>
+<h3 id="for-linux-users">For Linux users</h3>
+<p>Linux 用戶可能需要在 Code::Blocks 編譯之前安裝額外的包。<br>
+請參閱第 0.6 課中的 Code::Blocks 安裝說明——安裝集成開發環境 (IDE) 以獲取更多信息。</p>
+<h3 id="creating-a-project-in-vs-code">Creating a project in VS Code</h3>
+<p>要開始一個新項目，請轉到 View &gt; Explorer 菜單（或按 Ctrl-Shift-E）。<br>
+這將打開資源管理器窗格。<br>
+如果您之前沒有打開過項目，您應該會在資源管理器窗格中看到一個打開文件夾按鈕——按下它。<br>
+如果已經有一個打開的項目並且您想開始一個新項目，請從頂部導航中選擇“文件”&gt;“打開文件夾”。</p>
+<p>在打開的對話框中，創建一個名為 HelloWorld 的新文件夾，然後選擇該文件夾。<br>
+該文件夾將成為您的項目文件夾。<br>
+接下來，我們需要創建將包含我們的源代碼的文件。<br>
+從頂部導航欄中選擇“文件”&gt;“新建文件”，或單擊資源管理器窗格中 HELLOWORLD 右側的“新建文件”圖標。<br>
+將文件命名為 main.cpp 並向其中添加以下內容：</p>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+
+int main()
+{
+	std::cout &lt;&lt; &#34;Hello, world!&#34;;
+	return 0;
+}
+</code></pre><p>要編譯 main.cpp 並運行程序，請確保 main.cpp 在主窗格中打開，然後從頂部導航欄中選擇“運行”&gt;“不調試運行”，或單擊右側播放圖標右側的 v main.cpp 選項卡並選擇運行 C/C++ 文件。</p>
+<p>接下來，選擇 g++ 構建和調試活動文件選項（macOS 用戶應選擇 clang++ 而不是 g++）。<br>
+在窗口底部將選項卡從 DEBUG CONSOLE 切換到 TERMINAL。</p>
+<p>如果終端包含文本“Hello, world!”，那麼恭喜，您剛剛運行了第一個 C++ 程序！</p>
+<h4 id="g">g++</h4>
+<p>如果您在命令行上使用 g++<br>
+在這種情況下，您不需要創建項目。<br>
+只需將以下內容粘貼到名為 HelloWorld.cpp 的文本文件中並保存您的文件：</p>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+
+int main()
+{
+	std::cout &lt;&lt; &#34;Hello, world!&#34;;
+	return 0;
+}
+</code></pre><p>從命令行鍵入：<br>
+<code>g++ -o HelloWorld HelloWorld.cpp</code></p>
+<p>這將編譯和鏈接 HelloWorld.cpp。<br>
+這將編譯和鏈接 HelloWorld.cpp。<br>
+要運行它，請鍵入：<br>
+<code>HelloWorld</code> （或者可能是 <code>./HelloWorld</code>），您將看到程序的輸出。</p>
+<blockquote>
+<p>若你在 windows 的終端中，則使用前面的，弱勢 linux 則用後面的那一個</p>
+</blockquote>
+<p>如果您使用其他 IDE 或基於 Web 的編譯器<br>
+您必須自己弄清楚如何執行以下操作：</p>
+<ol>
+<li>創建控制台項目（僅限 IDE）</li>
+<li>將 .cpp 文件添加到項目中（僅限 IDE，如果沒有為您自動創建的話）</li>
+<li>將以下代碼粘貼到文件中：</li>
+</ol>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+
+int main()
+{
+	std::cout &lt;&lt; &#34;Hello, world!&#34;;
+	return 0;
+}
+</code></pre><p>4.編譯工程<br>
+5.運行項目</p>
+<p>如果編譯失敗<br>
+沒關係，深吸一口氣。<br>
+我們或許可以修復它。 :)<br>
+首先，查看編譯器給你的錯誤信息。<br>
+大多數情況下，它會包含一個行號，指示哪一行出錯。<br>
+檢查該行及其周圍的行，確保沒有錯別字或拼寫錯誤。<br>
+還要確保您沒有在代碼中包含行號（您的編輯器應該提供這些）。<br>
+其次，查看第 0.8 課中的問答——一些常見的 C++ 問題，因為您的問題可能已在其中涵蓋。</p>
+<p>第三，閱讀包含您正在編譯的示例的課程下方的評論——有人可能遇到過同樣的問題並提供了解決方案。</p>
+<p>最後，如果以上所有方法都失敗，請嘗試在您最喜歡的搜索引擎上搜索您的錯誤消息。<br>
+很可能其他人以前遇到過這個問題並想出了解決方法。</p>
+<p>如果您的程序運行但控制台窗口閃爍並立即關閉<br>
+當控制台程序運行時，控制台窗口將打開，程序的任何輸出都將寫入控制台窗口。<br>
+當程序完成運行時，大多數現代 IDE 將保持控制台打開（直到您按下某個鍵），以便您可以在繼續之前檢查程序的結果。<br>
+但是，一些較舊的 IDE 會在程序運行結束時自動關閉控制台窗口。<br>
+這通常不是您想要的。<br>
+如果您的 IDE 自動關閉控制台窗口，可以使用以下兩個步驟來確保控制台在程序結束時暫停。</p>
+<p>首先，添加或確保以下行位於程序頂部附近：</p>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+#include &lt;limits&gt;
+</code></pre><blockquote>
+<p>基本上就放在其他 #include 的下方就可以了</p>
+</blockquote>
+<p>其次，在 main() 函數的末尾添加以下代碼（就在 return 語句之前）：</p>
+<pre tabindex="0"><code>std::cin.clear(); // reset any error flags
+std::cin.ignore(std::numeric_limits&lt;std::streamsize&gt;::max(), &#39;\n&#39;); // ignore any characters in the input buffer until we find a newline
+std::cin.get(); // get one more char from the user (waits for user to press enter)
+</code></pre><p>這將導致您的程序在繼續之前等待用戶按下 enter（您可能必須按下 enter 兩次），這將使您有時間在 IDE 關閉控制台窗口之前檢查程序的輸出。</p>
+<p>其他解決方案，例如通常建議的系統（“暫停”）解決方案可能僅適用於某些操作系統，應避免使用。</p>
+<p>如果控制台窗口根本沒有打開並且您的程序似乎沒有運行，則您的防病毒軟件或反惡意軟件也可能阻止了該程序的執行。<br>
+如果是這種情況，請嘗試暫時禁用掃描儀並查看問題是否解決。</p>
+<p>我的 IDE 中的編譯、構建、重建、清理和運行/啟動選項之間有什麼區別？<br>
+在第 0.5 課 -- 編譯器、鏈接器和庫簡介中，我們展示了要生成可以運行的可執行文件，程序中的每個代碼文件都被編譯成目標文件，然後將目標文件鏈接到可執行文件中.</p>
+<p>編譯代碼文件時，您的 IDE 可能會緩存生成的目標文件。<br>
+這樣，如果以後再次編譯程序，任何沒有修改的代碼文件都不需要重新編譯——上次緩存的目標文件可以重新使用。<br>
+這可以顯著加快編譯時間（以一點磁盤空間為代價）。</p>
+<p>考慮到這一點，以下是每個選項通常的作用：</p>
+<ul>
+<li>Build 編譯項目或工作區/解決方案中所有修改過的代碼文件，然後將目標文件鏈接到可執行文件中。<br>
+如果自上次構建以來沒有修改任何代碼文件，則此選項不執行任何操作。</li>
+<li>Clean 刪除所有緩存的對象和可執行文件，因此在下次構建項目時，將重新編譯所有文件並生成新的可執行文件。</li>
+<li>Rebuild 執行“clean”，然後執行“build”。</li>
+<li>Compile 重新編譯單個代碼文件（不管它之前是否已被緩存）。此選項不調用鏈接器或生成可執行文件。</li>
+<li>Run/start 執行先前構建的可執行文件。某些 IDE（例如 Visual Studio）會在執行“運行”之前調用“構建”，以確保您運行的是最新版本的代碼。否則（例如 Code::Blocks）將只執行先前的可執行文件。</li>
+</ul>
+<p>雖然我們非正式地談論“編譯”我們的程序，但要實際編譯我們的程序，我們通常會在我們的 IDE 中選擇“構建”（或“運行”）選項來這樣做。</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>至此，您已經完成了本教程中最困難的部分（安裝 IDE 並編譯您的第一個程序）！<br>
+如果您不了解 Hello World 程序中不同行的作用，請不要擔心。<br>
+我們將在下一章開始時詳細檢查和解釋每一行。</p>
+<hr>
+<p>我的翻譯很爛也不會 coding，所以你還是<a href="https://www.learncpp.com/" target="_blank" rel="noopener">要來看原文的</a></p>
+<p>這裡主要是方便自己的學習，希望能依職維持吧...</p>
+
+            </div>
+
+            
+
+
+        </article>
+
+        
+
+        
+    <div class="updated-badge-container">
+        <span title="Updated @ 2023-02-06 09:24:33 CST" style="cursor:help">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-02-06</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-02-06</text></g></svg>
+        </span></div>
+
+
+
+        
+
+
+        <div class="post-share">
+
+        
+
+        <div class="share-items">
+
+            
+                <div class="share-item twitter">
+                    
+                    <a href="https://twitter.com/share?url=https://mhhsei.github.io/cpp/0.7-compiling-your-first-program/&amp;text=0.7%20%20%20Compiling%20Your%20First%20Program&amp;hashtags=&amp;via=" title="分享到「Twitter」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                </div>
+            
+
+            
+                <div class="share-item facebook">
+                    
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mhhsei.github.io/cpp/0.7-compiling-your-first-program/&amp;hashtag=%23" title="分享到「Facebook」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+                </div>
+            
+
+            
+                <div class="share-item linkedin">
+                    
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://mhhsei.github.io/cpp/0.7-compiling-your-first-program/&amp;title=0.7%20%20%20Compiling%20Your%20First%20Program&amp;summary=Chapter%200%20Introduction%20/%20Getting%20Started%200.7%20%e2%80%94%20Compiling%20your%20first%20program%20Author:ALEX%20Date:DECEMBER%2010,%202022%20source%20%e5%9c%a8%e6%88%91%e5%80%91%e7%b7%a8%e5%af%ab%e7%ac%ac%e4%b8%80%e5%80%8b%e7%a8%8b%e5%ba%8f%e4%b9%8b%e5%89%8d%ef%bc%8c%e2%80%a6%e2%80%a6&amp;source=%e6%97%a5%e5%b8%b8%20learn%20note" title="分享到「LinkedIn」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                </div>
+            
+
+            
+                <div class="share-item telegram">
+                    
+                    <a href="https://t.me/share/url?url=https://mhhsei.github.io/cpp/0.7-compiling-your-first-program/&amp;text=0.7%20%20%20Compiling%20Your%20First%20Program" title="分享到「Telegram」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
+                </div>
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        </div>
+
+    </div>
+
+
+
+
+        
+    
+    
+        <div class="related-posts">
+            <h2 class="related-title">相關文章：<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon related-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"/></svg></h2>
+            <ul class="related-list">
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.6-installing-an-integrated-development-environment-ide/" class="related-link">0.6 Installing an Integrated Development Environment (IDE)</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.5-introduction-to-the-compiler-linker-and-libraries/" class="related-link">0.5 Introduction to the Compiler, Linker, and Libraries</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.4-introduction-to-c&#43;&#43;-development/" class="related-link">0.4   Introduction to C++ Development</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.3-introduction-to-c-and-c&#43;&#43;/" class="related-link">0.3 Introduction to C and C++</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/cpp/0.2-introduction-to-programming-languages/" class="related-link">0.2 Introduction to Programming Languages</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+
+
+
+        
+    
+
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+
+
+
+    </div>
+</main>
+
+    <div class="disqus markdown">
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    
+    
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = '';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </div>
+
+            
+
+            
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="site-info">2022–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;mingo say</div><div class="site-copyright"></div><div class="custom-footer"><hr>
+<h2 id="footer">footer</h2>
+</div>
+                <div class="busuanzi-site-uv-and-pv">
+                    <span id="busuanzi_container_site_uv">本站訪客數&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon busuanzi-site-uv"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"/></svg>&nbsp;<span id="busuanzi_value_site_uv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_pv">本站訪問量&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon busuanzi-site-pv"><path d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"/></svg>&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+                </div>
+
+            
+    
+        <ul class="socials"><li class="socials-item">
+                    <a href="mailto:mhhsei@mail.batol.net" target="_blank" rel="external noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://github.com/mhhsei" target="_blank" rel="external noopener" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon social-icon"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://twitter.com/mhhsei" target="_blank" rel="external noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://line.me/ti/g/OHVgkG5QlA" target="_blank" rel="external noopener" title="line group"></a>
+                </li></ul>
+    
+
+
+
+            
+        </div>
+    </footer>
+
+
+        </div>
+        
+
+        
+
+
+
+
+
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    let imgNodes = document.querySelectorAll('div.post-body img');
+    imgNodes = Array.from(imgNodes).filter(node => node.parentNode.tagName !== "A");
+
+    mediumZoom(imgNodes, {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
+
+
+
+    
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+
+
+
+
+    </body>
+</html>
