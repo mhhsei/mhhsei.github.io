@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
     <title type="text">日常 learn note</title>
     <subtitle type="html">蝦寫的，歡迎來瞧瞧</subtitle>
-    <updated>2023-04-20T10:53:50&#43;08:00</updated>
+    <updated>2023-04-25T10:19:59&#43;08:00</updated>
     <id>https://mhhsei.github.io/</id>
     <link rel="alternate" type="text/html" href="https://mhhsei.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mhhsei.github.io/atom.xml" />
@@ -16,6 +16,96 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.109.0">Hugo</generator>
+        <entry>
+            <title type="text">英文拼讀</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/%E8%8B%B1%E6%96%87%E6%8B%BC%E8%AE%80/" />
+            <id>https://mhhsei.github.io/nvda-addons/%E8%8B%B1%E6%96%87%E6%8B%BC%E8%AE%80/</id>
+            <updated>2023-04-25T10:18:04&#43;08:00</updated>
+            <published>2023-04-25T10:10:58&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://mhhsei.github.io/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <summary type="html">連按小鍵盤的8三下 可以逐字朗讀該行 英文則可以逐字朗讀 透過該附……</summary>
+            
+                <content type="html">&lt;p&gt;連按小鍵盤的8三下&lt;br&gt;
+可以逐字朗讀該行&lt;br&gt;
+英文則可以逐字朗讀&lt;/p&gt;
+&lt;p&gt;透過該附加元件&lt;br&gt;
+你可以不必那麼麻煩拼讀單字&lt;br&gt;
+只要打開該功能&lt;br&gt;
+就可以朗讀陰文的拼讀&lt;/p&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;p&gt;&#39;&lt;br&gt;
+就醫個英文拼讀的開關 nvda + control + numpad(2)&lt;/p&gt;
+&lt;h2 id=&#34;下在&#34;&gt;下在&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://nvda.gaga.tw/download.php?file=spell-2023.1.nvda-addon&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Xinyi OCR</title>
+            <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/xinyi-ocr/" />
+            <id>https://mhhsei.github.io/nvda-addons/xinyi-ocr/</id>
+            <updated>2023-04-25T10:04:33&#43;08:00</updated>
+            <published>2023-04-25T09:58:03&#43;08:00</published>
+            <author>
+                    <name>mingo say</name>
+                    <uri>https://mhhsei.github.io/</uri>
+                    <email>mhhsei@mail.batol.net</email>
+                    </author>
+            <summary type="html">一個新的OCR nvda-addon 使用方式非常簡單只要按下 nvda + alt + o就可以開始……</summary>
+            
+                <content type="html">&lt;p&gt;一個新的OCR nvda-addon&lt;br&gt;
+使用方式非常簡單只要按下 nvda + alt + o就可以開始便是文字&lt;br&gt;
+當然這個手勢是可以改變的&lt;br&gt;
+只要到 nvda 設定 -&amp;gt; 偏好 -&amp;gt; 輸入手勢 -&amp;gt; xinyi -&amp;gt; text recognition 當中就可以更改。&lt;/p&gt;
+&lt;p&gt;只要安裝完成後&lt;br&gt;
+你可以到 nvda設定 -&amp;gt; 工具 -&amp;gt; 管理附加元件 -&amp;gt; xinyi OCR -&amp;gt; 附加元件說明查看更多&lt;/p&gt;
+&lt;h3 id=&#34;下在&#34;&gt;下在&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.nvdadr.com/addons/xyOCR-1.0.nvda-addon&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mhhsei.github.io/categories/nvda-addons/" term="nvda-addons" label="nvda-addons" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">TesseractOCR</title>
             <link rel="alternate" type="text/html" href="https://mhhsei.github.io/nvda-addons/tesseractocr/" />

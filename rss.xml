@@ -21,10 +21,94 @@
             <webMaster>mhhsei@mail.batol.net (mingo say)</webMaster>
         
         
-        <lastBuildDate>Thu, 20 Apr 2023 10:53:50 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 25 Apr 2023 10:19:59 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mhhsei.github.io/rss.xml" />
         
+        
+            <item>
+                <title>英文拼讀</title>
+                <link>https://mhhsei.github.io/nvda-addons/%E8%8B%B1%E6%96%87%E6%8B%BC%E8%AE%80/</link>
+                <guid isPermaLink="true">https://mhhsei.github.io/nvda-addons/%E8%8B%B1%E6%96%87%E6%8B%BC%E8%AE%80/</guid>
+                <pubDate>Tue, 25 Apr 2023 10:10:58 &#43;0800</pubDate>
+                
+                    <author>mhhsei@mail.batol.net (mingo say)</author>
+                
+                
+                
+                    <description>&lt;p&gt;連按小鍵盤的8三下&lt;br&gt;
+可以逐字朗讀該行&lt;br&gt;
+英文則可以逐字朗讀&lt;/p&gt;
+&lt;p&gt;透過該附加元件&lt;br&gt;
+你可以不必那麼麻煩拼讀單字&lt;br&gt;
+只要打開該功能&lt;br&gt;
+就可以朗讀陰文的拼讀&lt;/p&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;p&gt;&#39;&lt;br&gt;
+就醫個英文拼讀的開關 nvda + control + numpad(2)&lt;/p&gt;
+&lt;h2 id=&#34;下在&#34;&gt;下在&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://nvda.gaga.tw/download.php?file=spell-2023.1.nvda-addon&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mhhsei.github.io/categories/nvda-addons/">nvda-addons</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Xinyi OCR</title>
+                <link>https://mhhsei.github.io/nvda-addons/xinyi-ocr/</link>
+                <guid isPermaLink="true">https://mhhsei.github.io/nvda-addons/xinyi-ocr/</guid>
+                <pubDate>Tue, 25 Apr 2023 09:58:03 &#43;0800</pubDate>
+                
+                    <author>mhhsei@mail.batol.net (mingo say)</author>
+                
+                
+                
+                    <description>&lt;p&gt;一個新的OCR nvda-addon&lt;br&gt;
+使用方式非常簡單只要按下 nvda + alt + o就可以開始便是文字&lt;br&gt;
+當然這個手勢是可以改變的&lt;br&gt;
+只要到 nvda 設定 -&amp;gt; 偏好 -&amp;gt; 輸入手勢 -&amp;gt; xinyi -&amp;gt; text recognition 當中就可以更改。&lt;/p&gt;
+&lt;p&gt;只要安裝完成後&lt;br&gt;
+你可以到 nvda設定 -&amp;gt; 工具 -&amp;gt; 管理附加元件 -&amp;gt; xinyi OCR -&amp;gt; 附加元件說明查看更多&lt;/p&gt;
+&lt;h3 id=&#34;下在&#34;&gt;下在&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.nvdadr.com/addons/xyOCR-1.0.nvda-addon&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mhhsei.github.io/categories/nvda-addons/">nvda-addons</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>TesseractOCR</title>
