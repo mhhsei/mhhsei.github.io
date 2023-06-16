@@ -21,10 +21,51 @@
             <webMaster>mhhsei@mail.batol.net (mingo say)</webMaster>
         
         
-        <lastBuildDate>Fri, 16 Jun 2023 19:12:51 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 16 Jun 2023 19:27:45 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mhhsei.github.io/rss.xml" />
         
+        
+            <item>
+                <title>NVDA 附加元件已知衝突問題</title>
+                <link>https://mhhsei.github.io/nvda-addons/nvda-%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6%E5%B7%B2%E7%9F%A5%E8%A1%9D%E7%AA%81%E5%95%8F%E9%A1%8C/</link>
+                <guid isPermaLink="true">https://mhhsei.github.io/nvda-addons/nvda-%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6%E5%B7%B2%E7%9F%A5%E8%A1%9D%E7%AA%81%E5%95%8F%E9%A1%8C/</guid>
+                <pubDate>Fri, 16 Jun 2023 19:21:44 &#43;0800</pubDate>
+                
+                    <author>mhhsei@mail.batol.net (mingo say)</author>
+                
+                
+                
+                    <description>&lt;p&gt;nvda附加元件已知衝突問題&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安裝NV宝盒-NV-Box	应用程序字典-Application Dictionary、表情符号插件-emoticons 无法正常加载&lt;/li&gt;
+&lt;li&gt;安裝蓝牙音频-BluetoothAudio	心意OCR无法启动识别；NV-宝盒无法查询天气；百度翻译无法执行翻译&lt;/li&gt;
+&lt;li&gt;安裝唤醒扬声器-WakeSpeaker	“自动翻译”插件无法正常使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有聽說安裝bluetooth史的lion無法正常工作  lion一個ocr的附加元件&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mhhsei.github.io/categories/nvda-addons/">nvda-addons</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>英文拼讀</title>
