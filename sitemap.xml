@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mhhsei.github.io/class/2023-ai-chat/</loc>
+    <lastmod>2023-07-05T20:43:05+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/class/</loc>
+    <lastmod>2023-07-05T20:43:05+08:00</lastmod>
+  </url><url>
+    <loc>https://mhhsei.github.io/</loc>
+    <lastmod>2023-07-05T20:43:05+08:00</lastmod>
+  </url><url>
     <loc>https://mhhsei.github.io/categories/apple/</loc>
     <lastmod>2023-07-02T12:40:43+08:00</lastmod>
   </url><url>
@@ -12,9 +21,6 @@
     <lastmod>2023-07-02T12:40:43+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/apple/chat-gpt/</loc>
-    <lastmod>2023-07-02T12:40:43+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/</loc>
     <lastmod>2023-07-02T12:40:43+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/apple/bing/</loc>
@@ -222,9 +228,6 @@
     <lastmod>2023-01-12T10:39:50+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/categories/class/</loc>
-    <lastmod>2023-01-12T10:39:50+08:00</lastmod>
-  </url><url>
-    <loc>https://mhhsei.github.io/class/</loc>
     <lastmod>2023-01-12T10:39:50+08:00</lastmod>
   </url><url>
     <loc>https://mhhsei.github.io/cpp/0.2-introduction-to-programming-languages/</loc>
